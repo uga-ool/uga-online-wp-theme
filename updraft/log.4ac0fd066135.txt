@@ -1,0 +1,615 @@
+0000.000 (0) Opened log file at time: Tue, 01 Mar 2022 19:48:45 +0000 on http://uga-online-wp-dev.local
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.7 WP: 5.9.1 PHP: 7.4.1 (fpm-fcgi, Darwin Jamess-MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Tue Oct 12 18:33:42 PDT 2021; root:xnu-7195.141.8~1/RELEASE_X86_64 x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9M | 2M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 304152.7 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.008 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.012 (0) Set semaphore last lock (fd) time to 2022-03-01 19:48:45
+0000.012 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=4ac0fd066135, file_nonce=4ac0fd066135 begun at=1646164125 (0s ago), job type=backup
+0000.018 (0) Scheduling a resumption (1) after 300 seconds (1646164425) in case this run gets aborted
+0000.027 (0) Checking if we have a zip executable available
+0000.029 (0) Testing: /usr/bin/zip
+0000.037 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.039 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.041 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.042 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.052 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.054 (0) Working binary zip found: /usr/bin/zip
+0000.056 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.057 (0) Creation of backups of directories: beginning
+0000.060 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.378 (0) Total entities for the zip file: 913 directories, 5333 files (0 skipped as non-modified), 88.3 MB
+0000.385 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.391 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.401 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.408 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.413 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.418 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.423 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.429 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.435 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.436 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.3 MB, 5333 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.878 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: size is now: 3.80 MB
+0000.884 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1100 files added (on-disk size: 3908.1 KB)
+0000.890 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1200 files added (on-disk size: 3908.1 KB)
+0000.896 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1300 files added (on-disk size: 3908.1 KB)
+0000.902 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1400 files added (on-disk size: 3908.1 KB)
+0000.908 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1500 files added (on-disk size: 3908.1 KB)
+0000.914 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1600 files added (on-disk size: 3908.1 KB)
+0000.917 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 5333 files batched, 635 (1636) added so far); re-opening (prior size: 3908.1 KB)
+0001.941 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: size is now: 10.80 MB
+0001.945 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17232 KB/s)
+0001.947 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4978120326996, normalised_time=1.4856051959082, max_time=1.9455559253693, data points known=1, old_max_bytes=26214400, new_max_bytes=105873620)
+0001.951 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1700 files added (on-disk size: 11018.3 KB)
+0001.957 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1800 files added (on-disk size: 11018.3 KB)
+0001.962 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 1900 files added (on-disk size: 11018.3 KB)
+0001.967 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2000 files added (on-disk size: 11018.3 KB)
+0001.973 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2100 files added (on-disk size: 11018.3 KB)
+0001.978 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2200 files added (on-disk size: 11018.3 KB)
+0001.983 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2300 files added (on-disk size: 11018.3 KB)
+0001.990 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2400 files added (on-disk size: 11018.3 KB)
+0001.995 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2500 files added (on-disk size: 11018.3 KB)
+0002.000 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2600 files added (on-disk size: 11018.3 KB)
+0002.004 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.1 MB, 5333 files batched, 1001 (2637) added so far); re-opening (prior size: 11018.3 KB)
+0002.502 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: size is now: 13.30 MB
+0002.509 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2700 files added (on-disk size: 13643.1 KB)
+0002.515 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2800 files added (on-disk size: 13643.1 KB)
+0002.521 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 2900 files added (on-disk size: 13643.1 KB)
+0002.526 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3000 files added (on-disk size: 13643.1 KB)
+0002.531 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3100 files added (on-disk size: 13643.1 KB)
+0002.536 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3200 files added (on-disk size: 13643.1 KB)
+0002.541 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3300 files added (on-disk size: 13643.1 KB)
+0002.547 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3400 files added (on-disk size: 13643.1 KB)
+0002.553 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3500 files added (on-disk size: 13643.1 KB)
+0002.559 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3600 files added (on-disk size: 13643.1 KB)
+0002.562 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.9 MB, 5333 files batched, 1001 (3638) added so far); re-opening (prior size: 13643.1 KB)
+0003.464 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: size is now: 18.80 MB
+0003.470 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3700 files added (on-disk size: 19235.7 KB)
+0003.475 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3800 files added (on-disk size: 19235.7 KB)
+0003.481 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 3900 files added (on-disk size: 19235.7 KB)
+0003.486 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4000 files added (on-disk size: 19235.7 KB)
+0003.491 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4100 files added (on-disk size: 19235.7 KB)
+0003.497 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4200 files added (on-disk size: 19235.7 KB)
+0003.503 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4300 files added (on-disk size: 19235.7 KB)
+0003.509 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4400 files added (on-disk size: 19235.7 KB)
+0003.514 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4500 files added (on-disk size: 19235.7 KB)
+0003.520 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4600 files added (on-disk size: 19235.7 KB)
+0003.523 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.2 MB, 5333 files batched, 1001 (4639) added so far); re-opening (prior size: 19235.7 KB)
+0004.359 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: size is now: 24.60 MB
+0004.365 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4700 files added (on-disk size: 25227 KB)
+0004.370 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4800 files added (on-disk size: 25227 KB)
+0004.375 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 4900 files added (on-disk size: 25227 KB)
+0004.380 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 5000 files added (on-disk size: 25227 KB)
+0004.385 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 5100 files added (on-disk size: 25227 KB)
+0004.391 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 5200 files added (on-disk size: 25227 KB)
+0004.396 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.tmp: 5300 files added (on-disk size: 25227 KB)
+0004.917 (0) Creating zip file manifest (/Users/james/Local Sites/uga-online-wp-dev/app/public/wp-content/updraft/backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.list-temp.tmp)
+0004.945 (0) Successfully created zip file manifest (size: 449309)
+0005.133 (0) Created plugins zip (0) - 27048.7 KB in 5.1 s (5333.9 KB/s) (sha1: a5ce7ef78d907c7e90331f97e32e4af0996ca175, sha256: 97fd0d387906e80cefd489a5cc60e683704cb7466d6e307e07a644e1cc500405)
+0005.137 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.193 (0) Total entities for the zip file: 142 directories, 808 files (0 skipped as non-modified), 13 MB
+0005.199 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.205 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.210 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.215 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.220 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.225 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0005.230 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0005.235 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0005.626 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.tmp: size is now: 9.50 MB
+0005.648 (0) Creating zip file manifest (/Users/james/Local Sites/uga-online-wp-dev/app/public/wp-content/updraft/backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.list-temp.tmp)
+0005.654 (0) Successfully created zip file manifest (size: 52627)
+0005.725 (0) Created themes zip (0) - 9679 KB in 0.6 s (16549.9 KB/s) (sha1: 9267a64a77864db9a6da3710a84246fcf952e5a4, sha256: 8a4123393c8656e36c0fb7c0bf7a945588cce46438498f3a3285a61b3509b88d)
+0005.729 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.730 (0) Looking for candidates to backup in: /Users/james/Local Sites/uga-online-wp-dev/app/public/wp-content/uploads
+0005.732 (0) finding files: lake_herrick-300x200.jpg: adding to list (1)
+0005.732 (0) finding files: llod-300x169.jpg.webp: adding to list (2)
+0005.734 (0) finding files: lake_herrick.jpg: adding to list (3)
+0005.735 (0) finding files: athens-300x200.png: adding to list (4)
+0005.736 (0) finding files: uga-hero-768x512.jpeg.webp: adding to list (5)
+0005.737 (0) finding files: program_demo-768x513.jpg: adding to list (6)
+0005.738 (0) finding files: llod-768x432.jpg: adding to list (7)
+0005.739 (0) finding files: athens-1536x1024.png: adding to list (8)
+0005.740 (0) finding files: llod-1024x576.jpg.webp: adding to list (9)
+0005.741 (0) finding files: program_demo-150x150.jpg: adding to list (10)
+0005.742 (0) finding files: program_demo-1536x1025.jpg: adding to list (11)
+0005.743 (0) finding files: lake_herrick-2048x1365.jpg.webp: adding to list (12)
+0005.744 (0) finding files: athens-2048x1365.png: adding to list (13)
+0005.744 (0) finding files: .DS_Store: adding to list (14)
+0005.745 (0) finding files: program_demo-2048x1367.jpg.webp: adding to list (15)
+0005.746 (0) finding files: lake_herrick-1536x1024.jpg.webp: adding to list (16)
+0005.747 (0) finding files: athens.png: adding to list (17)
+0005.748 (0) finding files: lake_herrick-scaled.jpg: adding to list (18)
+0005.749 (0) finding files: program_demo-scaled.jpg: adding to list (19)
+0005.750 (0) finding files: uga-hero-150x150.jpeg.webp: adding to list (20)
+0005.751 (0) finding files: program_demo-2048x1367.jpg: adding to list (21)
+0005.752 (0) finding files: uga-hero-2048x1365.jpeg: adding to list (22)
+0005.752 (0) finding files: llod-2048x1152.jpg.webp: adding to list (23)
+0005.753 (0) finding files: program_demo-1024x683.jpg: adding to list (24)
+0005.754 (0) finding files: lake_herrick-1024x683.jpg: adding to list (25)
+0005.755 (0) finding files: future_students_infographic-768x264.png: adding to list (26)
+0005.756 (0) finding files: athens-150x150.png.webp: adding to list (27)
+0005.757 (0) finding files: athens-768x512.png.webp: adding to list (28)
+0005.758 (0) finding files: llod-scaled.jpg.webp: adding to list (29)
+0005.759 (0) finding files: llod-2048x1152.jpg: adding to list (30)
+0005.760 (0) finding files: future_students_infographic.png: adding to list (31)
+0005.760 (0) finding files: future_students_infographic-300x103.png.webp: adding to list (32)
+0005.761 (0) finding files: llod-scaled.jpg: adding to list (33)
+0005.762 (0) finding files: program_demo-300x200.jpg.webp: adding to list (34)
+0005.763 (0) finding files: lake_herrick-768x512.jpg.webp: adding to list (35)
+0005.764 (0) finding files: lake_herrick-150x150.jpg.webp: adding to list (36)
+0005.765 (0) finding files: uga-hero-scaled.jpeg: adding to list (37)
+0005.766 (0) finding files: program_demo.jpg: adding to list (38)
+0005.767 (0) finding files: athens-2048x1365.png.webp: adding to list (39)
+0005.768 (0) finding files: uga-hero-1536x1024.jpeg.webp: adding to list (40)
+0005.769 (0) finding files: future_students_infographic-150x150.png: adding to list (41)
+0005.770 (0) finding files: athens-1536x1024.png.webp: adding to list (42)
+0005.771 (0) finding files: lake_herrick-scaled.jpg.webp: adding to list (43)
+0005.771 (0) finding files: uga-hero-1024x683.jpeg.webp: adding to list (44)
+0005.772 (0) finding files: athens-1024x683.png.webp: adding to list (45)
+0005.773 (0) finding files: llod.jpg: adding to list (46)
+0005.774 (0) finding files: llod-150x150.jpg: adding to list (47)
+0005.775 (0) finding files: llod-1536x864.jpg.webp: adding to list (48)
+0005.776 (0) finding files: lake_herrick-1536x1024.jpg: adding to list (49)
+0005.776 (0) finding files: uga-hero-300x200.jpeg: adding to list (50)
+0005.778 (0) finding files: future_students_infographic-150x150.png.webp: adding to list (51)
+0005.778 (0) finding files: future_students_infographic-300x103.png: adding to list (52)
+0005.778 (0) finding files: program_demo-1536x1025.jpg.webp: adding to list (53)
+0005.778 (0) finding files: program_demo-scaled.jpg.webp: adding to list (54)
+0005.778 (0) finding files: llod-1024x576.jpg: adding to list (55)
+0005.778 (0) finding files: smack_uci_uploads: adding to list (56)
+0005.778 (0) finding files: program_demo-300x200.jpg: adding to list (57)
+0005.778 (0) finding files: lake_herrick-2048x1365.jpg: adding to list (58)
+0005.778 (0) finding files: llod-1536x864.jpg: adding to list (59)
+0005.778 (0) finding files: uga-hero.jpeg: adding to list (60)
+0005.778 (0) finding files: lake_herrick-150x150.jpg: adding to list (61)
+0005.778 (0) finding files: lake_herrick-768x512.jpg: adding to list (62)
+0005.778 (0) finding files: athens-768x512.png: adding to list (63)
+0005.778 (0) finding files: athens-150x150.png: adding to list (64)
+0005.778 (0) finding files: program_demo-768x513.jpg.webp: adding to list (65)
+0005.778 (0) finding files: program_demo-150x150.jpg.webp: adding to list (66)
+0005.778 (0) finding files: future_students_infographic.png.webp: adding to list (67)
+0005.778 (0) finding files: athens-300x200.png.webp: adding to list (68)
+0005.778 (0) finding files: lake_herrick-1024x683.jpg.webp: adding to list (69)
+0005.778 (0) finding files: program_demo-1024x683.jpg.webp: adding to list (70)
+0005.778 (0) finding files: uga-hero-1024x683.jpeg: adding to list (71)
+0005.778 (0) finding files: uga-hero-1536x1024.jpeg: adding to list (72)
+0005.778 (0) finding files: uga-hero-300x200.jpeg.webp: adding to list (73)
+0005.778 (0) finding files: llod-768x432.jpg.webp: adding to list (74)
+0005.778 (0) finding files: athens.png.webp: adding to list (75)
+0005.778 (0) finding files: uga-hero-2048x1365.jpeg.webp: adding to list (76)
+0005.778 (0) finding files: backup: skipping: excluded by options (glob)
+0005.779 (0) finding files: uga-hero-768x512.jpeg: adding to list (77)
+0005.779 (0) finding files: llod-300x169.jpg: adding to list (78)
+0005.779 (0) finding files: future_students_infographic-768x264.png.webp: adding to list (79)
+0005.779 (0) finding files: uga-hero-150x150.jpeg: adding to list (80)
+0005.780 (0) finding files: athens-1024x683.png: adding to list (81)
+0005.780 (0) finding files: llod-150x150.jpg.webp: adding to list (82)
+0005.780 (0) finding files: lake_herrick-300x200.jpg.webp: adding to list (83)
+0005.780 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.793 (0) Total entities for the zip file: 18 directories, 108 files (0 skipped as non-modified), 25.7 MB
+0005.799 (0) Zip: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.027 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip.tmp: size is now: 25.50 MB
+0006.036 (0) Creating zip file manifest (/Users/james/Local Sites/uga-online-wp-dev/app/public/wp-content/updraft/backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip.list-temp.tmp)
+0006.038 (0) Successfully created zip file manifest (size: 6548)
+0006.220 (0) Created uploads zip (0) - 26136.2 KB in 0.4 s (59507.9 KB/s) (sha1: b294979f90ec79518b16d44fa9d9193fd0408f8d, sha256: 944677d77e3481e26c443cc8316a726adfabc36a4512080ab3e051ecac2e7383)
+0006.224 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.225 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.226 (0) Looking for candidates to backup in: /Users/james/Local Sites/uga-online-wp-dev/app/public/wp-content
+0006.227 (0) finding files: upgrade: skipping: excluded by options
+0006.228 (0) finding files: .DS_Store: adding to list (1)
+0006.229 (0) finding files: index.php: adding to list (2)
+0006.230 (0) finding files: plugins: skipping: this is the plugins directory
+0006.231 (0) finding files: uploads: skipping: this is the uploads directory
+0006.232 (0) finding files: updraft: skipping: this is the updraft directory
+0006.233 (0) finding files: .git: adding to list (3)
+0006.234 (0) finding files: themes: skipping: this is the themes directory
+0006.239 (0) Total entities for the zip file: 12 directories, 29 files (0 skipped as non-modified), 56.4 MB
+0007.776 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip.tmp: size is now: 55.80 MB
+0007.781 (0) Creating zip file manifest (/Users/james/Local Sites/uga-online-wp-dev/app/public/wp-content/updraft/backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip.list-temp.tmp)
+0007.782 (0) Successfully created zip file manifest (size: 1111)
+0008.185 (0) Created others zip (0) - 57172.6 KB in 1.9 s (29327.2 KB/s) (sha1: 345e040ef3302f817d74498ab12c017777ba3ab8, sha256: 031870936e7a1aa79406f1c13f923914362a4be875d55f652ad6b01b6cb54dd4)
+0008.192 (0) Saving backup status to database (elements: 8)
+0008.194 (0) Beginning creation of database dump (WordPress DB)
+0008.195 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0008.216 (0) Table wp_options: Total expected rows (via COUNT): 332
+0008.217 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.275 (0) Table wp_options: Rows added in this batch (next record: 2613): 328 (uncompressed bytes in this segment=1370650) in 0.06 seconds
+0008.281 (0) Table wp_options: finishing file(s) (2, 328 KB)
+0008.285 (0) Table wp_users: Total expected rows (via COUNT): 1
+0008.286 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.288 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1553) in 0.00 seconds
+0008.292 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0008.297 (0) Table wp_usermeta: Total expected rows (via COUNT): 32
+0008.297 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.300 (0) Table wp_usermeta: Rows added in this batch (next record: 36): 32 (uncompressed bytes in this segment=28547) in 0.01 seconds
+0008.305 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0008.310 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0008.312 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.00 seconds
+0008.316 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0008.321 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0008.323 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1898) in 0.00 seconds
+0008.326 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0008.332 (0) Table wp_imagify_files: Total expected rows (via COUNT): 24
+0008.333 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.336 (0) Table wp_imagify_files: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=6227) in 0.01 seconds
+0008.341 (0) Table wp_imagify_files: finishing file(s) (2, 1.6 KB)
+0008.345 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 1
+0008.346 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.347 (0) Table wp_imagify_folders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=755) in 0.00 seconds
+0008.350 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0008.358 (0) Table wp_links: Total expected rows (via COUNT): 0
+0008.360 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1508) in 0.01 seconds
+0008.363 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0008.371 (0) Table wp_postmeta: Total expected rows (approximate): 1482
+0008.404 (0) Table wp_postmeta: Rows added in this batch (next record: 1819): 1726 (uncompressed bytes in this segment=192973) in 0.04 seconds
+0008.410 (0) Table wp_postmeta: finishing file(s) (2, 20.2 KB)
+0008.417 (0) Table wp_posts: Total expected rows (via COUNT): 153
+0008.418 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.434 (0) Table wp_posts: Rows added in this batch (next record: 192): 153 (uncompressed bytes in this segment=100749) in 0.02 seconds
+0008.440 (0) Table wp_posts: finishing file(s) (2, 11 KB)
+0008.444 (0) Table wp_term_relationships: Total expected rows (approximate): 18
+0008.446 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 17 (uncompressed bytes in this segment=922) in 0.00 seconds
+0008.449 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0008.455 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 10
+0008.456 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.458 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2896) in 0.01 seconds
+0008.463 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0008.468 (0) Table wp_termmeta: Total expected rows (via COUNT): 30
+0008.469 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.472 (0) Table wp_termmeta: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=1867) in 0.01 seconds
+0008.481 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0008.487 (0) Table wp_terms: Total expected rows (via COUNT): 10
+0008.488 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.492 (0) Table wp_terms: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1128) in 0.01 seconds
+0008.498 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0008.500 (0) Skipping table (lacks our prefix (wp_)): smack_field_types
+0008.502 (0) Skipping table (lacks our prefix (wp_)): smackuci_events
+0008.527 (0) Table wp_cli_cookie_scan: Total expected rows (via COUNT): 0
+0008.531 (0) Table wp_cli_cookie_scan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=785) in 0.02 seconds
+0008.537 (0) Table wp_cli_cookie_scan: finishing file(s) (2, 0.4 KB)
+0008.551 (0) Table wp_cli_cookie_scan_categories: Total expected rows (via COUNT): 0
+0008.553 (0) Table wp_cli_cookie_scan_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.01 seconds
+0008.558 (0) Table wp_cli_cookie_scan_categories: finishing file(s) (2, 0.4 KB)
+0008.569 (0) Table wp_cli_cookie_scan_cookies: Total expected rows (via COUNT): 0
+0008.571 (0) Table wp_cli_cookie_scan_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1489) in 0.01 seconds
+0008.576 (0) Table wp_cli_cookie_scan_cookies: finishing file(s) (2, 0.5 KB)
+0008.582 (0) Table wp_cli_cookie_scan_url: Total expected rows (via COUNT): 0
+0008.584 (0) Table wp_cli_cookie_scan_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.00 seconds
+0008.589 (0) Table wp_cli_cookie_scan_url: finishing file(s) (2, 0.4 KB)
+0008.596 (0) Table wp_cli_scripts: Total expected rows (via COUNT): 28
+0008.598 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.601 (0) Table wp_cli_scripts: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=3893) in 0.01 seconds
+0008.606 (0) Table wp_cli_scripts: finishing file(s) (2, 1.1 KB)
+0008.614 (0) Table wp_cli_visitor_details: Total expected rows (via COUNT): 0
+0008.617 (0) Table wp_cli_visitor_details: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.01 seconds
+0008.623 (0) Table wp_cli_visitor_details: finishing file(s) (2, 0.4 KB)
+0008.629 (0) Table wp_fbv: Total expected rows (via COUNT): 1
+0008.630 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.632 (0) Table wp_fbv: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=711) in 0.01 seconds
+0008.635 (0) Table wp_fbv: finishing file(s) (2, 0.4 KB)
+0008.639 (0) Table wp_fbv_attachment_folder: Total expected rows (approximate): 0
+0008.642 (0) Table wp_fbv_attachment_folder: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=551) in 0.00 seconds
+0008.646 (0) Table wp_fbv_attachment_folder: finishing file(s) (2, 0.3 KB)
+0008.652 (0) Table wp_fsmpt_email_logs: Total expected rows (via COUNT): 1
+0008.653 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.656 (0) Table wp_fsmpt_email_logs: Rows added in this batch (next record: 7): 1 (uncompressed bytes in this segment=2412) in 0.01 seconds
+0008.660 (0) Table wp_fsmpt_email_logs: finishing file(s) (2, 1.1 KB)
+0008.665 (0) Table wp_import_detail_log: Total expected rows (via COUNT): 6
+0008.666 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.668 (0) Table wp_import_detail_log: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1641) in 0.00 seconds
+0008.672 (0) Table wp_import_detail_log: finishing file(s) (2, 0.7 KB)
+0008.677 (0) Table wp_import_log_detail: Total expected rows (via COUNT): 0
+0008.679 (0) Table wp_import_log_detail: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.00 seconds
+0008.683 (0) Table wp_import_log_detail: finishing file(s) (2, 0.4 KB)
+0011.764 (0) Table wp_import_postID: Total expected rows (approximate): 0
+0011.767 (0) Table wp_import_postID: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=386) in 3.08 seconds
+0011.773 (0) Table wp_import_postID: finishing file(s) (2, 0.3 KB)
+0011.782 (0) Table wp_nf3_action_meta: Total expected rows (via COUNT): 129
+0011.784 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.794 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 129): 129 (uncompressed bytes in this segment=11117) in 0.02 seconds
+0011.805 (0) Table wp_nf3_action_meta: finishing file(s) (2, 1.9 KB)
+0011.813 (0) Table wp_nf3_actions: Total expected rows (via COUNT): 7
+0011.815 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.818 (0) Table wp_nf3_actions: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1487) in 0.01 seconds
+0011.823 (0) Table wp_nf3_actions: finishing file(s) (2, 0.6 KB)
+0011.831 (0) Table wp_nf3_chunks: Total expected rows (via COUNT): 0
+0011.834 (0) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=512) in 0.01 seconds
+0011.839 (0) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0011.847 (0) Table wp_nf3_field_meta: Total expected rows (via COUNT): 366
+0011.848 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.861 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 366): 366 (uncompressed bytes in this segment=23862) in 0.02 seconds
+0011.866 (0) Table wp_nf3_field_meta: finishing file(s) (2, 3.4 KB)
+0011.873 (0) Table wp_nf3_fields: Total expected rows (via COUNT): 10
+0011.874 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.877 (0) Table wp_nf3_fields: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2414) in 0.01 seconds
+0011.882 (0) Table wp_nf3_fields: finishing file(s) (2, 0.7 KB)
+0011.888 (0) Table wp_nf3_form_meta: Total expected rows (via COUNT): 129
+0011.889 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.895 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 129): 129 (uncompressed bytes in this segment=11181) in 0.01 seconds
+0011.900 (0) Table wp_nf3_form_meta: finishing file(s) (2, 2.1 KB)
+0011.906 (0) Table wp_nf3_forms: Total expected rows (via COUNT): 2
+0011.907 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.910 (0) Table wp_nf3_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1327) in 0.01 seconds
+0011.914 (0) Table wp_nf3_forms: finishing file(s) (2, 0.6 KB)
+0011.921 (0) Table wp_nf3_object_meta: Total expected rows (via COUNT): 0
+0011.924 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0011.929 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0011.935 (0) Table wp_nf3_objects: Total expected rows (via COUNT): 0
+0011.938 (0) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.01 seconds
+0011.942 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0011.948 (0) Table wp_nf3_relationships: Total expected rows (via COUNT): 0
+0011.949 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.00 seconds
+0011.954 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0011.961 (0) Table wp_nf3_upgrades: Total expected rows (via COUNT): 2
+0011.962 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.965 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=26264) in 0.01 seconds
+0011.970 (0) Table wp_nf3_upgrades: finishing file(s) (2, 3.6 KB)
+0011.974 (0) Table wp_post_entries_table: Total expected rows (approximate): 0
+0011.976 (0) Table wp_post_entries_table: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=531) in 0.00 seconds
+0011.980 (0) Table wp_post_entries_table: finishing file(s) (2, 0.3 KB)
+0011.985 (0) Table wp_smackcsv_file_events: Total expected rows (via COUNT): 15
+0011.986 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.989 (0) Table wp_smackcsv_file_events: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=2312) in 0.01 seconds
+0011.992 (0) Table wp_smackcsv_file_events: finishing file(s) (2, 0.9 KB)
+0011.998 (0) Table wp_smackuci_events: Total expected rows (via COUNT): 0
+0012.000 (0) Table wp_smackuci_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1583) in 0.00 seconds
+0012.004 (0) Table wp_smackuci_events: finishing file(s) (2, 0.6 KB)
+0012.008 (0) Table wp_ultimate_csv_importer_acf_fields: Total expected rows (via COUNT): 0
+0012.009 (0) Table wp_ultimate_csv_importer_acf_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.00 seconds
+0012.013 (0) Table wp_ultimate_csv_importer_acf_fields: finishing file(s) (2, 0.3 KB)
+0012.017 (0) Table wp_ultimate_csv_importer_export_template: Total expected rows (via COUNT): 1
+0012.018 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.020 (0) Table wp_ultimate_csv_importer_export_template: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2293) in 0.00 seconds
+0012.024 (0) Table wp_ultimate_csv_importer_export_template: finishing file(s) (2, 0.8 KB)
+0012.028 (0) Table wp_ultimate_csv_importer_external_file_schedules: Total expected rows (via COUNT): 0
+0012.030 (0) Table wp_ultimate_csv_importer_external_file_schedules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=692) in 0.00 seconds
+0012.034 (0) Table wp_ultimate_csv_importer_external_file_schedules: finishing file(s) (2, 0.3 KB)
+0012.038 (0) Table wp_ultimate_csv_importer_ftp_schedules: Total expected rows (via COUNT): 0
+0012.039 (0) Table wp_ultimate_csv_importer_ftp_schedules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.00 seconds
+0012.044 (0) Table wp_ultimate_csv_importer_ftp_schedules: finishing file(s) (2, 0.4 KB)
+0012.048 (0) Table wp_ultimate_csv_importer_mappingtemplate: Total expected rows (via COUNT): 4
+0012.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.051 (0) Table wp_ultimate_csv_importer_mappingtemplate: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=3486) in 0.00 seconds
+0012.055 (0) Table wp_ultimate_csv_importer_mappingtemplate: finishing file(s) (2, 1 KB)
+0012.059 (0) Table wp_ultimate_csv_importer_media: Total expected rows (approximate): 0
+0012.062 (0) Table wp_ultimate_csv_importer_media: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=668) in 0.00 seconds
+0012.065 (0) Table wp_ultimate_csv_importer_media: finishing file(s) (2, 0.3 KB)
+0012.070 (0) Table wp_ultimate_csv_importer_media_report: Total expected rows (approximate): 0
+0012.071 (0) Table wp_ultimate_csv_importer_media_report: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=694) in 0.00 seconds
+0012.075 (0) Table wp_ultimate_csv_importer_media_report: finishing file(s) (2, 0.3 KB)
+0012.080 (0) Table wp_ultimate_csv_importer_scheduled_export: Total expected rows (via COUNT): 0
+0012.081 (0) Table wp_ultimate_csv_importer_scheduled_export: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1628) in 0.00 seconds
+0012.085 (0) Table wp_ultimate_csv_importer_scheduled_export: finishing file(s) (2, 0.6 KB)
+0012.090 (0) Table wp_ultimate_csv_importer_scheduled_import: Total expected rows (via COUNT): 0
+0012.091 (0) Table wp_ultimate_csv_importer_scheduled_import: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1561) in 0.00 seconds
+0012.095 (0) Table wp_ultimate_csv_importer_scheduled_import: finishing file(s) (2, 0.6 KB)
+0012.099 (0) Table wp_ultimate_csv_importer_shortcode_manager: Total expected rows (approximate): 0
+0012.101 (0) Table wp_ultimate_csv_importer_shortcode_manager: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0012.104 (0) Table wp_ultimate_csv_importer_shortcode_manager: finishing file(s) (2, 0.3 KB)
+0012.109 (0) Table wp_ultimate_post_entries: Total expected rows (approximate): 0
+0012.110 (0) Table wp_ultimate_post_entries: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=549) in 0.00 seconds
+0012.114 (0) Table wp_ultimate_post_entries: finishing file(s) (2, 0.3 KB)
+0012.123 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 86
+0012.124 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.139 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 95): 86 (uncompressed bytes in this segment=44924) in 0.02 seconds
+0012.144 (0) Table wp_yoast_indexable: finishing file(s) (2, 6.8 KB)
+0012.148 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 54
+0012.151 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 54 (uncompressed bytes in this segment=1668) in 0.00 seconds
+0012.155 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0012.159 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0012.160 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.162 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1262) in 0.01 seconds
+0012.167 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0012.171 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0012.174 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=880) in 0.00 seconds
+0012.178 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.5 KB)
+0012.183 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 3
+0012.184 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.187 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1403) in 0.01 seconds
+0012.190 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.6 KB)
+0012.192 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_options.table.tmpr2614.gz (1/58/fopen): adding to final database dump
+0012.202 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_options.table.gz (2/58/fopen): adding to final database dump
+0012.203 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_users.table.tmpr2.gz (3/58/fopen): adding to final database dump
+0012.204 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_users.table.gz (4/58/fopen): adding to final database dump
+0012.205 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_usermeta.table.tmpr37.gz (5/58/fopen): adding to final database dump
+0012.205 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_usermeta.table.gz (6/58/fopen): adding to final database dump
+0012.206 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_commentmeta.table.tmpr0.gz (7/58/fopen): adding to final database dump
+0012.207 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_commentmeta.table.gz (8/58/fopen): adding to final database dump
+0012.208 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_comments.table.tmpr0.gz (9/58/fopen): adding to final database dump
+0012.209 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_comments.table.gz (10/58/fopen): adding to final database dump
+0012.210 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_imagify_files.table.tmpr25.gz (11/58/fopen): adding to final database dump
+0012.211 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_imagify_files.table.gz (12/58/fopen): adding to final database dump
+0012.212 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_imagify_folders.table.tmpr2.gz (13/58/fopen): adding to final database dump
+0012.213 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_imagify_folders.table.gz (14/58/fopen): adding to final database dump
+0012.214 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_links.table.tmpr0.gz (15/58/fopen): adding to final database dump
+0012.215 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_links.table.gz (16/58/fopen): adding to final database dump
+0012.216 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_postmeta.table.tmpr1820.gz (17/58/fopen): adding to final database dump
+0012.217 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_postmeta.table.gz (18/58/fopen): adding to final database dump
+0012.218 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_posts.table.tmpr193.gz (19/58/fopen): adding to final database dump
+0012.220 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_posts.table.gz (20/58/fopen): adding to final database dump
+0012.221 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_term_relationships.table.tmpr100001.gz (21/58/fopen): adding to final database dump
+0012.221 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_term_relationships.table.gz (22/58/fopen): adding to final database dump
+0012.222 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_term_taxonomy.table.tmpr11.gz (23/58/fopen): adding to final database dump
+0012.223 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_term_taxonomy.table.gz (24/58/fopen): adding to final database dump
+0012.224 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_termmeta.table.tmpr31.gz (25/58/fopen): adding to final database dump
+0012.225 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_termmeta.table.gz (26/58/fopen): adding to final database dump
+0012.226 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_terms.table.tmpr11.gz (27/58/fopen): adding to final database dump
+0012.227 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_terms.table.gz (28/58/fopen): adding to final database dump
+0012.227 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan.table.tmpr0.gz (29/58/fopen): adding to final database dump
+0012.228 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan.table.gz (30/58/fopen): adding to final database dump
+0012.229 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan_categories.table.tmpr0.gz (31/58/fopen): adding to final database dump
+0012.230 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan_categories.table.gz (32/58/fopen): adding to final database dump
+0012.231 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan_cookies.table.tmpr0.gz (33/58/fopen): adding to final database dump
+0012.232 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan_cookies.table.gz (34/58/fopen): adding to final database dump
+0012.233 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan_url.table.tmpr0.gz (35/58/fopen): adding to final database dump
+0012.234 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_cookie_scan_url.table.gz (36/58/fopen): adding to final database dump
+0012.235 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_scripts.table.tmpr29.gz (37/58/fopen): adding to final database dump
+0012.236 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_scripts.table.gz (38/58/fopen): adding to final database dump
+0012.237 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_visitor_details.table.tmpr0.gz (39/58/fopen): adding to final database dump
+0012.237 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_cli_visitor_details.table.gz (40/58/fopen): adding to final database dump
+0012.238 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_fbv.table.tmpr2.gz (41/58/fopen): adding to final database dump
+0012.239 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_fbv.table.gz (42/58/fopen): adding to final database dump
+0012.240 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_fbv_attachment_folder.table.tmpr1.gz (43/58/fopen): adding to final database dump
+0012.241 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_fbv_attachment_folder.table.gz (44/58/fopen): adding to final database dump
+0012.242 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_fsmpt_email_logs.table.tmpr8.gz (45/58/fopen): adding to final database dump
+0012.243 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_fsmpt_email_logs.table.gz (46/58/fopen): adding to final database dump
+0012.244 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_import_detail_log.table.tmpr7.gz (47/58/fopen): adding to final database dump
+0012.245 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_import_detail_log.table.gz (48/58/fopen): adding to final database dump
+0012.246 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_import_log_detail.table.tmpr0.gz (49/58/fopen): adding to final database dump
+0012.247 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_import_log_detail.table.gz (50/58/fopen): adding to final database dump
+0012.248 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_import_postID.table.tmpr1.gz (51/58/fopen): adding to final database dump
+0012.249 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_import_postID.table.gz (52/58/fopen): adding to final database dump
+0012.250 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_action_meta.table.tmpr130.gz (53/58/fopen): adding to final database dump
+0012.251 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_action_meta.table.gz (54/58/fopen): adding to final database dump
+0012.252 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_actions.table.tmpr8.gz (55/58/fopen): adding to final database dump
+0012.252 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_actions.table.gz (56/58/fopen): adding to final database dump
+0012.253 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_chunks.table.tmpr0.gz (57/58/fopen): adding to final database dump
+0012.254 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_chunks.table.gz (58/58/fopen): adding to final database dump
+0012.255 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_field_meta.table.tmpr367.gz (59/58/fopen): adding to final database dump
+0012.256 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_field_meta.table.gz (60/58/fopen): adding to final database dump
+0012.257 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_fields.table.tmpr11.gz (61/58/fopen): adding to final database dump
+0012.258 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_fields.table.gz (62/58/fopen): adding to final database dump
+0012.259 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_form_meta.table.tmpr130.gz (63/58/fopen): adding to final database dump
+0012.260 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_form_meta.table.gz (64/58/fopen): adding to final database dump
+0012.261 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_forms.table.tmpr3.gz (65/58/fopen): adding to final database dump
+0012.262 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_forms.table.gz (66/58/fopen): adding to final database dump
+0012.262 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_object_meta.table.tmpr0.gz (67/58/fopen): adding to final database dump
+0012.263 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_object_meta.table.gz (68/58/fopen): adding to final database dump
+0012.264 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_objects.table.tmpr0.gz (69/58/fopen): adding to final database dump
+0012.265 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_objects.table.gz (70/58/fopen): adding to final database dump
+0012.266 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_relationships.table.tmpr0.gz (71/58/fopen): adding to final database dump
+0012.267 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_relationships.table.gz (72/58/fopen): adding to final database dump
+0012.268 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_upgrades.table.tmpr3.gz (73/58/fopen): adding to final database dump
+0012.269 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_nf3_upgrades.table.gz (74/58/fopen): adding to final database dump
+0012.270 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_post_entries_table.table.tmpr1.gz (75/58/fopen): adding to final database dump
+0012.271 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_post_entries_table.table.gz (76/58/fopen): adding to final database dump
+0012.271 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_smackcsv_file_events.table.tmpr16.gz (77/58/fopen): adding to final database dump
+0012.272 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_smackcsv_file_events.table.gz (78/58/fopen): adding to final database dump
+0012.273 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_smackuci_events.table.tmpr0.gz (79/58/fopen): adding to final database dump
+0012.274 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_smackuci_events.table.gz (80/58/fopen): adding to final database dump
+0012.275 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_acf_fields.table.tmpr0.gz (81/58/fopen): adding to final database dump
+0012.276 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_acf_fields.table.gz (82/58/fopen): adding to final database dump
+0012.276 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_export_template.table.tmpr2.gz (83/58/fopen): adding to final database dump
+0012.277 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_export_template.table.gz (84/58/fopen): adding to final database dump
+0012.278 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_external_file_schedules.table.tmpr0.gz (85/58/fopen): adding to final database dump
+0012.279 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_external_file_schedules.table.gz (86/58/fopen): adding to final database dump
+0012.280 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_ftp_schedules.table.tmpr0.gz (87/58/fopen): adding to final database dump
+0012.281 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_ftp_schedules.table.gz (88/58/fopen): adding to final database dump
+0012.282 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_mappingtemplate.table.tmpr5.gz (89/58/fopen): adding to final database dump
+0012.283 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_mappingtemplate.table.gz (90/58/fopen): adding to final database dump
+0012.284 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_media.table.tmpr1.gz (91/58/fopen): adding to final database dump
+0012.285 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_media.table.gz (92/58/fopen): adding to final database dump
+0012.285 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_media_report.table.tmpr1.gz (93/58/fopen): adding to final database dump
+0012.286 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_media_report.table.gz (94/58/fopen): adding to final database dump
+0012.287 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_scheduled_export.table.tmpr0.gz (95/58/fopen): adding to final database dump
+0012.288 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_scheduled_export.table.gz (96/58/fopen): adding to final database dump
+0012.289 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_scheduled_import.table.tmpr0.gz (97/58/fopen): adding to final database dump
+0012.290 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_scheduled_import.table.gz (98/58/fopen): adding to final database dump
+0012.291 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_shortcode_manager.table.tmpr1.gz (99/58/fopen): adding to final database dump
+0012.292 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_csv_importer_shortcode_manager.table.gz (100/58/fopen): adding to final database dump
+0012.293 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_post_entries.table.tmpr1.gz (101/58/fopen): adding to final database dump
+0012.294 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_ultimate_post_entries.table.gz (102/58/fopen): adding to final database dump
+0012.295 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_indexable.table.tmpr96.gz (103/58/fopen): adding to final database dump
+0012.296 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_indexable.table.gz (104/58/fopen): adding to final database dump
+0012.297 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (105/58/fopen): adding to final database dump
+0012.298 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_indexable_hierarchy.table.gz (106/58/fopen): adding to final database dump
+0012.299 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_migrations.table.tmpr24.gz (107/58/fopen): adding to final database dump
+0012.300 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_migrations.table.gz (108/58/fopen): adding to final database dump
+0012.301 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_primary_term.table.tmpr0.gz (109/58/fopen): adding to final database dump
+0012.302 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_primary_term.table.gz (110/58/fopen): adding to final database dump
+0012.303 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_seo_links.table.tmpr4.gz (111/58/fopen): adding to final database dump
+0012.303 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db-table-wp_yoast_seo_links.table.gz (112/58/fopen): adding to final database dump
+0012.310 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz: finished writing out complete database file (405 KB)
+0012.327 (0) Total database tables backed up: 56 (backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz, size: 414843, sha1: 695f7f22ca66b92b3a83c64fa06848aae6cc74c2, sha256: 9479d084629857d4c2b0d14e0758d8e143a45710e3e68d9eed475f414011955e)
+0012.332 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0012.333 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0012.334 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0012.334 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip: others: This file has not yet been successfully uploaded: will queue
+0012.335 (0) backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz: db: This file has not yet been successfully uploaded: will queue
+0012.336 (0) Saving backup history. Total backup size: 117.6 MB
+0012.338 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0012.341 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0012.342 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9cb18d9a797ea434d39a3bbb4d86ea15)
+0014.589 (0) Google Drive: quota usage: used=10592.6 MB, total=10496352.6 MB, available=10485760 MB
+0014.592 (0) Google Drive: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip: Attempting to upload to Google Drive (into folder id: 1JiKT57uo8Xp5N0DfKRWaTpdQWx5iSM7K)
+0015.552 (0) Googledrive chunked upload: 3.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.1 / 12)
+0016.999 (0) Googledrive chunked upload: 11.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10.1 / 12)
+0019.627 (0) Googledrive chunked upload: 26.5 % uploaded (7340032)
+0021.472 (0) Googledrive chunked upload: 41.6 % uploaded (11534336 - increasing chunk size to 8192 KB - memory usage: 10.1 / 12)
+0027.635 (0) Googledrive chunked upload: 71.9 % uploaded (19922944)
+0032.351 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0032.354 (0) Google Drive: OK: Archive backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip uploaded in 17.76 seconds
+0032.355 (0) Recording as successfully uploaded: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip
+0032.359 (0) Deleting local file: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip: OK
+0032.360 (0) Deleting zip manifest (backup_2022-03-01-1948_UGA_Online_4ac0fd066135-plugins.zip.list.tmp)
+0032.627 (0) Google Drive: quota usage: used=10619 MB, total=10496379 MB, available=10485760 MB
+0032.629 (0) Google Drive: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip: Attempting to upload to Google Drive (into folder id: 1JiKT57uo8Xp5N0DfKRWaTpdQWx5iSM7K)
+0033.471 (0) Googledrive chunked upload: 10.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.1 / 12)
+0034.954 (0) Googledrive chunked upload: 31.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10.1 / 12)
+0037.015 (0) Googledrive chunked upload: 74.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 10.1 / 12)
+0038.935 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0038.939 (0) Google Drive: OK: Archive backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip uploaded in 6.31 seconds
+0038.940 (0) Recording as successfully uploaded: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip
+0038.943 (0) Deleting local file: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip: OK
+0038.944 (0) Deleting zip manifest (backup_2022-03-01-1948_UGA_Online_4ac0fd066135-themes.zip.list.tmp)
+0039.185 (0) Google Drive: quota usage: used=10628.5 MB, total=10496388.5 MB, available=10485760 MB
+0039.187 (0) Google Drive: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip: Attempting to upload to Google Drive (into folder id: 1JiKT57uo8Xp5N0DfKRWaTpdQWx5iSM7K)
+0039.966 (0) Googledrive chunked upload: 3.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.1 / 12)
+0041.204 (0) Googledrive chunked upload: 11.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10.2 / 12)
+0043.778 (0) Googledrive chunked upload: 27.4 % uploaded (7340032)
+0046.193 (0) Googledrive chunked upload: 43.1 % uploaded (11534336 - increasing chunk size to 8192 KB - memory usage: 10.2 / 12)
+0050.490 (0) Googledrive chunked upload: 74.4 % uploaded (19922944)
+0054.587 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0054.591 (0) Google Drive: OK: Archive backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip uploaded in 15.4 seconds
+0054.593 (0) Recording as successfully uploaded: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip
+0054.598 (0) Deleting local file: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip: OK
+0054.600 (0) Deleting zip manifest (backup_2022-03-01-1948_UGA_Online_4ac0fd066135-uploads.zip.list.tmp)
+0054.863 (0) Google Drive: quota usage: used=10654 MB, total=10496414 MB, available=10485760 MB
+0054.866 (0) Google Drive: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip: Attempting to upload to Google Drive (into folder id: 1JiKT57uo8Xp5N0DfKRWaTpdQWx5iSM7K)
+0055.752 (0) Googledrive chunked upload: 1.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.1 / 12)
+0057.089 (0) Googledrive chunked upload: 5.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10.2 / 12)
+0059.838 (0) Googledrive chunked upload: 12.5 % uploaded (7340032)
+0062.586 (0) Googledrive chunked upload: 19.7 % uploaded (11534336)
+0065.169 (0) Googledrive chunked upload: 26.9 % uploaded (15728640)
+0066.829 (0) Googledrive chunked upload: 34 % uploaded (19922944 - increasing chunk size to 8192 KB - memory usage: 10.2 / 12)
+0070.905 (0) Googledrive chunked upload: 48.4 % uploaded (28311552)
+0074.910 (0) Googledrive chunked upload: 62.7 % uploaded (36700160)
+0079.041 (0) Googledrive chunked upload: 77 % uploaded (45088768)
+0082.873 (0) Googledrive chunked upload: 91.3 % uploaded (53477376)
+0086.933 (0) Googledrive chunked upload: 100 % uploaded (53477376)
+0086.938 (0) Google Drive: OK: Archive backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip uploaded in 32.07 seconds
+0086.939 (0) Recording as successfully uploaded: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip
+0086.946 (0) Deleting local file: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip: OK
+0086.947 (0) Deleting zip manifest (backup_2022-03-01-1948_UGA_Online_4ac0fd066135-others.zip.list.tmp)
+0087.220 (0) Google Drive: quota usage: used=10709.8 MB, total=10496469.8 MB, available=10485760 MB
+0087.221 (0) Google Drive: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz: Attempting to upload to Google Drive (into folder id: 1JiKT57uo8Xp5N0DfKRWaTpdQWx5iSM7K)
+0088.629 (0) Googledrive chunked upload: 100 % uploaded
+0088.632 (0) Google Drive: OK: Archive backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz uploaded in 1.41 seconds
+0088.632 (0) Recording as successfully uploaded: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz
+0088.635 (0) Deleting local file: backup_2022-03-01-1948_UGA_Online_4ac0fd066135-db.gz: OK
+0088.638 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0088.639 (0) Number of backup sets in history: 2; groups (db): 1
+0088.640 (0) Examining (for databases) backup set with group_id=0, nonce=4ac0fd066135, datestamp=1646164125 (Mar 01 2022 19:48:45)
+0088.641 (0) This backup set is the backup set just made, so will not be deleted.
+0088.641 (0) Examining (for databases) backup set with group_id=0, nonce=a061b8e9b6ac, datestamp=1643219060 (Jan 26 2022 17:44:20)
+0088.641 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0088.642 (0) Number of backup sets in history: 2; groups (files): 1
+0088.643 (0) Examining (for files) backup set with nonce=4ac0fd066135, datestamp=1646164125 (Mar 01 2022 19:48:45)
+0088.643 (0) This backup set is the backup set just made, so will not be deleted.
+0088.644 (0) This backup set is the backup set just made, so will not be deleted.
+0088.644 (0) This backup set is the backup set just made, so will not be deleted.
+0088.645 (0) This backup set is the backup set just made, so will not be deleted.
+0088.645 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0088.646 (0) Examining (for files) backup set with nonce=a061b8e9b6ac, datestamp=1643219060 (Jan 26 2022 17:44:20)
+0088.646 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0088.646 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0088.649 (0) Resume backup (4ac0fd066135, 0): finish run
+0088.651 (0) Decremented the semaphore (fd) by 1
+0088.652 (0) Semaphore (fd) unlocked
+0088.653 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0088.656 (0) No email will/can be sent - the user has not configured an email address.
+0088.656 (0) The backup apparently succeeded and is now complete
