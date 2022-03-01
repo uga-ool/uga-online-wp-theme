@@ -1,0 +1,118 @@
+/*!
+Theme Name: UGA Theme
+Theme URI: https://design.online.uga.edu/
+Author: Sparkbox
+Author URI: https://seesparkbox.com/
+Description: Custom theme for UGA Online Learning based on the UGA Online Learning Design system
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: uga-theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+uga-theme is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* Merriweather Sans */
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("fonts/merriweather-sans/MerriweatherSans-Regular.woff") format("woff");
+  src: url("fonts/merriweather-sans/MerriweatherSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("fonts/merriweather-sans/MerriweatherSans-Italic.woff") format("woff");
+  src: url("fonts/merriweather-sans/MerriweatherSans-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("fonts/merriweather-sans/MerriweatherSans-Bold.woff") format("woff");
+  src: url("fonts/merriweather-sans/MerriweatherSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("fonts/merriweather-sans/MerriweatherSans-BoldItalic.woff") format("woff");
+  src: url("fonts/merriweather-sans/MerriweatherSans-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* Merriweather */
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts/merriweather/Merriweather-Regular.woff") format("woff");
+  src: url("fonts/merriweather/Merriweather-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts/merriweather/Merriweather-Italic.woff") format("woff");
+  src: url("fonts/merriweather/Merriweather-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts/merriweather/Merriweather-Bold.woff") format("woff");
+  src: url("fonts/merriweather/Merriweather-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts/merriweather/Merriweather-BoldItalic.woff") format("woff");
+  src: url("fonts/merriweather/Merriweather-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* Trade Gothic */
+@font-face {
+  font-family: "Trade Gothic";
+  src: url("fonts/trade-gothic/TradeGothic.woff") format("woff");
+  src: url("fonts/trade-gothic/TradeGothic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trade Gothic";
+  src: url("fonts/trade-gothic/TradeGothic-Italic.woff") format("woff");
+  src: url("fonts/trade-gothic/TradeGothic-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Trade Gothic";
+  src: url("fonts/trade-gothic/TradeGothic-Bold.woff") format("woff");
+  src: url("fonts/trade-gothic/TradeGothic-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trade Gothic";
+  src: url("fonts/trade-gothic/TradeGothic-BoldItalic.woff") format("woff");
+  src: url("fonts/trade-gothic/TradeGothic-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}

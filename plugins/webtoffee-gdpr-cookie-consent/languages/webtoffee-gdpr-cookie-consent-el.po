@@ -1,0 +1,2776 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GDPR Cookie Consent\n"
+"POT-Creation-Date: 2021-01-20 23:13+0530\n"
+"PO-Revision-Date: 2021-01-20 23:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cookie-law-info.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-cookie-law-info-admin.php:229
+#: admin/class-cookie-law-info-admin.php:230
+#: admin/class-cookie-law-info-admin.php:260
+#: admin/partials/cookie-law-info-admin_settings.php:32
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/class-cookie-law-info-admin.php:261
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: admin/class-cookie-law-info-admin.php:275
+#: admin/class-cookie-law-info-admin.php:288
+#: admin/class-cookie-law-info-admin.php:312
+#: admin/class-cookie-law-info-admin.php:392
+#: admin/class-cookie-law-info-admin.php:406
+#: admin/class-cookie-law-info-admin.php:984
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:22
+#: admin/modules/cli-themes/classes/class-htmlscanner.php:36
+#: admin/modules/cli-themes/cli-themes.php:470
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:27
+#: admin/modules/settings-popup/settings-popup.php:130
+#: admin/modules/settings-popup/settings-popup.php:218
+#: admin/partials/cookie-law-info-privacy_overview.php:13
+#: includes/class-cookie-law-info-cookieyes.php:90
+#: includes/class-cookie-law-info-cookieyes.php:941
+#: public/modules/script-blocker/script-blocker.php:532
+#: public/modules/script-blocker/script-blocker.php:551
+#: public/modules/script-blocker/script-blocker.php:590
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "Δεν έχετε επαρκή άδεια για να εκτελέσετε αυτήν τη λειτουργία"
+
+#: admin/class-cookie-law-info-admin.php:437
+#: admin/modules/settings-popup/settings-popup.php:142
+#: admin/partials/cookie-law-info-privacy_overview.php:30
+msgid "Settings Updated."
+msgstr "Ρυθμίσεις ενημερώθηκε."
+
+#: admin/class-cookie-law-info-admin.php:458
+msgid "ERROR MIGRATING SETTINGS (ERROR: 2)"
+msgstr "ΡΥΘΜΙΣΕΙΣ ΜΕΤΑΔΟΣΗΣ ΣΦΑΛΜΑΤΩΝ (ΣΦΑΛΜΑ: 2)"
+
+#: admin/class-cookie-law-info-admin.php:496
+#: admin/class-cookie-law-info-admin.php:512
+msgid "Cookie ID"
+msgstr "Αναγνωριστικό cookie"
+
+#: admin/class-cookie-law-info-admin.php:497
+msgid "Cookie Type"
+msgstr "Τύπος cookie"
+
+#: admin/class-cookie-law-info-admin.php:498
+msgid "Cookie Duration"
+msgstr "Διάρκεια cookie"
+
+#: admin/class-cookie-law-info-admin.php:499
+msgid "Cookie Sensitivity"
+msgstr "Ευαισθησία cookie"
+
+#: admin/class-cookie-law-info-admin.php:501
+msgid "Head Scripts"
+msgstr "Επικεφαλής Σενάρια"
+
+#: admin/class-cookie-law-info-admin.php:502
+msgid "Body Scripts"
+msgstr "Σενάρια σώματος"
+
+#: admin/class-cookie-law-info-admin.php:524
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Τύπος cookie: (επίμονο, περίοδος σύνδεσης, τρίτο μέρος)"
+
+#: admin/class-cookie-law-info-admin.php:535
+msgid "Cookie Duration:"
+msgstr "Διάρκεια cookie:"
+
+#: admin/class-cookie-law-info-admin.php:547
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Ευαισθησία cookie: (απαραίτητο, μη απαραίτητο)"
+
+#: admin/class-cookie-law-info-admin.php:613
+#: admin/modules/cookie-scaner/views/scan-result.php:56
+msgid "Cookie Name"
+msgstr "Όνομα cookie"
+
+#: admin/class-cookie-law-info-admin.php:614
+#: public/modules/shortcode/shortcode.php:414
+#: public/modules/shortcode/shortcode.php:526
+msgid "Type"
+msgstr "Τύπος"
+
+#: admin/class-cookie-law-info-admin.php:615
+#: admin/modules/cookie-scaner/views/scan-cookies.php:75
+#: admin/modules/cookie-scaner/views/scan-result.php:58
+#: public/modules/script-blocker/views/admin_script_blocker.php:153
+#: public/modules/script-blocker/views/admin_script_blocker.php:227
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: admin/class-cookie-law-info-admin.php:616
+#: admin/modules/cookie-scaner/views/scan-cookies.php:74
+#: admin/modules/cookie-scaner/views/scan-result.php:57
+#: public/modules/shortcode/shortcode.php:418
+#: public/modules/shortcode/shortcode.php:530
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: admin/class-cookie-law-info-admin.php:617
+msgid "Sensitivity"
+msgstr "Ευαισθησία"
+
+#: admin/class-cookie-law-info-admin.php:618
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-cookie-law-info-admin.php:619
+#: admin/modules/cli-policy-generator/views/policy-generator.php:57
+#: admin/modules/cookie-scaner/views/scan-cookies.php:76
+#: admin/modules/cookie-scaner/views/scan-result.php:59
+#: public/modules/script-blocker/views/admin_script_blocker.php:152
+#: public/modules/script-blocker/views/admin_script_blocker.php:226
+#: public/modules/shortcode/shortcode.php:422
+#: public/modules/shortcode/shortcode.php:534
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: admin/class-cookie-law-info-admin.php:682
+#: admin/class-cookie-law-info-admin.php:705
+msgid "Category default state"
+msgstr "Κατάσταση προεπιλεγμένης κατηγορίας"
+
+#: admin/class-cookie-law-info-admin.php:683
+#: admin/class-cookie-law-info-admin.php:707
+#: admin/modules/settings-popup/views/cookie_settings.php:5
+#: public/modules/script-blocker/views/admin_script_blocker.php:151
+#: public/modules/script-blocker/views/admin_script_blocker.php:180
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: admin/class-cookie-law-info-admin.php:684
+#: admin/class-cookie-law-info-admin.php:708
+#: admin/modules/settings-popup/views/cookie_settings.php:6
+#: public/modules/script-blocker/views/admin_script_blocker.php:182
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: admin/class-cookie-law-info-admin.php:685
+#: admin/class-cookie-law-info-admin.php:709
+msgid ""
+"If you enable this option, the category toggle button will be in the active "
+"state for cookie consent."
+msgstr ""
+"Εάν ενεργοποιήσετε αυτήν την επιλογή, το κουμπί εναλλαγής κατηγορίας θα "
+"είναι ενεργό για τη συναίνεση των cookie."
+
+#: admin/class-cookie-law-info-admin.php:770
+#: admin/class-cookie-law-info-admin.php:788
+#: admin/class-cookie-law-info-admin.php:905
+msgid "Load on start"
+msgstr "Φόρτωση κατά την εκκίνηση"
+
+#: admin/class-cookie-law-info-admin.php:772
+#: admin/class-cookie-law-info-admin.php:791
+msgid ""
+"If you enable this option, scripts under this category will be rendered "
+"without waiting for user consent on first page visit. Use this option "
+"discreetly, only if you are sure that no user sensitive data is being "
+"obtained via these scripts."
+msgstr ""
+"Αν ενεργοποιήσετε αυτήν την επιλογή, τα σενάρια αυτής της κατηγορίας θα "
+"αποτυπωθούν χωρίς να περιμένετε τη συγκατάθεση του χρήστη κατά την επίσκεψη "
+"στην πρώτη σελίδα. Χρησιμοποιήστε αυτήν την επιλογή διακριτικά, μόνο εάν "
+"είστε βέβαιοι ότι δεν λαμβάνετε ευαίσθητα δεδομένα χρήστη μέσω αυτών των "
+"σεναρίων."
+
+#: admin/class-cookie-law-info-admin.php:845
+#: admin/class-cookie-law-info-admin.php:880
+#: admin/class-cookie-law-info-admin.php:904
+msgid "Priority"
+msgstr "Προτεραιότητα"
+
+#: admin/class-cookie-law-info-admin.php:847
+#: admin/class-cookie-law-info-admin.php:884
+msgid "Numeric - Higher the value, higher the priority"
+msgstr "Αριθμητική - Μεγαλύτερη η τιμή, μεγαλύτερη προτεραιότητα"
+
+#: admin/class-cookie-law-info-admin.php:917
+#: admin/views/admin-settings-buttons.php:27
+#: admin/views/admin-settings-buttons.php:83
+#: admin/views/admin-settings-buttons.php:154
+#: admin/views/admin-settings-buttons.php:225
+#: admin/views/admin-settings-buttons.php:386
+#: admin/views/admin-settings-buttons.php:394
+#: admin/views/admin-settings-buttons.php:401
+#: admin/views/admin-settings-general.php:53
+#: admin/views/admin-settings-general.php:67
+#: admin/views/admin-settings-general.php:76
+#: admin/views/admin-settings-general.php:99
+#: admin/views/admin-settings-general.php:107
+#: admin/views/admin-settings-general.php:114
+#: admin/views/admin-settings-messagebar.php:83
+#: admin/views/admin-settings-messagebar.php:107
+msgid "Yes"
+msgstr "Ναι"
+
+#: admin/class-cookie-law-info-admin.php:917
+#: admin/views/admin-settings-buttons.php:28
+#: admin/views/admin-settings-buttons.php:85
+#: admin/views/admin-settings-buttons.php:156
+#: admin/views/admin-settings-buttons.php:226
+#: admin/views/admin-settings-buttons.php:387
+#: admin/views/admin-settings-buttons.php:395
+#: admin/views/admin-settings-buttons.php:402
+#: admin/views/admin-settings-general.php:54
+#: admin/views/admin-settings-general.php:68
+#: admin/views/admin-settings-general.php:77
+#: admin/views/admin-settings-general.php:100
+#: admin/views/admin-settings-general.php:108
+#: admin/views/admin-settings-general.php:115
+#: admin/views/admin-settings-messagebar.php:84
+#: admin/views/admin-settings-messagebar.php:108
+#: public/modules/script-blocker/views/admin_script_blocker.php:149
+#: public/modules/script-blocker/views/admin_script_blocker.php:223
+msgid "No"
+msgstr "Όχι"
+
+#: admin/class-cookie-law-info-admin.php:1051
+msgid "Close Header"
+msgstr "Κλείσιμο κεφαλίδας"
+
+#: admin/class-cookie-law-info-admin.php:1055
+msgid "Open URL"
+msgstr "Άνοιγμα διεύθυνσης URL"
+
+#: admin/class-cookie-law-info-admin.php:1068
+msgid "Extra Large"
+msgstr "Πολύ μεγάλο"
+
+#: admin/class-cookie-law-info-admin.php:1072
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: admin/class-cookie-law-info-admin.php:1076
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: admin/class-cookie-law-info-admin.php:1080
+msgid "Small"
+msgstr "Μικρό"
+
+#: admin/class-cookie-law-info-admin.php:1094
+msgid "Default theme font"
+msgstr "Προεπιλεγμένη γραμματοσειρά θέματος"
+
+#: admin/class-cookie-law-info-admin.php:1098
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: admin/class-cookie-law-info-admin.php:1102
+msgid "Serif"
+msgstr "Serif"
+
+#: admin/class-cookie-law-info-admin.php:1106
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/class-cookie-law-info-admin.php:1110
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: admin/class-cookie-law-info-admin.php:1114
+msgid "Georgia, serif"
+msgstr "Georgia, serif"
+
+#: admin/class-cookie-law-info-admin.php:1118
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/class-cookie-law-info-admin.php:1122
+msgid "Lucida"
+msgstr "Lucida"
+
+#: admin/class-cookie-law-info-admin.php:1126
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: admin/class-cookie-law-info-admin.php:1130
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: admin/class-cookie-law-info-admin.php:1134
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: admin/class-cookie-law-info-admin.php:1138
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/class-cookie-law-info-admin.php:1153
+#: admin/class-cookie-law-info-admin.php:1197
+msgid "Make this as stricly necessary category"
+msgstr "Κάντε αυτό ως αυστηρά απαραίτητη κατηγορία"
+
+#: admin/class-cookie-law-info-admin.php:1155
+#: admin/class-cookie-law-info-admin.php:1200
+msgid ""
+"The underlying scripts are assumed to be absolutely essential for the "
+"website to function properly. They will be rendered irrespective of user "
+"consent."
+msgstr ""
+"Τα υποκείμενα σενάρια θεωρούνται απολύτως απαραίτητα για τη σωστή λειτουργία "
+"του ιστότοπου. Θα αποδοθούν ανεξάρτητα από τη συγκατάθεση του χρήστη."
+
+#: admin/modules/ccpa/ccpa.php:111
+msgid "Do you really wish to opt out?"
+msgstr "Θέλετε πραγματικά να εξαιρεθείτε;"
+
+#: admin/modules/ccpa/ccpa.php:112
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: admin/modules/ccpa/ccpa.php:113
+#: admin/modules/cli-themes/views/theme_buttons.php:23
+#: admin/modules/cli-themes/views/themes_popup.php:103
+#: admin/modules/cookie-scaner/cookie-scaner.php:347
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: admin/modules/ccpa/ccpa.php:124 admin/modules/ccpa/ccpa.php:157
+msgid "Sells Personal Information"
+msgstr "Πωλεί προσωπικά στοιχεία"
+
+#: admin/modules/ccpa/ccpa.php:126 admin/modules/ccpa/ccpa.php:160
+msgid ""
+"If you enable this option, scripts under this category will be considered as "
+"personal data collecting scripts and will be blocked if opted out from CCPA"
+msgstr ""
+"Εάν ενεργοποιήσετε αυτήν την επιλογή, τα σενάρια αυτής της κατηγορίας θα "
+"θεωρηθούν ως σενάρια συλλογής προσωπικών δεδομένων και θα αποκλειστούν εάν "
+"εξαιρεθούν από το CCPA"
+
+#: admin/modules/ccpa/ccpa.php:207
+msgid "Select the type of law"
+msgstr "Επιλέξτε τον τύπο του νόμου"
+
+#: admin/modules/ccpa/ccpa.php:211
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/modules/ccpa/ccpa.php:212 admin/modules/ccpa/ccpa.php:220
+msgid ""
+"Customize the buttons, notice, themes from the relevant tabs to setup your "
+"cookie notice accordingly."
+msgstr ""
+"Προσαρμόστε τα κουμπιά, την ειδοποίηση, τα θέματα από τις σχετικές καρτέλες "
+"για να ρυθμίσετε την ειδοποίηση cookie ανάλογα."
+
+#: admin/modules/ccpa/ccpa.php:215
+msgid "CCPA"
+msgstr "CCPA"
+
+#: admin/modules/ccpa/ccpa.php:216
+msgid ""
+"Most of the customizations from the tabs for buttons, notice or themes are "
+"not relevant especially if you choose to not show the notice, except the Do "
+"not sell within the buttons."
+msgstr ""
+"Οι περισσότερες από τις προσαρμογές από τις καρτέλες για κουμπιά, "
+"ειδοποιήσεις ή θέματα δεν είναι σχετικές, ειδικά αν επιλέξετε να μην "
+"εμφανιστεί η ειδοποίηση, εκτός από το Να μην πωλείται εντός των κουμπιών."
+
+#: admin/modules/ccpa/ccpa.php:219
+msgid "CCPA & GDPR"
+msgstr "CCPA & GDPR"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid "CCPA Settings"
+msgstr "Ρυθμίσεις CCPA"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid ""
+"The right to opt out in the California Consumer Privacy Act gives consumers "
+"the ability to direct a business not to sell their personal information to a "
+"third party. If the user considers to not sell their personal information, "
+"all the scripts related to the categories which are configured to sell "
+"personal information will be blocked. The DO NOT SELL option is facilitated "
+"via a shortcode [wt_cli_ccpa_optout]."
+msgstr ""
+"Το δικαίωμα εξαίρεσης από τον νόμο περί απορρήτου των καταναλωτών στην "
+"Καλιφόρνια δίνει στους καταναλωτές τη δυνατότητα να κατευθύνουν μια "
+"επιχείρηση και να μην πωλούν τα προσωπικά τους στοιχεία σε τρίτους. Εάν ο "
+"χρήστης θεωρεί ότι δεν πωλεί τα προσωπικά του στοιχεία, όλα τα σενάρια που "
+"σχετίζονται με τις κατηγορίες που έχουν διαμορφωθεί για την πώληση "
+"προσωπικών πληροφοριών θα αποκλειστούν. Η επιλογή ΜΗΝ ΠΩΛΕΙΤΑΙ διευκολύνεται "
+"μέσω ενός σύντομου κώδικα [wt_cli_ccpa_optout]."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:10
+msgid "Enable CCPA ?"
+msgstr "Ενεργοποίηση CCPA;"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid "Restrict CCPA to only California"
+msgstr "Περιορίστε το CCPA μόνο στην Καλιφόρνια"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid ""
+"When enabled this regulation will be applicable only to visits from "
+"California; applicable to all visitors when disabled."
+msgstr ""
+"Όταν ενεργοποιηθεί, αυτός ο κανονισμός θα ισχύει μόνο για επισκέψεις από την "
+"Καλιφόρνια. ισχύει για όλους τους επισκέπτες όταν είναι απενεργοποιημένοι."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid "Enable CCPA notice"
+msgstr "Ενεργοποίηση ειδοποίησης CCPA"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid ""
+"Enabling the notice will display the banner with the relevant text as per "
+"your configuration. Use this option particularly to record prior consent "
+"from the website visitors."
+msgstr ""
+"Η ενεργοποίηση της ειδοποίησης θα εμφανίσει το banner με το σχετικό κείμενο "
+"σύμφωνα με τη διαμόρφωσή σας. Χρησιμοποιήστε αυτήν την επιλογή ειδικά για να "
+"καταγράψετε προηγούμενη συγκατάθεση από τους επισκέπτες του ιστότοπου."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:26
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:32
+msgid "Unable to handle your request."
+msgstr "Δεν είναι δυνατή η διεκπεραίωση του αιτήματός σας."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:95
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:133
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:139
+#: admin/modules/cli-themes/cli-themes.php:879
+#: admin/modules/cookie-scaner/cookie-scaner.php:335
+#: admin/modules/cookie-scaner/views/unable-to-start.php:9
+#: public/modules/visitor-report/visitor-report.php:133
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Πολιτική Cookies"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:86
+msgid "Auto reload preview"
+msgstr "Αυτόματη επαναφόρτωση προεπισκόπησης"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:112
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:113
+msgid "Policy generator"
+msgstr "Δημιουργία πολιτικής"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:140
+#: admin/modules/cli-themes/cli-themes.php:880
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:99
+#: admin/modules/cookie-scaner/cookie-scaner.php:355
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Cookie Policy generator"
+msgstr "Δημιουργία πολιτικής cookie"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "Επικεφαλίδα δείγματος"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "Περιεχόμενο δείγματος"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:27
+#: public/modules/visitor-report/classes/class-visitor-history.php:101
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:49
+msgid "Add new"
+msgstr "Προσθήκη νέου"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:53
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:78
+msgid "Update existing Cookie Policy page"
+msgstr "Ενημερώστε την υπάρχουσα σελίδα πολιτικής cookie"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:84
+msgid "Create Cookie Policy page"
+msgstr "Δημιουργία σελίδας πολιτικής cookie"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:88
+#: admin/modules/cli-themes/views/themes_popup.php:99
+msgid "Live preview"
+msgstr "Ζωντανή προεπισκόπηση"
+
+#: admin/modules/cli-themes/cli-themes.php:259
+msgid "Change GDPR cookie preview template"
+msgstr "Αλλάξτε το πρότυπο προεπισκόπησης του cookie GDPR"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:8
+msgid "Save & Publish"
+msgstr "Αποθήκευση & Δημοσίευση"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:18
+msgid "Change Template"
+msgstr "Αλλαγή προτύπου"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:8
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:15
+#: admin/views/admin-settings-buttons.php:34
+#: admin/views/admin-settings-buttons.php:106
+#: admin/views/admin-settings-buttons.php:173
+#: admin/views/admin-settings-buttons.php:244
+#: admin/views/admin-settings-buttons.php:308
+msgid "Text"
+msgstr "Κείμενο"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:21
+msgid "Text size"
+msgstr "Μέγεθος κειμένου"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:26
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:30
+msgid "Font weight"
+msgstr "Βάρος Γραμματοσειράς"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:47
+msgid "Background"
+msgstr "Φόντο"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:51
+msgid "Border width"
+msgstr "Το πλάτος των ορίων"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:55
+msgid "Border Color"
+msgstr "Χρώμα Περιγράμματος"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:59
+msgid "Corner radius"
+msgstr "Ακτίνα γωνίας"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:63
+msgid "Text style"
+msgstr "Στυλ κειμένου"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:66
+msgid "Italic"
+msgstr "Πλάγια"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:68
+msgid "Underline"
+msgstr "Υπογράμμιση"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:82
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: admin/modules/cli-themes/views/themes.php:31
+msgid "Cookie bar - Design editor"
+msgstr "Μπάρα cookie - Συντάκτης σχεδιασμού"
+
+#: admin/modules/cli-themes/views/themes.php:38
+msgid "Click on the elements to customize."
+msgstr "Κάντε κλικ στα στοιχεία για να προσαρμόσετε."
+
+#: admin/modules/cli-themes/views/themes.php:42
+msgid "Cookie message - Text editor"
+msgstr "Μήνυμα cookie - Επεξεργαστής κειμένου"
+
+#: admin/modules/cli-themes/views/themes.php:47
+msgid ""
+"Text on the selected theme may be different. Please update the cookie "
+"message accordingly in the above text view."
+msgstr ""
+"Το κείμενο στο επιλεγμένο θέμα μπορεί να διαφέρει. Ενημερώστε το μήνυμα "
+"cookie αναλόγως στην παραπάνω προβολή κειμένου."
+
+#: admin/modules/cli-themes/views/themes_popup.php:12
+#: admin/modules/cli-themes/views/themes_popup.php:23
+#: admin/views/admin-settings-messagebar.php:65
+msgid "Banner"
+msgstr "Banner"
+
+#: admin/modules/cli-themes/views/themes_popup.php:13
+#: admin/modules/cli-themes/views/themes_popup.php:24
+#: admin/views/admin-settings-buttons.php:289
+#: admin/views/admin-settings-buttons.php:292
+#: admin/views/admin-settings-messagebar.php:66
+msgid "Popup"
+msgstr "Αναδυόμενο Παράθυρο"
+
+#: admin/modules/cli-themes/views/themes_popup.php:14
+#: admin/modules/cli-themes/views/themes_popup.php:25
+#: admin/views/admin-settings-messagebar.php:67
+msgid "Widget"
+msgstr "Μικροεφαρμογή"
+
+#: admin/modules/cli-themes/views/themes_popup.php:18
+msgid "Templates"
+msgstr "Πρότυπα"
+
+#: admin/modules/cli-themes/views/themes_popup.php:96
+msgid "Customize"
+msgstr "Προσαρμογή"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:87
+msgid "Sorry..."
+msgstr "Συγνώμη..."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:90
+msgid ""
+"Cookie Scanner API is not available now. Please try again later. <br />Do "
+"you want to report this to developer and get notified?"
+msgstr ""
+"Το API σαρωτή cookie δεν είναι διαθέσιμο τώρα. Παρακαλώ προσπαθήστε ξανά "
+"αργότερα. <br /> Θέλετε να το αναφέρετε στον προγραμματιστή και να "
+"ενημερωθείτε;"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:133
+msgid "Unable to handle your request"
+msgstr "Δεν είναι δυνατή η διεκπεραίωση του αιτήματός σας"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:137
+#: admin/modules/csv-export/csv-export.php:65
+#: admin/modules/csv-import/csv-import.php:118
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Δεν έχετε επαρκή δικαιώματα για να έχετε πρόσβαση σε αυτή τη σελίδα."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:227
+msgid "cookies added."
+msgstr "έχουν προστεθεί cookies."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:230
+msgid "cookies skipped."
+msgstr "cookies έχουν παραλειφθεί."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:234
+msgid "cookies deleted."
+msgstr "τα cookies διαγράφηκαν."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:241
+msgid "No cookies found"
+msgstr "Δεν βρέθηκαν cookies"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:549
+msgid "Could not initiate scan"
+msgstr "Δεν ήταν δυνατή η έναρξη της σάρωσης"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:558
+msgid "Scanning initiated successfully"
+msgstr "Η σάρωση ξεκίνησε με επιτυχία"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:559
+msgid ""
+"It might take a few minutes to a few hours to complete the scanning of your "
+"website. This depends on the number of pages to scan and the website speed. "
+"Once the scanning is complete, we will notify you by email."
+msgstr ""
+"Μπορεί να χρειαστούν μερικά λεπτά έως μερικές ώρες για να ολοκληρωθεί η "
+"σάρωση του ιστότοπού σας. Αυτό εξαρτάται από τον αριθμό των σελίδων προς "
+"σάρωση και την ταχύτητα του ιστότοπου. Μόλις ολοκληρωθεί η σάρωση, θα σας "
+"ειδοποιήσουμε μέσω email."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:612
+#: admin/modules/cookie-scaner/cookie-scaner.php:844
+msgid "Token mismatch"
+msgstr "Αναντιστοιχία διακριτικών"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:35
+msgid "Incomplete"
+msgstr "Ημιτελές"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:36
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:37
+msgid "Stopped"
+msgstr "Διακόπηκε"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:38
+msgid "Failed"
+msgstr "Απέτυχε"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:66
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:295
+#: admin/modules/cookie-scaner/cookie-scaner.php:296
+msgid "Cookie Scanner"
+msgstr "Cookie Scanner"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:329
+msgid "Scanned"
+msgstr "Σάρωση"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:330
+msgid "Scanning completed."
+msgstr "Η σάρωση ολοκληρώθηκε."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:331
+msgid "Added to cookie list."
+msgstr "Προστέθηκε στη λίστα cookie."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:332
+#, php-format
+msgid ""
+"Unable to connect. Try setting the URL per scan request to 1 or 2 under "
+"advanced settings tab <a href=\"%s\">click here.</a>"
+msgstr ""
+"Αδυναμία Σύνδεσης. Δοκιμάστε να ορίσετε το URL ανά αίτημα σάρωσης σε 1 ή 2 "
+"στην καρτέλα σύνθετων ρυθμίσεων <a href=\"%s\">κάντε κλικ εδώ.</a>"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Finding pages..."
+msgstr "Εύρεση σελίδων ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:334
+msgid "Scanning pages..."
+msgstr "Σάρωση σελίδων ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:336
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:337
+#: admin/modules/cookie-scaner/views/scan-result.php:18
+#: admin/modules/cookie-scaner/views/scan-result.php:128
+msgid "Scan again"
+msgstr "Σαρώστε και πάλι"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:338
+#: admin/modules/cookie-scaner/views/scan-result.php:23
+#: admin/modules/cookie-scaner/views/scan-result.php:133
+msgid "Download cookies as CSV"
+msgstr "Λήψη cookie ως CSV"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:339
+#: admin/modules/cookie-scaner/views/scan-result.php:24
+#: admin/modules/cookie-scaner/views/scan-result.php:134
+msgid "Add to cookie list"
+msgstr "Προσθήκη στη λίστα cookie"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:340
+msgid "View scan result"
+msgstr "Δείτε το αποτέλεσμα σάρωσης"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:341
+msgid "Import options"
+msgstr "Επιλογές εισαγωγής"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:342
+msgid "Replace old"
+msgstr "Αντικαταστήστε το παλιό"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:343
+msgid "Merge"
+msgstr "Συγχώνευση"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:344
+msgid "Recommended"
+msgstr "Συνιστάται"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:345
+msgid "Append"
+msgstr "Πρσθήκη"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:346
+msgid "Not recommended"
+msgstr "Δεν συνιστάται"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:348
+msgid "Start import"
+msgstr "Έναρξη εισαγωγής"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:349
+msgid "Importing...."
+msgstr "Εισαγωγή ...."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:350
+msgid "Refreshing...."
+msgstr "Δροσιστικός...."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:351
+msgid "Error !!! Please reload the page to see cookie list."
+msgstr ""
+"Λάθος !!! Παρακαλούμε ξαναφορτώστε τη σελίδα για να δείτε τη λίστα cookie."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:352
+msgid "Stopping..."
+msgstr "Σταματώντας..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:353
+msgid "Scanning stopped."
+msgstr "Η σάρωση σταμάτησε."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:354
+msgid "Are you sure?"
+msgstr "Είστε σίγουρος?"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:356
+msgid "Thank you"
+msgstr "Ευχαριστώ"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:357
+msgid "Checking API"
+msgstr "Έλεγχος API"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:358
+msgid "Sending..."
+msgstr "Αποστέλλοντας..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:359
+msgid "Total URLs scanned"
+msgstr "Συνολικές διευθύνσεις URL που σαρώθηκαν"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:360
+msgid "Total Cookies found"
+msgstr "Συνολικά βρέθηκαν cookies"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:402
+msgid "Unable to load cookie scanner."
+msgstr "Δεν είναι δυνατή η φόρτωση του σαρωτή cookie."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:405
+msgid "Need `GDPR Cookie Consent` plugin version above 2.1.4"
+msgstr "Χρειάζεστε την έκδοση προσθήκης `GDPR Cookie Consent 'παραπάνω 2.1.4"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:409
+msgid "Scanning will not work on local server."
+msgstr "Η σάρωση δεν θα λειτουργήσει σε τοπικό διακομιστή."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:642
+msgid "Please activate your license in order to proceed with the scan."
+msgstr "Ενεργοποιήστε την άδειά σας για να συνεχίσετε τη σάρωση."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:642
+#: admin/wf_api_manager/html/html-wf-activation-window.php:119
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:676
+#, php-format
+msgid ""
+"GDPR Cookie Consent now uses <a href=\"%s\" target=\"_blank\">CookieYes</a> "
+"to bring you enhanced scanning for cookies on your website! To further avail "
+"quick and accurate scanning of your website, connect with CookieYes, in just "
+"a click! By continuing, you agree to CookieYes's <a href=\"%s\" target="
+"\"_blank\">Privacy Policy</a> & <a href=\"%s\" target=\"_blank\">Terms of "
+"service</a>."
+msgstr ""
+"Η συγκατάθεση cookie GDPR χρησιμοποιεί τώρα το <a href=“%s” target=“_blank”> "
+"CookieYes </a> για να σας προσφέρει βελτιωμένη σάρωση για cookie στον "
+"ιστότοπό σας! Για περαιτέρω αξιοποίηση γρήγορης και ακριβούς σάρωσης του "
+"ιστότοπού σας, συνδεθείτε με το Cookie Ναι, με ένα μόνο κλικ! Εάν "
+"συνεχίσετε, αποδέχεστε τους <a href=“%s” target=“_blank”> Πολιτική απορρήτου "
+"</a> και τους <a href=“%s” target=“_blank”> Όρους Παροχής Υπηρεσιών </a> του "
+"CookieYes."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:678
+msgid "Scan your website for cookies automatically with CookieYes!"
+msgstr "Σαρώστε τον ιστότοπό σας για cookie αυτόματα με το Cookie Ναι!"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:679
+#, php-format
+msgid ""
+"Connect with <a href=\"%s\" target=\"_blank\">CookieYes</a>, our scanning "
+"solution to get fast and accurate cookie scanning. By continuing, you agree "
+"to CookieYes's <a href=\"%s\" target=\"_blank\">Privacy Policy</a> & <a href="
+"\"%s\" target=\"_blank\">Terms of service</a>."
+msgstr ""
+"Συνδεθείτε με το <a href=“%s” target=“_blank”> CookieΝαι </a> τη λύση "
+"σάρωσης για γρήγορη και ακριβή σάρωση cookie. Εάν συνεχίσετε, αποδέχεστε "
+"τους <a href=“%s” target=“_blank”> Πολιτική απορρήτου </a> και τους <a "
+"href=“%s” target=“_blank”> Όρους Παροχής Υπηρεσιών </a> του CookieYes."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:680
+#: admin/modules/cookie-scaner/cookie-scaner.php:693
+msgid "Connect & scan"
+msgstr "Σύνδεση και σάρωση"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:689
+msgid "Start scan"
+msgstr "Εναρξη σάρωσης"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:715
+msgid "You haven't performed a site scan yet."
+msgstr "Δεν έχετε πραγματοποιήσει ακόμη μια σάρωση ιστότοπου."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:724
+msgid "Scan failed"
+msgstr "Η σάρωση απέτυχε"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:725
+msgid "Last scan:"
+msgstr "Τελευταία σάρωση:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:737
+#, php-format
+msgid "Last scan: %s <a href=\"%s\">View result</a>"
+msgstr "Τελευταία σάρωση: %s <a href=\"%s\">Προβολή αποτελέσματος</a>"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:739
+msgid "Scan complete"
+msgstr "Η σάρωση ολοκληρώθηκε"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:759
+msgid "Scan initiated..."
+msgstr "Η σάρωση ξεκίνησε ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:767
+#: admin/modules/cookie-scaner/views/scan-result.php:38
+msgid "Scan started at"
+msgstr "Η σάρωση ξεκίνησε στο"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:775
+#: admin/modules/cookie-scaner/views/scan-result.php:44
+msgid "Total URLs"
+msgstr "Συνολικές διευθύνσεις URL"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:783
+msgid "Total estimated time (Approx)"
+msgstr "Συνολικός εκτιμώμενος χρόνος (περίπου)"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:791
+msgid ""
+"Your website is currently being scanned for cookies. This might take from a "
+"few minutes to a few hours, depending on your website speed and the number "
+"of pages to be scanned."
+msgstr ""
+"Ο ιστότοπός σας πραγματοποιείται σάρωση για cookies. Αυτό μπορεί να "
+"διαρκέσει από λίγα λεπτά έως μερικές ώρες, ανάλογα με την ταχύτητα του "
+"ιστότοπού σας και τον αριθμό των σελίδων που θα σαρωθούν."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:793
+msgid "Once the scanning is complete, we will notify you by email."
+msgstr "Μόλις ολοκληρωθεί η σάρωση, θα σας ειδοποιήσουμε μέσω email."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:846
+msgid "Successfully inserted"
+msgstr "Έγινε εισαγωγή με επιτυχία"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:849
+msgid "Failed to insert"
+msgstr "Αποτυχία εισαγωγής"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:871
+msgid "Invalid scan token"
+msgstr "Μη έγκυρο διακριτικό σάρωσης"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:65
+#: admin/modules/cookie-scaner/views/unable-to-start.php:7
+msgid "Scan cookies"
+msgstr "Σάρωση cookies"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:66
+msgid "Please do not leave this page until the progress bar reaches 100%"
+msgstr "Μην αφήνετε αυτήν τη σελίδα μέχρι να φτάσει η γραμμή προόδου στο 100%"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:73
+#: public/modules/script-blocker/views/admin_script_blocker.php:150
+#: public/modules/script-blocker/views/admin_script_blocker.php:224
+msgid "Name"
+msgstr "Όνομα"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:81
+#: public/class-cookie-law-info-public.php:261
+msgid "Cookie List"
+msgstr "Λίστα cookie"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:122
+msgid "Your cookie list is empty"
+msgstr "Η λίστα cookie σας είναι κενή"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:15
+msgid "Scan result"
+msgstr "Αποτέλεσμα σάρωσης"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:35
+msgid "Summary"
+msgstr "Περίληψη"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:41
+msgid "Scan status"
+msgstr "Κατάσταση σάρωσης"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:47
+msgid "Total cookies"
+msgstr "Συνολικά cookie"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:51
+msgid "Cookies"
+msgstr "Cookies"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:82
+msgid "No cookies"
+msgstr "Δεν υπάρχουν cookies"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:90
+msgid "URLs"
+msgstr "URLs"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:95
+#: admin/views/admin-settings-buttons.php:73
+#: admin/views/admin-settings-buttons.php:144
+#: admin/views/admin-settings-buttons.php:215
+#: admin/views/admin-settings-buttons.php:340
+#: admin/views/admin-settings-buttons.php:347
+msgid "URL"
+msgstr "URL"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:115
+msgid "No URLs"
+msgstr "Δεν υπάρχουν διευθύνσεις URL"
+
+#: admin/modules/csv-export/csv-export.php:29
+msgid "Download as CSV"
+msgstr "Λήψη ως CSV"
+
+#: admin/modules/csv-import/csv-import.php:46
+msgid "Import from CSV"
+msgstr "Εισαγωγή από το αρχείο CSV"
+
+#: admin/modules/csv-import/csv-import.php:67
+#: admin/modules/csv-import/csv-import.php:68
+msgid "Import Cookie"
+msgstr "Εισαγωγή cookie"
+
+#: admin/modules/csv-import/csv-import.php:304
+#, php-format
+msgid "BEGIN %s"
+msgstr "ΑΡΧΊΣΤΕ %s"
+
+#: admin/modules/csv-import/csv-import.php:309
+#, php-format
+msgid "[Line %1$s] %2$s"
+msgstr "[Γραμμή %1$s] %2$s"
+
+#: admin/modules/csv-import/views/import_cookies.php:2
+msgid "Import from a CSV file"
+msgstr "Εισαγωγή από αρχείο CSV"
+
+#: admin/modules/csv-import/views/import_cookies.php:12
+#, php-format
+msgid ""
+"Notice: please make the directory %s writable so that you can see the error "
+"log."
+msgstr ""
+"Σημείωση: Κάντε τον κατάλογο %s εγγράψιμο έτσι ώστε να μπορείτε να δείτε το "
+"αρχείο καταγραφής σφαλμάτων."
+
+#: admin/modules/csv-import/views/import_cookies.php:25
+#, php-format
+msgid ", please <a href=\"%s\">check the error log</a>"
+msgstr ", παρακαλώ <a href=\"%s\">Ελέγξτε το αρχείο καταγραφής σφαλμάτων</a>"
+
+#: admin/modules/csv-import/views/import_cookies.php:29
+msgid "Error during file upload."
+msgstr "Σφάλμα κατά τη διάρκεια του upload αρχείου."
+
+#: admin/modules/csv-import/views/import_cookies.php:32
+msgid "Cannot extract data from uploaded file or no file was uploaded."
+msgstr ""
+"Δεν είναι δυνατό να εξαγάγετε δεδομένα από φορτώνω αρχείο ή αρχείο δεν "
+"φορτώθηκε."
+
+#: admin/modules/csv-import/views/import_cookies.php:35
+#, php-format
+msgid "No posts was successfully imported%s."
+msgstr "Δεν έχουν εισαχθεί με επιτυχία μηνύματα %s."
+
+#: admin/modules/csv-import/views/import_cookies.php:38
+#, php-format
+msgid "Some posts were successfully imported but some were not%s."
+msgstr ""
+"Ορισμένες αναρτήσεις έχουν εισαχθεί με επιτυχία, αλλά μερικές δεν ήταν %s."
+
+#: admin/modules/csv-import/views/import_cookies.php:41
+msgid "Post import was successful."
+msgstr "Η μετά την εισαγωγή ήταν επιτυχής."
+
+#: admin/modules/csv-import/views/import_cookies.php:52
+msgid "CSV file"
+msgstr "CSV αρχείο"
+
+#: admin/modules/csv-import/views/import_cookies.php:55
+#, php-format
+msgid "You may want to see <a href=\"%s\">the example of the CSV file</a>."
+msgstr ""
+"Μπορεί να θέλετε να δείτε <a href=\"%s\">το παράδειγμα του αρχείου CSV</a> ."
+
+#: admin/modules/csv-import/views/import_cookies.php:60
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: admin/modules/settings-popup/settings-popup.php:104
+msgid "Save & Accept"
+msgstr "Αποθήκευση & Αποδοχή"
+
+#: admin/modules/settings-popup/settings-popup.php:108
+msgid "Accept all"
+msgstr "Αποδοχή όλων"
+
+#: admin/modules/settings-popup/settings-popup.php:119
+#: admin/modules/settings-popup/settings-popup.php:120
+#: admin/modules/settings-popup/views/settings.php:11
+#: admin/partials/cookie-law-info-privacy_overview.php:36
+#: admin/partials/cookie-law-info-privacy_overview.php:37
+#: admin/partials/cookie-law-info-privacy_overview.php:55
+msgid "Privacy Overview"
+msgstr "Επισκόπηση απορρήτου"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:4
+msgid "Always Enabled"
+msgstr "Ενεργοποίηση πάντα"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show more"
+msgstr "Περισσοτερα"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show less"
+msgstr "Δείξε λιγότερο"
+
+#: admin/modules/settings-popup/views/settings.php:18
+#: admin/partials/cookie-law-info-privacy_overview.php:68
+msgid "Privacy Overview Title"
+msgstr "Τίτλος επισκόπησης απορρήτου"
+
+#: admin/modules/settings-popup/views/settings.php:24
+#: admin/modules/settings-popup/views/settings.php:39
+#: admin/partials/cookie-law-info-privacy_overview.php:74
+#: admin/partials/cookie-law-info-privacy_overview.php:89
+msgid "This will be shown in the settings visible for user on consent screen."
+msgstr ""
+"Αυτό θα εμφανιστεί στις ρυθμίσεις που είναι ορατές για το χρήστη στην οθόνη "
+"συγκατάθεσης."
+
+#: admin/modules/settings-popup/views/settings.php:48
+#: admin/partials/cookie-law-info-privacy_overview.php:98
+msgid "Save Settings"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: admin/partials/cookie-law-info-admin_settings.php:24
+msgid "Settings updated."
+msgstr "ΟΙ ρυθμίσεις ενημερώθηκαν."
+
+#: admin/partials/cookie-law-info-admin_settings.php:25
+msgid "Unable to update Settings."
+msgstr "Δεν είναι δυνατή η ενημέρωση των ρυθμίσεων."
+
+#: admin/partials/cookie-law-info-admin_settings.php:26
+msgid "Settings reset to defaults."
+msgstr "Οι ρυθμίσεις επαναφέρονται στις προεπιλογές."
+
+#: admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Unable to reset settings."
+msgstr "Δεν είναι δυνατή η επαναφορά των ρυθμίσεων."
+
+#: admin/partials/cookie-law-info-admin_settings.php:28
+msgid "Consent has renewed."
+msgstr "Η συγκατάθεση έχει ανανεωθεί."
+
+#: admin/partials/cookie-law-info-admin_settings.php:29
+msgid "Unable to renew consent."
+msgstr "Δεν είναι δυνατή η ανανέωση της συναίνεσης."
+
+#: admin/partials/cookie-law-info-admin_settings.php:40
+msgid "Cookie bar is currently active"
+msgstr "Η γραμμή cookie είναι αυτήν τη στιγμή ενεργή"
+
+#: admin/partials/cookie-law-info-admin_settings.php:48
+msgid "Cookie bar is currently inactive"
+msgstr "Η γραμμή cookie είναι προς το παρόν ανενεργή"
+
+#: admin/partials/cookie-law-info-admin_settings.php:64
+#: admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "Γενικά"
+
+#: admin/partials/cookie-law-info-admin_settings.php:65
+msgid "Customise Cookie Bar"
+msgstr "Προσαρμογή της γραμμής cookie"
+
+#: admin/partials/cookie-law-info-admin_settings.php:66
+msgid "Customise Buttons"
+msgstr "Προσαρμογή κουμπιών"
+
+#: admin/partials/cookie-law-info-admin_settings.php:67
+#: admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "Προχωρημένος"
+
+#: admin/partials/cookie-law-info-admin_settings.php:68
+msgid "Licence"
+msgstr "Άδεια"
+
+#: admin/partials/cookie-law-info-admin_settings.php:69
+msgid "Help Guide"
+msgstr "Οδηγός βοήθειας"
+
+#: admin/partials/cookie-law-info-privacy_overview.php:62
+msgid "Privacy Overview Menu Title"
+msgstr "Τίτλος μενού επισκόπησης απορρήτου"
+
+#: admin/views/admin-settings-advanced.php:9
+msgid ""
+"Sometimes themes apply settings that clash with plugins. If that happens, "
+"try adjusting these settings."
+msgstr ""
+"Μερικές φορές τα θέματα εφαρμόζουν ρυθμίσεις που συγκρούονται με πρόσθετα. "
+"Εάν συμβεί αυτό, δοκιμάστε να προσαρμόσετε αυτές τις ρυθμίσεις."
+
+#: admin/views/admin-settings-advanced.php:13
+msgid "Renew user consent"
+msgstr "Ανανεώστε τη συγκατάθεση του χρήστη"
+
+#: admin/views/admin-settings-advanced.php:15
+msgid "Renew consent"
+msgstr "Ανανεώστε τη συγκατάθεσή σας"
+
+#: admin/views/admin-settings-advanced.php:16
+msgid ""
+"Clicking this will renew the existing user consents on your website. The "
+"existing users will be prompted with the consent banner irrespective of "
+"their previous consent."
+msgstr ""
+"Κάνοντας κλικ σε αυτό, θα ανανεωθούν οι υπάρχουσες συγκατάσεις χρηστών στον "
+"ιστότοπό σας. Οι υπάρχοντες χρήστες θα λάβουν το banner της συγκατάθεσης, "
+"ανεξάρτητα από την προηγούμενη συγκατάθεσή τους."
+
+#: admin/views/admin-settings-advanced.php:20
+msgid "Reset all values"
+msgstr "Επαναφέρετε όλες τις τιμές"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Delete settings and reset"
+msgstr "Διαγράψτε τις ρυθμίσεις και επαναφέρετε"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Are you sure you want to delete all your settings?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις ρυθμίσεις σας;"
+
+#: admin/views/admin-settings-advanced.php:23
+msgid "Warning: this will actually delete your current settings."
+msgstr ""
+"Προειδοποίηση: αυτό θα διαγράψει στην πραγματικότητα τις τρέχουσες ρυθμίσεις "
+"σας."
+
+#: admin/views/admin-settings-buttons.php:10
+msgid "Accept Button"
+msgstr "Αποδοχή κουμπιού"
+
+#: admin/views/admin-settings-buttons.php:11
+msgid "Accept All Button"
+msgstr "Αποδοχή όλων των κουμπιών"
+
+#: admin/views/admin-settings-buttons.php:12
+#: admin/views/admin-settings-buttons.php:170
+msgid "Reject Button"
+msgstr "Κουμπί απόρριψης"
+
+#: admin/views/admin-settings-buttons.php:13
+#: admin/views/admin-settings-buttons.php:241
+msgid "Settings Button"
+msgstr "Κουμπί Ρυθμίσεων"
+
+#: admin/views/admin-settings-buttons.php:14
+#: admin/views/admin-settings-buttons.php:304
+msgid "Read More Link"
+msgstr "Σύνδεσμος Διαβάστε περισσότερα"
+
+#: admin/views/admin-settings-buttons.php:15
+#: admin/views/admin-settings-buttons.php:416
+msgid "Do not sell link"
+msgstr "Να μην πωλείται σύνδεσμος"
+
+#: admin/views/admin-settings-buttons.php:21
+#: admin/views/admin-settings-buttons.php:102
+msgid "Main Button"
+msgstr "Κύριο κουμπί"
+
+#: admin/views/admin-settings-buttons.php:22
+#: admin/views/admin-settings-buttons.php:103
+msgid ""
+"This button/link can be customised to either simply close the cookie bar, or "
+"follow a link. You can also customise the colours and styles, and show it as "
+"a link or a button."
+msgstr ""
+"Αυτό το κουμπί / σύνδεσμο μπορεί να προσαρμοστεί είτε απλά να κλείσει τη "
+"γραμμή cookie είτε να ακολουθήσει μια σύνδεση. Μπορείτε επίσης να "
+"προσαρμόσετε τα χρώματα και τα στυλ και να τα δείξετε ως σύνδεσμο ή κουμπί."
+
+#: admin/views/admin-settings-buttons.php:25
+msgid "Enable accept all feature?"
+msgstr "Ενεργοποίηση αποδοχής όλων των λειτουργιών;"
+
+#: admin/views/admin-settings-buttons.php:29
+msgid ""
+"This will enable accept-all functionality for the plugin’s main accept "
+"button where all the categories will be enabled irrespective of it being "
+"enabled/disabled. Set it as NO to accept only the enabled categories "
+"(default behaviour of accept button)"
+msgstr ""
+"Αυτό θα επιτρέψει τη λειτουργία αποδοχής-όλων για το κύριο κουμπί αποδοχής "
+"της προσθήκης, όπου όλες οι κατηγορίες θα ενεργοποιηθούν ανεξάρτητα από την "
+"ενεργοποίηση / απενεργοποίησή τους. Ορίστε το ως ΟΧΙ για αποδοχή μόνο των "
+"ενεργοποιημένων κατηγοριών (προεπιλεγμένη συμπεριφορά του κουμπιού αποδοχής)"
+
+#: admin/views/admin-settings-buttons.php:30
+msgid ""
+"Please note that you will not be able to extend the cookie consent bar with "
+"cookie settings once this option is enabled."
+msgstr ""
+"Λάβετε υπόψη ότι δεν θα μπορείτε να επεκτείνετε τη γραμμή συγκατάθεσης "
+"cookie με τις ρυθμίσεις cookie μόλις ενεργοποιηθεί αυτή η επιλογή."
+
+#: admin/views/admin-settings-buttons.php:40
+#: admin/views/admin-settings-buttons.php:112
+#: admin/views/admin-settings-buttons.php:179
+#: admin/views/admin-settings-buttons.php:250
+#: admin/views/admin-settings-buttons.php:314
+#: admin/views/admin-settings-buttons.php:436
+msgid "Text colour"
+msgstr "Χρώμα κειμένου"
+
+#: admin/views/admin-settings-buttons.php:48
+#: admin/views/admin-settings-buttons.php:120
+#: admin/views/admin-settings-buttons.php:187
+#: admin/views/admin-settings-buttons.php:258
+#: admin/views/admin-settings-buttons.php:322
+#: admin/views/admin-settings-buttons.php:425
+msgid "Show as"
+msgstr "Προβολή ως"
+
+#: admin/views/admin-settings-buttons.php:50
+#: admin/views/admin-settings-buttons.php:122
+#: admin/views/admin-settings-buttons.php:189
+#: admin/views/admin-settings-buttons.php:260
+#: admin/views/admin-settings-buttons.php:324
+msgid "Button"
+msgstr "Κουμπί"
+
+#: admin/views/admin-settings-buttons.php:52
+#: admin/views/admin-settings-buttons.php:124
+#: admin/views/admin-settings-buttons.php:191
+#: admin/views/admin-settings-buttons.php:262
+#: admin/views/admin-settings-buttons.php:326
+#: admin/views/admin-settings-buttons.php:427
+msgid "Link"
+msgstr "Σύνδεσμος"
+
+#: admin/views/admin-settings-buttons.php:56
+#: admin/views/admin-settings-buttons.php:128
+#: admin/views/admin-settings-buttons.php:195
+#: admin/views/admin-settings-buttons.php:266
+#: admin/views/admin-settings-buttons.php:330
+msgid "Background colour"
+msgstr "Χρώμα φόντου"
+
+#: admin/views/admin-settings-buttons.php:65
+#: admin/views/admin-settings-buttons.php:136
+#: admin/views/admin-settings-buttons.php:203
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: admin/views/admin-settings-buttons.php:76
+#: admin/views/admin-settings-buttons.php:147
+#: admin/views/admin-settings-buttons.php:218
+msgid "Button will only link to URL if Action = Open URL"
+msgstr ""
+"Το κουμπί θα συνδέεται μόνο με τη διεύθυνση URL, εάν η ενέργεια = Ανοίξτε τη "
+"διεύθυνση URL"
+
+#: admin/views/admin-settings-buttons.php:81
+#: admin/views/admin-settings-buttons.php:152
+#: admin/views/admin-settings-buttons.php:223
+msgid "Open URL in new window?"
+msgstr "Ανοίξτε τη διεύθυνση URL σε νέο παράθυρο;"
+
+#: admin/views/admin-settings-buttons.php:92
+#: admin/views/admin-settings-buttons.php:160
+#: admin/views/admin-settings-buttons.php:230
+#: admin/views/admin-settings-buttons.php:274
+#: admin/views/admin-settings-buttons.php:406
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: admin/views/admin-settings-buttons.php:283
+msgid "Cookie Settings Layout"
+msgstr "Διάταξη ρυθμίσεων cookie"
+
+#: admin/views/admin-settings-buttons.php:290
+#: admin/views/admin-settings-buttons.php:293
+msgid "Extended Banner / Widget"
+msgstr "Επέκταση Banner / Widget"
+
+#: admin/views/admin-settings-buttons.php:297
+msgid ""
+"When the cookie settings layout configured as extended banner/widget, "
+"customization options for settings popup and widget will be disabled."
+msgstr ""
+"Όταν η διάταξη των ρυθμίσεων cookie διαμορφωθεί ως εκτεταμένο banner / "
+"widget, οι επιλογές προσαρμογής για αναδυόμενες ρυθμίσεις και widget θα "
+"απενεργοποιηθούν"
+
+#: admin/views/admin-settings-buttons.php:305
+msgid ""
+"This button/link can be used to provide a link out to your Privacy & Cookie "
+"Policy. You can customise it any way you like."
+msgstr ""
+"Αυτό το κουμπί / σύνδεσμος μπορεί να χρησιμοποιηθεί για να παρέχει έναν "
+"σύνδεσμο προς την Πολιτική Απορρήτου & Cookie. Μπορείτε να το προσαρμόσετε "
+"όποτε θέλετε."
+
+#: admin/views/admin-settings-buttons.php:338
+msgid "URL or Page?"
+msgstr "URL ή σελίδα;"
+
+#: admin/views/admin-settings-buttons.php:342
+#: admin/views/admin-settings-buttons.php:353
+msgid "Page"
+msgstr "Σελίδα"
+
+#: admin/views/admin-settings-buttons.php:356
+msgid "Select One"
+msgstr "Επέλεξε ένα"
+
+#: admin/views/admin-settings-buttons.php:376
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr "Η τρέχουσα επιλεγμένη σελίδα δεν υπάρχει. Επιλέξτε μια νέα σελίδα."
+
+#: admin/views/admin-settings-buttons.php:384
+msgid "No Follow"
+msgstr "Δεν ακολουθεί"
+
+#: admin/views/admin-settings-buttons.php:388
+msgid "Tells search engine crawlers not to follow this link"
+msgstr ""
+"Ενημερώνει τους ανιχνευτές μηχανών αναζήτησης να μην ακολουθήσουν αυτόν τον "
+"σύνδεσμο"
+
+#: admin/views/admin-settings-buttons.php:392
+msgid "Minimize Cookie Bar in this page/URL?"
+msgstr "Ελαχιστοποίηση της γραμμής cookie σε αυτήν τη σελίδα / διεύθυνση URL;"
+
+#: admin/views/admin-settings-buttons.php:399
+msgid "Open in new window?"
+msgstr "Άνοιγμα σε νέο παράθυρο;"
+
+#: admin/views/admin-settings-buttons.php:419
+msgid "CCPA Text"
+msgstr "Κείμενο CCPA"
+
+#: admin/views/admin-settings-buttons.php:428
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: admin/views/admin-settings-buttons.php:430
+msgid "The shortcode will be represented as a link whereever used."
+msgstr "Ο σύντομος κωδικός θα εμφανίζεται ως σύνδεσμος όπου χρησιμοποιείται."
+
+#: admin/views/admin-settings-buttons.php:431
+msgid ""
+"The shortcode will be represented as a checkbox with select option to record "
+"consent."
+msgstr ""
+"Ο σύντομος κωδικός θα εμφανίζεται ως πλαίσιο ελέγχου με επιλογή επιλογής για "
+"καταγραφή συγκατάθεσης."
+
+#: admin/views/admin-settings-general.php:10
+#: admin/views/admin-settings-general.php:88
+msgid "Other"
+msgstr "Άλλο"
+
+#: admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Ενεργοποίηση γραμμής cookie"
+
+#: admin/views/admin-settings-general.php:19
+#: admin/views/admin-settings-general.php:33
+#: admin/views/admin-settings-general.php:93
+msgid "On"
+msgstr "Ενεργό"
+
+#: admin/views/admin-settings-general.php:20
+#: admin/views/admin-settings-general.php:34
+#: admin/views/admin-settings-general.php:93
+msgid "Off"
+msgstr "Απενεργοποίηση"
+
+#: admin/views/admin-settings-general.php:28
+msgid "GDPR Settings"
+msgstr "Ρυθμίσεις GDPR"
+
+#: admin/views/admin-settings-general.php:28
+msgid ""
+"GDPR regulation lays down rules relating to the protection of natural "
+"persons with regard to the processing of personal data and rules relating to "
+"the free movement of personal data."
+msgstr ""
+"Ο κανονισμός GDPR θεσπίζει κανόνες σχετικά με την προστασία των φυσικών "
+"προσώπων έναντι της επεξεργασίας δεδομένων προσωπικού χαρακτήρα και κανόνες "
+"σχετικά με την ελεύθερη κυκλοφορία δεδομένων προσωπικού χαρακτήρα."
+
+#: admin/views/admin-settings-general.php:31
+msgid "Show only for EU Countries ( GeoIP )"
+msgstr "Εμφάνιση μόνο για χώρες της ΕΕ (GeoIP)"
+
+#: admin/views/admin-settings-general.php:45
+msgid "More"
+msgstr "Περισσότερα"
+
+#: admin/views/admin-settings-general.php:51
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr "Αυτόματη απόκρυψη (Αποδοχή) της γραμμής cookie μετά από καθυστέρηση;"
+
+#: admin/views/admin-settings-general.php:58
+msgid "Milliseconds until hidden"
+msgstr "Χιλιόμετρα μέχρι να κρυφτεί"
+
+#: admin/views/admin-settings-general.php:61
+msgid "Specify milliseconds (not seconds)"
+msgstr "Καθορίστε χιλιοστά του δευτερολέπτου (όχι δευτερόλεπτα)"
+
+#: admin/views/admin-settings-general.php:61
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#: admin/views/admin-settings-general.php:65
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr ""
+"Αυτόματη απόκρυψη της γραμμής cookie αν ο χρήστης μετακινηθεί (Accept on "
+"Scroll);"
+
+#: admin/views/admin-settings-general.php:69
+msgid ""
+"As per latest GDPR policies it is required to take an explicit consent for "
+"the cookies. Use this option with discretion especially if you serve EU"
+msgstr ""
+"Σύμφωνα με τις τελευταίες πολιτικές GDPR, απαιτείται ρητή συγκατάθεση για τα "
+"cookies. Χρησιμοποιήστε αυτήν την επιλογή με διακριτικότητα, ειδικά αν "
+"εξυπηρετείτε την ΕΕ"
+
+#: admin/views/admin-settings-general.php:70
+msgid "This option will not work along with `Popup overlay`."
+msgstr "Αυτή η επιλογή δεν θα λειτουργήσει μαζί με το `Popup overlay`."
+
+#: admin/views/admin-settings-general.php:74
+msgid "Auto-hide(Accept) cookie bar on-page navigation."
+msgstr "Αυτόματη απόκρυψη (Αποδοχή) γραμμή πλοήγησης στη σελίδα πλοήγησης."
+
+#: admin/views/admin-settings-general.php:78
+msgid "Auto accept the cookie consent if the user navigates to other pages"
+msgstr ""
+"Αποδεχτείτε αυτόματα τη συγκατάθεση cookie εάν ο χρήστης πλοηγηθεί σε άλλες "
+"σελίδες"
+
+#: admin/views/admin-settings-general.php:91
+msgid "Enable consent logging"
+msgstr "Ενεργοποίηση καταγραφής συναίνεσης"
+
+#: admin/views/admin-settings-general.php:97
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Ανανέωση μετά από συμβάν \"αποδοχής κύλισης\";"
+
+#: admin/views/admin-settings-general.php:105
+msgid "Reload after Accept button click"
+msgstr "Επανάληψη φόρτωσης μετά από κλικ στο κουμπί \"Αποδοχή\""
+
+#: admin/views/admin-settings-general.php:112
+msgid "Reload after Reject button click"
+msgstr "Κάντε κλικ στο κουμπί \"Επανάληψη φόρτωσης μετά από απόρριψη\""
+
+#: admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "Σύντομοι κωδικοί"
+
+#: admin/views/admin-settings-help.php:10
+#: admin/views/admin-settings-help.php:100
+msgid "Help Links"
+msgstr "Σύνδεσμοι βοήθειας"
+
+#: admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Μικροκώδικες στη γραμμή cookie"
+
+#: admin/views/admin-settings-help.php:17
+msgid ""
+"You can enter the shortcodes in the \"message\" field of the Cookie Law Info "
+"bar. They add nicely formatted buttons and/or links into the cookie bar, "
+"without you having to add any HTML."
+msgstr ""
+"Μπορείτε να εισάγετε τους shortcodes στο πεδίο \"μήνυμα\" της γραμμής "
+"πληροφοριών Cookie Law. Προσθέτουν ωραία μορφοποιημένα κουμπιά και / ή "
+"συνδέσμους στη γραμμή cookie, χωρίς να χρειάζεται να προσθέσετε οποιοδήποτε "
+"HTML."
+
+#: admin/views/admin-settings-help.php:18
+#: admin/views/admin-settings-help.php:50
+msgid ""
+"You can use `do_shortcode` function to add shortcodes inside the template "
+"file."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε τη λειτουργία `do_shortcode` για να προσθέσετε "
+"shortcodes μέσα στο αρχείο προτύπου."
+
+#: admin/views/admin-settings-help.php:23
+msgid ""
+"If you just want a standard green \"Accept\" button that closes the header "
+"and nothing more, use this shortcode. It is already styled, you don't need "
+"to customise it."
+msgstr ""
+"Αν θέλετε απλώς ένα πρότυπο πράσινο κουμπί \"Αποδοχή\" που κλείνει την "
+"κεφαλίδα και τίποτα άλλο, χρησιμοποιήστε αυτό το shortcode. Είναι ήδη στυλ, "
+"δεν χρειάζεται να το προσαρμόσετε."
+
+#: admin/views/admin-settings-help.php:27
+msgid ""
+"Alternatively you can add a colour value. Choose from: red, blue, orange, "
+"yellow, green or pink."
+msgstr ""
+"Εναλλακτικά, μπορείτε να προσθέσετε μια τιμή χρώματος. Επιλέξτε από: "
+"κόκκινο, μπλε, πορτοκαλί, κίτρινο, πράσινο ή ροζ."
+
+#: admin/views/admin-settings-help.php:27
+msgid "Careful to use the British spelling of \"colour\" for the attribute."
+msgstr ""
+"Προσοχή να χρησιμοποιήσετε τη βρετανική ορθογραφία του \"χρώματος\" για το "
+"χαρακτηριστικό."
+
+#: admin/views/admin-settings-help.php:31
+msgid "This is the \"main button\" you can customise."
+msgstr "Αυτό είναι το \"κύριο κουμπί\" που μπορείτε να προσαρμόσετε."
+
+#: admin/views/admin-settings-help.php:36
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "Αυτό είναι το κουμπί ρυθμίσεων cookie, το οποίο παράγει shortcode."
+
+#: admin/views/admin-settings-help.php:40
+msgid "This is the cookie reject button shortcode."
+msgstr "Αυτό είναι το shortcode του κουμπιού απόρριψης cookie."
+
+#: admin/views/admin-settings-help.php:44
+msgid "This is the \"read more\" link you can customise."
+msgstr ""
+"Αυτός είναι ο σύνδεσμος \"διαβάστε περισσότερα\" που μπορείτε να "
+"προσαρμόσετε."
+
+#: admin/views/admin-settings-help.php:48
+msgid "Other shortcodes"
+msgstr "Άλλοι σύντομοι κωδικοί"
+
+#: admin/views/admin-settings-help.php:49
+msgid ""
+"These shortcodes can be used in pages and posts on your website. It is not "
+"recommended to use these inside the cookie bar itself."
+msgstr ""
+"Αυτά τα shortcodes μπορούν να χρησιμοποιηθούν σε σελίδες και δημοσιεύσεις "
+"στον ιστότοπό σας. Δεν συνιστάται η χρήση αυτών μέσα στη μάρκα του cookie."
+
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"This prints out a nice table of cookies, in line with the guidance given by "
+"the ICO."
+msgstr ""
+"Αυτό εκτυπώνει ένα ωραίο τραπέζι μπισκότων, σύμφωνα με την καθοδήγηση του "
+"ICO."
+
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"You need to enter the cookies your website uses via the Cookie Law Info menu "
+"in your WordPress dashboard."
+msgstr ""
+"Θα πρέπει να εισαγάγετε τα cookies που χρησιμοποιεί ο ιστότοπός σας μέσω του "
+"μενού Πληροφορίες για το Cookie Law στο ταμπλό του WordPress."
+
+#: admin/views/admin-settings-help.php:68
+msgid "This prints out a nice table of cookies by category."
+msgstr "Αυτό εκτυπώνει ένα ωραίο τραπέζι μπισκότων ανά κατηγορία."
+
+#: admin/views/admin-settings-help.php:72
+msgid "This prints the settings popup of cookie category."
+msgstr "Αυτό εκτυπώνει το αναδυόμενο παράθυρο ρυθμίσεων της κατηγορίας cookie."
+
+#: admin/views/admin-settings-help.php:76
+msgid ""
+"This shortcode will display a normal HTML link which when clicked, will "
+"delete the cookie set by Cookie Law Info (this cookie is used to remember "
+"that the cookie bar is closed)."
+msgstr ""
+"Αυτός ο συντομότερος κώδικας θα εμφανίσει έναν κανονικό σύνδεσμο HTML ο "
+"οποίος, όταν γίνει κλικ, θα διαγράψει το cookie που έχει οριστεί από το "
+"Cookie Law Info (αυτό το cookie χρησιμοποιείται για να θυμάται ότι η μπάρα "
+"cookie είναι κλειστή)."
+
+#: admin/views/admin-settings-help.php:80
+msgid "Add any text you like useful if you want to add another language"
+msgstr ""
+"Προσθέστε οποιοδήποτε κείμενο θέλετε, αν θέλετε να προσθέσετε μια άλλη γλώσσα"
+
+#: admin/views/admin-settings-help.php:84
+msgid ""
+"Add content after accepting the cookie notice. Category wise checking allowed"
+msgstr ""
+"Προσθέστε περιεχόμενο μετά την αποδοχή της ειδοποίησης cookie. Επιτρέπεται ο "
+"έλεγχος κατηγορίας"
+
+#: admin/views/admin-settings-help.php:87
+msgid ""
+"Add content only if the consent has been obtained for the specified category."
+msgstr ""
+"Προσθήκη περιεχομένου μόνο αν έχει ληφθεί η συγκατάθεση για την συγκεκριμένη "
+"κατηγορία."
+
+#: admin/views/admin-settings-help.php:90
+msgid ""
+"Add content if consent has been obtained for all/or any of the specified "
+"categories."
+msgstr ""
+"Προσθέστε περιεχόμενο εάν έχετε λάβει συγκατάθεση για όλες τις κατηγορίες ή "
+"για οποιαδήποτε από τις συγκεκριμένες κατηγορίες."
+
+#: admin/views/admin-settings-help.php:104
+#: admin/views/admin-settings-help.php:107
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: admin/views/admin-settings-help.php:105
+msgid "Refer to our documentation to set and get started"
+msgstr "Ανατρέξτε στην τεκμηρίωσή μας για να ρυθμίσετε και να ξεκινήσετε"
+
+#: admin/views/admin-settings-help.php:112
+msgid "Help and Support"
+msgstr "Βοήθεια και υποστήριξη"
+
+#: admin/views/admin-settings-help.php:113
+msgid "We would love to help you on any queries or issues."
+msgstr "Θα θέλαμε να σας βοηθήσουμε σε οποιεσδήποτε ερωτήσεις ή ζητήματα."
+
+#: admin/views/admin-settings-help.php:115
+msgid "Contact Us"
+msgstr "Επικοινωνία"
+
+#: admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Μπαρ μπισκότων"
+
+#: admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "Επανεξετάστε τη συγκατάθεσή σας"
+
+#: admin/views/admin-settings-messagebar.php:15
+msgid "Cookie Bar"
+msgstr "Cookie Bar"
+
+#: admin/views/admin-settings-messagebar.php:18
+msgid "Message Heading"
+msgstr "Επικεφαλίδα μηνύματος"
+
+#: admin/views/admin-settings-messagebar.php:21
+msgid "Leave it blank, If you do not need a heading"
+msgstr "Αφήστε το κενό, Εάν δεν χρειάζεστε μια επικεφαλίδα"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid ""
+"All the elements defined within the class `wt-cli-ccpa-element` will be "
+"removed if CCPA does not apply to the visitors country."
+msgstr ""
+"Όλα τα στοιχεία που ορίζονται στην κατηγορία «wt-cli-ccpa-element» θα "
+"καταργηθούν εάν το CCPA δεν ισχύει για τη χώρα επισκεπτών."
+
+#: admin/views/admin-settings-messagebar.php:32
+msgid "Shortcodes allowed: see the Help guide"
+msgstr "Επιτρέπονται συντομεύσεις: ανατρέξτε στον Οδηγό βοήθειας"
+
+#: admin/views/admin-settings-messagebar.php:32
+msgid ""
+"Examples: \"We use cookies on this website [cookie_accept] to find out how "
+"to delete cookies [cookie_link].\""
+msgstr ""
+"Παραδείγματα: \"Χρησιμοποιούμε cookies σε αυτόν τον ιστότοπο [cookie_accept] "
+"για να μάθετε πώς να διαγράφετε τα cookies [cookie_link].\""
+
+#: admin/views/admin-settings-messagebar.php:36
+msgid "Cookie Bar Colour"
+msgstr "Cookie Bar Color"
+
+#: admin/views/admin-settings-messagebar.php:44
+msgid "Text Colour"
+msgstr "Χρώμα κειμένου"
+
+#: admin/views/admin-settings-messagebar.php:52
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+#: admin/views/admin-settings-messagebar.php:60
+msgid "Show cookie bar as"
+msgstr "Εμφάνιση της γραμμής cookie ως"
+
+#: admin/views/admin-settings-messagebar.php:71
+msgid "Position"
+msgstr "Θέση"
+
+#: admin/views/admin-settings-messagebar.php:75
+#: admin/views/admin-settings-messagebar.php:165
+#: admin/views/admin-settings-messagebar.php:168
+msgid "Left"
+msgstr "Αριστερά"
+
+#: admin/views/admin-settings-messagebar.php:76
+#: admin/views/admin-settings-messagebar.php:164
+#: admin/views/admin-settings-messagebar.php:167
+msgid "Right"
+msgstr "Δεξιά"
+
+#: admin/views/admin-settings-messagebar.php:81
+msgid "Add overlay?"
+msgstr "Προσθήκη επικάλυψης;"
+
+#: admin/views/admin-settings-messagebar.php:85
+msgid ""
+"When the popup is active, an overlay will block the user from browsing the "
+"site."
+msgstr ""
+"Όταν το αναδυόμενο παράθυρο είναι ενεργό, μια επικάλυψη θα εμποδίσει τον "
+"χρήστη από την περιήγηση στον ιστότοπο."
+
+#: admin/views/admin-settings-messagebar.php:86
+msgid "`Accept on scroll` will not work along with this option."
+msgstr ""
+"Η επιλογή \"Αποδοχή στη μετακίνηση\" δεν θα λειτουργήσει μαζί με αυτήν την "
+"επιλογή."
+
+#: admin/views/admin-settings-messagebar.php:90
+msgid "Position:"
+msgstr "Θέση:"
+
+#: admin/views/admin-settings-messagebar.php:95
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: admin/views/admin-settings-messagebar.php:96
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: admin/views/admin-settings-messagebar.php:105
+msgid "Fix Cookie Bar to Header?"
+msgstr "Επίλυση της γραμμής cookie στην κεφαλίδα;"
+
+#: admin/views/admin-settings-messagebar.php:109
+msgid ""
+"If you select \"Header\" then you can optionally stick the cookie bar to the "
+"header. Will not have any effect if you select \"Footer\"."
+msgstr ""
+"Εάν επιλέξετε \"Header\" τότε μπορείτε να κολλήσετε προαιρετικά τη γραμμή "
+"cookie στην κεφαλίδα. Δεν θα έχει κανένα αποτέλεσμα αν επιλέξετε \"Υποσέλιδο"
+"\"."
+
+#: admin/views/admin-settings-messagebar.php:117
+msgid "On load"
+msgstr "Στο φορτίο"
+
+#: admin/views/admin-settings-messagebar.php:122
+#: admin/views/admin-settings-messagebar.php:132
+msgid "Animate"
+msgstr "Εμψυχος"
+
+#: admin/views/admin-settings-messagebar.php:123
+#: admin/views/admin-settings-messagebar.php:133
+msgid "Sticky"
+msgstr "Sticky"
+
+#: admin/views/admin-settings-messagebar.php:127
+msgid "On hide"
+msgstr "Απόκρυψη"
+
+#: admin/views/admin-settings-messagebar.php:141
+msgid "Revisit consent (Show again tab)"
+msgstr "Επανεξέταση συναίνεσης (καρτέλα Εμφάνιση ξανά)"
+
+#: admin/views/admin-settings-messagebar.php:143
+msgid ""
+"Revisit consent will allow the visitors to view/edit/revoke their prior "
+"preferences. This can be done via a widget and/or a shortcode. A small "
+"privacy widget is automatically displayed at the footer of your website if "
+"the widget option is enabled. You can also manually insert a link to manage "
+"consent by adding the shortcode <b>[wt_cli_manage_consent]</b> to your "
+"website."
+msgstr ""
+"Η συναίνεση επανεξέτασης θα επιτρέψει στους επισκέπτες να δουν / "
+"επεξεργαστούν / ανακαλέσουν τις προηγούμενες προτιμήσεις τους. Αυτό μπορεί "
+"να γίνει μέσω ενός widget και / ή ενός σύντομου κώδικα. Ένα μικρό widget "
+"απορρήτου εμφανίζεται αυτόματα στο υποσέλιδο του ιστότοπού σας, εάν είναι "
+"ενεργοποιημένη η επιλογή widget. Μπορείτε επίσης να εισαγάγετε με μη "
+"αυτόματο τρόπο έναν σύνδεσμο για τη διαχείριση της συγκατάθεσης προσθέτοντας "
+"τον <b>σύντομο</b> κωδικό <b>[wt_cli_manage_consent]</b> στον ιστότοπό σας."
+
+#: admin/views/admin-settings-messagebar.php:148
+msgid "Enable revisit consent widget"
+msgstr "Ενεργοποιήστε το widget συναίνεσης επανεξέτασης"
+
+#: admin/views/admin-settings-messagebar.php:148
+msgid ""
+"By enabling this option a small privacy widget is automatically displayed at "
+"the footer of your website."
+msgstr ""
+"Ενεργοποιώντας αυτήν την επιλογή, εμφανίζεται ένα μικρό widget απορρήτου "
+"αυτόματα στο υποσέλιδο του ιστότοπού σας."
+
+#: admin/views/admin-settings-messagebar.php:159
+msgid "Widget Position"
+msgstr "Θέση Widget"
+
+#: admin/views/admin-settings-messagebar.php:176
+msgid "Tab Position"
+msgstr "Θέση καρτέλας"
+
+#: admin/views/admin-settings-messagebar.php:183
+msgid "Bottom Right"
+msgstr "Κάτω Δεξιά"
+
+#: admin/views/admin-settings-messagebar.php:186
+msgid "Bottom Left"
+msgstr "Κάτω Αριστερά"
+
+#: admin/views/admin-settings-messagebar.php:189
+msgid "Top Right"
+msgstr "Πάνω δεξιά"
+
+#: admin/views/admin-settings-messagebar.php:192
+msgid "Top Left"
+msgstr "Πάνω αριστερά"
+
+#: admin/views/admin-settings-messagebar.php:198
+msgid "From Right Margin"
+msgstr "Από το δεξί περιθώριο"
+
+#: admin/views/admin-settings-messagebar.php:198
+msgid "From Left Margin"
+msgstr "Από το αριστερό περιθώριο"
+
+#: admin/views/admin-settings-messagebar.php:201
+msgid "Specify"
+msgstr "Προσδιορίζω"
+
+#: admin/views/admin-settings-messagebar.php:208
+msgid "Title"
+msgstr "Τίτλος"
+
+#: admin/views/admin-settings-save-button.php:12
+msgid "Update Settings"
+msgstr "Ενημέρωση ρυθμίσεων"
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Το κλειδί άδειας για το %s έχει λήξει. Μπορείτε να ενεργοποιήσετε ξανά ή να "
+"αγοράσετε ένα κλειδί άδειας χρήσης από τον <a href=\"%s\" target=\"_blank"
+"\">πίνακα ελέγχου του</a> λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Η συνδρομή για το %s είναι σε αναμονή. Μπορείτε να ενεργοποιήσετε ξανά τη "
+"συνδρομή από τον <a href=\"%s\" target=\"_blank\">πίνακα ελέγχου του</a> "
+"λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Η εγγραφή για το %s έχει ακυρωθεί. Μπορείτε να ανανεώσετε τη συνδρομή από "
+"τον <a href=\"%s\" target=\"_blank\">πίνακα ελέγχου του</a> λογαριασμού σας. "
+"Ένα νέο κλειδί άδειας χρήσης θα σας αποσταλεί μέσω ηλεκτρονικού ταχυδρομείου "
+"μετά την ολοκλήρωση της παραγγελίας σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Η συνδρομή για το %s έχει λήξει. Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή "
+"από τον <a href=\"%s\" target=\"_blank\">πίνακα ελέγχου του</a> λογαριασμού "
+"σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Η συνδρομή για το %s έχει ανασταλεί. Μπορείτε να ενεργοποιήσετε ξανά τη "
+"συνδρομή από τον <a href=\"%s\" target=\"_blank\">πίνακα ελέγχου του</a> "
+"λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Η συνδρομή για %s εξακολουθεί να εκκρεμεί. Μπορείτε να ελέγξετε την "
+"κατάσταση της συνδρομής από τον <a href=\"%s\" target=\"_blank\">πίνακα "
+"ελέγχου του</a> λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Η συνδρομή για το %s έχει τοποθετηθεί στον κάδο απορριμμάτων και θα "
+"διαγραφεί σύντομα. Μπορείτε να αγοράσετε μια νέα συνδρομή από τον <a href="
+"\"%s\" target=\"_blank\">πίνακα ελέγχου του</a> λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Δεν ήταν δυνατή η εύρεση συνδρομής για %s. Μπορείτε να αγοράσετε μια "
+"συνδρομή από τον <a href=\"%s\" target=\"_blank\">πίνακα ελέγχου του</a> "
+"λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"Δεν ήταν δυνατή η εύρεση κλειδιού άδειας για το %s. Ίσως ξεχάσατε να "
+"εισαγάγετε ένα κλειδί άδειας κατά τη ρύθμιση %s ή το κλειδί απενεργοποιήθηκε "
+"στο λογαριασμό σας. Μπορείτε να επανενεργοποιήσετε το κλειδί άδειας χρήσης "
+"στη <a href=\"%s\" target=\"_blank\">σελίδα ρυθμίσεων του</a> plugin σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Η άδεια λήψης για το %s έχει ανακληθεί πιθανώς λόγω κλεισίματος άδειας "
+"χρήσης ή λήξης της συνδρομής. Μπορείτε να ενεργοποιήσετε ξανά ή να αγοράσετε "
+"ένα κλειδί άδειας χρήσης από τον <a href=\"%s\" target=\"_blank\">πίνακα "
+"ελέγχου του</a> λογαριασμού σας."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"Το %s δεν έχει ενεργοποιηθεί. Μεταβείτε στη <a href=\"%s\" target=\"_blank"
+"\">σελίδα ρυθμίσεων</a> του plugin και εισαγάγετε το κλειδί άδειας χρήσης "
+"και το ηλεκτρονικό ταχυδρομείο άδειας χρήσης για να ενεργοποιήσετε το %s."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:505
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Αλλάξατε τη συνδρομή για %s, επομένως θα πρέπει να εισαγάγετε το νέο κλειδί "
+"άδειας API στη σελίδα ρυθμίσεων. Το κλειδί άδειας χρήσης θα πρέπει να έχει "
+"φτάσει στα εισερχόμενά σας ηλεκτρονικού ταχυδρομείου, αν όχι μπορείτε να το "
+"πάρετε συνδέοντας στον <a href=\"%s\" target=\"_blank\">πίνακα ελέγχου του</"
+"a> λογαριασμού σας."
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:106
+msgid "Licence Activation"
+msgstr "Ενεργοποίηση Άδειας Χρήσης"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:110
+msgid "API Licence Key:"
+msgstr "Κλειδί άδειας API:"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:111
+msgid "Licence Key"
+msgstr "Κλειδί αδείας"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:115
+msgid "Licence Email"
+msgstr "Άδεια ηλεκτρονικού ταχυδρομείου"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:122
+msgid "Check"
+msgstr "Ελεγχος"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:132
+msgid "Deactive"
+msgstr "Deactive"
+
+#: cookie-law-info.php:71
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete GDPR Cookie Consent "
+"(BASIC) and then try again"
+msgstr ""
+"Ωχ! Προσπαθήσατε να εγκαταστήσετε την έκδοση premium χωρίς να "
+"απενεργοποιήσετε και να διαγράψετε τη βασική έκδοση. Αδειάστε και διαγράψτε "
+"τη συγκατάθεση cookie GDPR (BASIC) και δοκιμάστε ξανά"
+
+#: cookie-law-info.php:93
+msgid ""
+"The pre-defined script blocker services are enabled by default. Hence "
+"activating the plugin blocks these services which may affect the web layout. "
+"For e.g, if you have embedded any youtube or Vimeo services the plugin will "
+"block these by default since they collect user information. Hence the videos "
+"will not render wherever it is placed. Therefore you may want to review the "
+"website w.r.t the blocked scripts. <a href=\"edit.php?post_type="
+msgstr ""
+"Οι προκαθορισμένες υπηρεσίες αποκλεισμού δέσμης ενεργειών είναι "
+"ενεργοποιημένες από προεπιλογή. Ως εκ τούτου, η ενεργοποίηση του plugin "
+"αποκλείει αυτές τις υπηρεσίες, οι οποίες ενδέχεται να επηρεάσουν τη διάταξη "
+"ιστού. Για παράδειγμα, εάν έχετε ενσωματώσει οποιεσδήποτε υπηρεσίες YouTube "
+"ή Vimeo, το πρόσθετο θα τις αποκλείσει από προεπιλογή αφού συλλέγουν "
+"πληροφορίες χρηστών. Ως εκ τούτου, τα βίντεο δεν θα εμφανίζονται οπουδήποτε "
+"τοποθετείται. Επομένως, μπορεί να θέλετε να ελέγξετε τον ιστότοπο με τα "
+"αποκλεισμένα σενάρια. <a href = \"edit.php? post_type ="
+
+#: includes/class-cookie-law-info-cookieyes.php:118
+#: includes/class-cookie-law-info-cookieyes.php:241
+#: public/modules/script-blocker/script-blocker.php:652
+msgid "Invalid request"
+msgstr "Εσφαλμένο αίτημα"
+
+#: includes/class-cookie-law-info-cookieyes.php:130
+msgid "Connected to Cookieyes"
+msgstr "Συνδέθηκε με Cookieyes"
+
+#: includes/class-cookie-law-info-cookieyes.php:132
+msgid "Disconnect"
+msgstr "Αποσύνδεση"
+
+#: includes/class-cookie-law-info-cookieyes.php:140
+msgid "Disconnected from Cookieyes"
+msgstr "Αποσυνδέθηκε από τα Cookieyes"
+
+#: includes/class-cookie-law-info-cookieyes.php:205
+#, php-format
+msgid ""
+"Looks like you already have an account with CookieYes for email id %s, "
+"please login to continue."
+msgstr ""
+"Φαίνεται ότι έχετε ήδη λογαριασμό στο Cookie Ναι για το αναγνωριστικό email "
+"%s, συνδεθείτε για να συνεχίσετε."
+
+#: includes/class-cookie-law-info-cookieyes.php:211
+msgid "Forgot password"
+msgstr "Ξεχάσατε τον κωδικό"
+
+#: includes/class-cookie-law-info-cookieyes.php:214
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: includes/class-cookie-law-info-cookieyes.php:222
+msgid "Reset Password"
+msgstr "Επαναφορά κωδικού"
+
+#: includes/class-cookie-law-info-cookieyes.php:228
+msgid "Send password reset email"
+msgstr "Αποστολή μηνύματος επαναφοράς κωδικού πρόσβασης"
+
+#: includes/class-cookie-law-info-cookieyes.php:369
+msgid "Could not establish connection with scanner! please try again later"
+msgstr ""
+"Δεν ήταν δυνατή η σύνδεση με το σαρωτή! Παρακαλώ προσπάθησε ξανά αργότερα"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:373
+msgid "Invalid credentials"
+msgstr "Ακυρα διαπιστευτήρια"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:377
+msgid "You already have an account with CookieYes."
+msgstr "Έχετε ήδη λογαριασμό στο Cookie Ναι."
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:381
+msgid "License is not activated, please activate your license and try again"
+msgstr ""
+"Η άδεια δεν είναι ενεργοποιημένη, ενεργοποιήστε την άδειά σας και δοκιμάστε "
+"ξανά"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:385
+msgid "Disconnected with cookieyes, please connect and scan again"
+msgstr "Αποσυνδεδεμένος με cookie, συνδεθείτε και σαρώστε ξανά"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:389
+msgid "Your monthly scan limit is reached please try again later"
+msgstr "Το μηνιαίο όριο σάρωσης συμπληρώθηκε. Δοκιμάστε ξανά αργότερα"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:393
+msgid "A scanning is already in progress please try again after some time"
+msgstr "Μια σάρωση είναι ήδη σε εξέλιξη. Δοκιμάστε ξανά μετά από λίγο"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:397
+msgid "Successfully connected with CookieYes"
+msgstr "Συνδέθηκε επιτυχώς με το Cookie Ναι"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:401
+msgid ""
+"A password reset message has been sent to your email address. Click the link "
+"in the email to reset your password"
+msgstr ""
+"Ένα μήνυμα επαναφοράς κωδικού πρόσβασης έχει σταλεί στη διεύθυνση email σας. "
+"Κάντε κλικ στον σύνδεσμο στο email για να επαναφέρετε τον κωδικό πρόσβασής "
+"σας"
+
+#: includes/class-cookie-law-info-cookieyes.php:497
+msgid "Invalid json token"
+msgstr "Μη έγκυρο διακριτικό json"
+
+#: includes/class-cookie-law-info-cookieyes.php:500
+msgid "Invalid token format"
+msgstr "Μη έγκυρη μορφή διακριτικού"
+
+#: includes/class-cookie-law-info-cookieyes.php:843
+msgid "Successfully disconnected with Cookieyes"
+msgstr "Αποσυνδέθηκε με επιτυχία με τα Cookieyes"
+
+#: includes/class-cookie-law-info-cookieyes.php:846
+msgid "Could not identify the action"
+msgstr "Δεν ήταν δυνατή η αναγνώριση της ενέργειας"
+
+#: includes/class-cookie-law-info-cookieyes.php:851
+msgid "Successfully connected with Cookieyes"
+msgstr "Συνδέθηκε επιτυχώς με τα Cookieyes"
+
+#: includes/class-cookie-law-info-cookieyes.php:927
+msgid "Disable Cookieyes branding"
+msgstr "Απενεργοποίηση επωνυμίας Cookieyes"
+
+#: includes/class-cookie-law-info-cookieyes.php:927
+msgid ""
+"By enabling this option, a small link is automatically displayed at the "
+"bottom left of the cookie settings pop-up"
+msgstr ""
+"Ενεργοποιώντας αυτήν την επιλογή, ένας μικρός σύνδεσμος εμφανίζεται αυτόματα "
+"στο κάτω αριστερό μέρος του αναδυόμενου μενού ρυθμίσεων cookie"
+
+#: includes/class-cookie-law-info.php:1224
+msgid "Page number"
+msgstr "Αριθμός σελίδας"
+
+#. Plugin Name of the plugin/theme
+#: public/class-cookie-law-info-public.php:260
+msgid "GDPR Cookie Consent"
+msgstr "Συμφωνία cookie GDPR"
+
+#: public/class-cookie-law-info-public.php:262
+#: public/modules/shortcode/shortcode.php:410
+#: public/modules/shortcode/shortcode.php:522
+msgid "Cookie"
+msgstr "Cookie"
+
+#: public/class-cookie-law-info-public.php:263
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: public/class-cookie-law-info-public.php:264
+msgid "Add New Cookie Type"
+msgstr "Προσθήκη νέου τύπου cookie"
+
+#: public/class-cookie-law-info-public.php:265
+msgid "Edit Cookie Type"
+msgstr "Επεξεργασία τύπου cookie"
+
+#: public/class-cookie-law-info-public.php:266
+msgid "New Cookie Type"
+msgstr "Νέος τύπος cookie"
+
+#: public/class-cookie-law-info-public.php:267
+msgid "View Cookie Type"
+msgstr "Προβολή Τύπου Cookie"
+
+#: public/class-cookie-law-info-public.php:268
+msgid "Search Cookies"
+msgstr "Αναζήτηση Cookies"
+
+#: public/class-cookie-law-info-public.php:269
+msgid "Nothing found"
+msgstr "Δεν βρέθηκε κανένα αποτέλεσμα"
+
+#: public/class-cookie-law-info-public.php:270
+msgid "Nothing found in Trash"
+msgstr "Δεν βρεθηκε κατι στα Απορρίματα"
+
+#: public/class-cookie-law-info-public.php:312
+#: public/modules/script-blocker/script-blocker.php:460
+msgid "Cookie Category"
+msgstr "Κατηγορία cookie"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:179
+msgid "Accept consent to view this"
+msgstr "Αποδεχτείτε τη συγκατάθεσή σας για να δείτε αυτό"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:204
+#, php-format
+msgid ""
+"Accept <a class='cli_manage_current_consent'>%s</a> cookies to view the "
+"content."
+msgstr ""
+"Αποδοχή <a class='cli_manage_current_consent'>των</a> cookies <a "
+"class='cli_manage_current_consent'> %s</a> για προβολή του περιεχομένου."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:518
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:533
+msgid "Facebook Pixel Code"
+msgstr "Κωδικός Pixel του Facebook"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:547
+msgid "Google Tag Manager"
+msgstr "Διαχειριστής Ετικετών Google"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:555
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:562
+msgid "Google Publisher Tag"
+msgstr "Ετικέτα του Google Publisher"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:575
+msgid "Youtube embed"
+msgstr "Youtube embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:594
+msgid "Vimeo embed"
+msgstr "Ενσωμάτωση Vimeo"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:604
+msgid "Libsyn"
+msgstr "Libsyn"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:614
+msgid "Google maps"
+msgstr "Χάρτες Google"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:627
+msgid "Addthis widget"
+msgstr "Προσθήκη widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:634
+msgid "Sharethis widget"
+msgstr "Το widget του Sharethis"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:641
+msgid "Twitter widget"
+msgstr "Twitter widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:649
+msgid "Soundcloud embed"
+msgstr "Soundcloud embed"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:662
+msgid "Slideshare embed"
+msgstr "Ενσωμάτωση προβολής διαφανειών"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:673
+msgid "Linkedin widget/Analytics"
+msgstr "Link widget / Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:684
+msgid "Instagram embed"
+msgstr "Ενσωμάτωση Instagram"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:695
+msgid "Pinterest widget"
+msgstr "Pinterest widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:701
+msgid "Google Adsense"
+msgstr "Google Adsense"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:707
+msgid "Hubspot Analytics"
+msgstr "Ανάλυση Hubspot"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:714
+msgid "Matomo Analytics"
+msgstr "Matomo Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:726
+#, php-format
+msgid ""
+"Invalid index found in the thirdparties array. Index should be of type "
+"'string'. Index found: %d."
+msgstr ""
+"Μη έγκυρο ευρετήριο που βρέθηκε στον πίνακα τρίτων μερών. Ο δείκτης πρέπει "
+"να είναι τύπου \"string\". Ευρετήριο βρέθηκε:% d."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:1055
+msgid "Action is unknown."
+msgstr "Η ενέργεια είναι άγνωστη."
+
+#: public/modules/script-blocker/integrations/facebook-feed.php:10
+msgid "Smash Balloon Custom Facebook Feed"
+msgstr "Smash Balloon Custom Facebook Feed"
+
+#: public/modules/script-blocker/integrations/facebook-for-woocommerce.php:9
+msgid "Facebook for Woocommerce"
+msgstr "Facebook για Woocommerce"
+
+#: public/modules/script-blocker/integrations/facebook-for-wordpress.php:9
+msgid "Facebook for Wordpress"
+msgstr "Facebook για Wordpress"
+
+#: public/modules/script-blocker/integrations/instagram-feed.php:10
+msgid "Smash Balloon Instagram Feed"
+msgstr "Smash Balloon Instagram Feed"
+
+#: public/modules/script-blocker/integrations/twitter-feed.php:10
+msgid "Custom Twitter Feeds"
+msgstr "Προσαρμοσμένες ροές Twitter"
+
+#: public/modules/script-blocker/integrations/youtube-feed.php:10
+msgid "Feeds for YouTube"
+msgstr "Ροές για το YouTube"
+
+#: public/modules/script-blocker/script-blocker.php:185
+msgid "Output buffer type"
+msgstr "Τύπος buffer εξόδου"
+
+#: public/modules/script-blocker/script-blocker.php:187
+msgid "Multi"
+msgstr "Πολλαπλές"
+
+#: public/modules/script-blocker/script-blocker.php:188
+msgid "Single"
+msgstr "Μόνος"
+
+#: public/modules/script-blocker/script-blocker.php:189
+msgid "Caution: This may break the site."
+msgstr "Προσοχή: Αυτό μπορεί να σπάσει τον ιστότοπο."
+
+#: public/modules/script-blocker/script-blocker.php:530
+#: public/modules/script-blocker/script-blocker.php:549
+msgid "Invalid script id"
+msgstr "Μη έγκυρο αναγνωριστικό σεναρίου"
+
+#: public/modules/script-blocker/script-blocker.php:576
+#: public/modules/script-blocker/script-blocker.php:577
+msgid "Script Blocker"
+msgstr "Αποκλεισμός δέσμης ενεργειών"
+
+#: public/modules/script-blocker/script-blocker.php:651
+msgid "Status updated"
+msgstr "Η κατάσταση ενημερώθηκε"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:8
+msgid "disable"
+msgstr "καθιστώ ανίκανο"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:8
+msgid "enable"
+msgstr "ενεργοποίηση"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:10
+#, php-format
+msgid "Script blocker is currently %s"
+msgstr "Ο αποκλειστής δέσμης ενεργειών είναι επί του παρόντος %s"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:11
+#, php-format
+msgid "<a href=\"javascript: submitform()\">click here</a> to %s "
+msgstr "<a href=\"javascript: submitform()\">κάντε κλικ εδώ</a> στο %s "
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:121
+msgid "Manage Script Blocking"
+msgstr "Διαχείριση δέσμευσης δέσμης ενεργειών"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:127
+msgid ""
+"Enabled services/plugins will be blocked by default in the front-end of your "
+"website and will be rendered respectively only based on user consent."
+msgstr ""
+"Οι ενεργοποιημένες υπηρεσίες / προσθήκες θα αποκλείονται από προεπιλογή στο "
+"μπροστινό μέρος του ιστότοπού σας και θα παρέχονται αντίστοιχα μόνο βάσει "
+"της συγκατάθεσης του χρήστη."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:129
+#, php-format
+msgid ""
+"Apart from the below-listed pre-defined scripts you can also block your "
+"custom scripts by using plugin filters hooks. Please refer the <a target="
+"\"_blank\" href=\"%s\">article</a> for more."
+msgstr ""
+"Εκτός από τα παρακάτω προκαθορισμένα σενάρια, μπορείτε επίσης να αποκλείσετε "
+"τα προσαρμοσμένα σενάρια σας χρησιμοποιώντας άγκιστρα φίλτρων προσθηκών. "
+"Ανατρέξτε στο <a target=\"_blank\" href=\"%s\">άρθρο</a> για περισσότερα."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:141
+msgid "Scripts"
+msgstr "Σενάρια"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:142
+msgid "Plugins"
+msgstr "Πρόσθετα"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:154
+#: public/modules/script-blocker/views/admin_script_blocker.php:228
+msgid "Key"
+msgstr "Κλειδί"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:165
+msgid "via code filter"
+msgstr "μέσω φίλτρου κώδικα"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:206
+msgid "Uncategorized"
+msgstr "Χωρίς κατηγορία"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid ""
+"Enabled: Plugins will be blocked by default prior to obtaining user consent."
+msgstr ""
+"Ενεργοποιημένο: Οι προσθήκες θα αποκλειστούν από προεπιλογή πριν λάβουν τη "
+"συγκατάθεση του χρήστη."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid "Disabled: Plugins will be rendered prior to obtaining consent."
+msgstr "Απενεργοποιημένο: Τα πρόσθετα θα αποδίδονται πριν από τη συγκατάθεση."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:239
+msgid "Inactive"
+msgstr "Ανενεργό"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:249
+msgid ""
+"Plugins marked inactive are either not installed or activated on your website"
+msgstr ""
+"Οι προσθήκες που έχουν επισημανθεί ως ανενεργές είτε δεν εγκαθίστανται είτε "
+"δεν ενεργοποιούνται στον ιστότοπό σας"
+
+#: public/modules/shortcode/shortcode.php:164
+msgid "Your current state:"
+msgstr "Η τρέχουσα κατάσταση σας:"
+
+#: public/modules/shortcode/shortcode.php:194
+msgid "Not allowed cookies "
+msgstr "Δεν επιτρέπονται cookies "
+
+#: public/modules/shortcode/shortcode.php:198
+msgid "Allowed cookies "
+msgstr "Επιτρεπόμενα cookies "
+
+#: public/modules/shortcode/shortcode.php:198
+msgid "Allow all cookies "
+msgstr "Επιτρέψτε σε όλα τα cookies "
+
+#: public/modules/shortcode/shortcode.php:201
+msgid "Consent Accepted. "
+msgstr "Συγκατάθεση Αποδεκτή. "
+
+#: public/modules/shortcode/shortcode.php:204
+msgid "Consent rejected."
+msgstr "Η συγκατάθεση απορρίφθηκε."
+
+#: public/modules/shortcode/shortcode.php:208
+msgid "No consent given."
+msgstr "Δεν δόθηκε συγκατάθεση."
+
+#: public/modules/shortcode/shortcode.php:210
+msgid "Manage your consent."
+msgstr "Διαχειριστείτε τη συγκατάθεσή σας."
+
+#: public/modules/shortcode/shortcode.php:293
+msgid "Delete Cookies"
+msgstr "Διαγραφή cookies"
+
+#: public/modules/shortcode/shortcode.php:759
+msgid "Close and Accept"
+msgstr "Κλείσιμο και Αποδοχή"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:26
+msgid "No Consent History"
+msgstr "Δεν υπάρχει Ιστορικό Συναίνεσης"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:75
+msgid "IP Address"
+msgstr "IP Address"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:76
+msgid "Visited Date"
+msgstr "Επισκεφθείσα ημερομηνία"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:77
+msgid "Cookie Details"
+msgstr "Στοιχεία cookie"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:78
+msgid "User ID"
+msgstr "ID Χρήστη"
+
+#: public/modules/visitor-report/views/visitor_report.php:9
+msgid "GDPR Consent History"
+msgstr "Ιστορικό συγκατάθεσης GDPR"
+
+#: public/modules/visitor-report/views/visitor_report.php:11
+msgid "Export Report"
+msgstr "Έκθεση εξαγωγής"
+
+#: public/modules/visitor-report/visitor-report.php:130
+msgid "Event Logged Successfully"
+msgstr "Το συμβάν καταγράφηκε με επιτυχία"
+
+#: public/modules/visitor-report/visitor-report.php:139
+msgid "Logging is not enabled"
+msgstr "Η καταγραφή δεν είναι ενεργοποιημένη"
+
+#: public/modules/visitor-report/visitor-report.php:153
+#: public/modules/visitor-report/visitor-report.php:154
+msgid "Consent Report"
+msgstr "Έκθεση έγκρισης"
+
+#: public/views/cookie-law-info_bar.php:16
+#: public/views/cookie-law-info_bar.php:18
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+msgstr "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple way to show your website complies with the EU Cookie Law / GDPR."
+msgstr ""
+"Ένας απλός τρόπος για να δείξετε ότι ο ιστότοπός σας είναι σύμφωνος με το EU "
+"Cookie Law / GDPR."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "http://cookielawinfo.com/"
+msgstr "http://cookielawinfo.com/"
+
+#~ msgid "Cookie scanner URL per request"
+#~ msgstr "Διεύθυνση URL σαρωτή cookie κατόπιν αιτήματος"
+
+#~ msgid ""
+#~ "Reduce/control the number of URLs scanned per request depending on the "
+#~ "server limitation. E.g if you see an error \"Unable to connect..retrying "
+#~ "\" during a scan try reducing this number to '2'."
+#~ msgstr ""
+#~ "Μειώστε / ελέγξτε τον αριθμό των διευθύνσεων URL που σαρώθηκαν ανά "
+#~ "αίτηση, ανάλογα με τον περιορισμό του διακομιστή. Για παράδειγμα, αν "
+#~ "δείτε ένα σφάλμα \"Δεν είναι δυνατή η σύνδεση ..\" κατά τη διάρκεια της "
+#~ "σάρωσης προσπαθήστε να μειώσετε αυτόν τον αριθμό σε \"2\"."
+
+#~ msgid "First found URL"
+#~ msgstr "Πρώτα βρέθηκε URL"
+
+#~ msgid "Your last scan at"
+#~ msgstr "Η τελευταία σάρωση στο"
+
+#~ msgid "View result"
+#~ msgstr "Δείτε το αποτέλεσμα"
+
+#~ msgid "Scan Now"
+#~ msgstr "Σάρωση τώρα"
+
+#~ msgid "Cookie Law Settings"
+#~ msgstr "Ρυθμίσεις νόμου cookie"
+
+#~ msgid ""
+#~ "This will enable all cookie categories on clicking the accept button, no "
+#~ "matter whether they are in the enabled or disabled state."
+#~ msgstr ""
+#~ "Αυτό θα επιτρέψει σε όλες τις κατηγορίες cookie να κάνουν κλικ στο κουμπί "
+#~ "αποδοχής, ανεξάρτητα από το αν είναι ενεργοποιημένες ή απενεργοποιημένες."
+
+#~ msgid "Unable to connect. Retrying..."
+#~ msgstr "Αδυναμία Σύνδεσης. Επανάληψη ..."
+
+#~ msgid "Your Cookie Law Info bar is switched on"
+#~ msgstr "Η μπάρα Info Cookie είναι ενεργοποιημένη"
+
+#~ msgid "Your Cookie Law Info bar is switched off"
+#~ msgstr "Η μπάρα Info Cookie Law είναι απενεργοποιημένη"
+
+#~ msgid "Show Border?"
+#~ msgstr "Εμφάνιση συνόρων;"
+
+#~ msgid "Border Colour"
+#~ msgstr "Χρώμα περιγράμματος"
+
+#~ msgid "Show Again Tab"
+#~ msgstr "Εμφάνιση ξανά στην καρτέλα"
+
+#~ msgid "Use Show Again Tab?"
+#~ msgstr "Χρησιμοποιήστε την καρτέλα Εμφάνιση ξανά;"
+
+#~ msgid "Show More Text"
+#~ msgstr "Εμφάνιση περισσότερου κειμένου"
+
+#~ msgid "No."
+#~ msgstr "Νο."
+
+#~ msgid "Cookie Bar will be shown in:"
+#~ msgstr "Το Cookie Bar θα εμφανίζεται σε:"
+
+#~ msgid "Disappear"
+#~ msgstr "Εξαφανίζομαι"

@@ -1,0 +1,2750 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GDPR Cookie Consent\n"
+"POT-Creation-Date: 2021-01-21 00:03+0530\n"
+"PO-Revision-Date: 2021-01-21 00:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cookie-law-info.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-cookie-law-info-admin.php:229
+#: admin/class-cookie-law-info-admin.php:230
+#: admin/class-cookie-law-info-admin.php:260
+#: admin/partials/cookie-law-info-admin_settings.php:32
+msgid "Settings"
+msgstr "Beállítások"
+
+#: admin/class-cookie-law-info-admin.php:261
+msgid "Support"
+msgstr "Támogatás"
+
+#: admin/class-cookie-law-info-admin.php:275
+#: admin/class-cookie-law-info-admin.php:288
+#: admin/class-cookie-law-info-admin.php:312
+#: admin/class-cookie-law-info-admin.php:392
+#: admin/class-cookie-law-info-admin.php:406
+#: admin/class-cookie-law-info-admin.php:984
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:22
+#: admin/modules/cli-themes/classes/class-htmlscanner.php:36
+#: admin/modules/cli-themes/cli-themes.php:470
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:27
+#: admin/modules/settings-popup/settings-popup.php:130
+#: admin/modules/settings-popup/settings-popup.php:218
+#: admin/partials/cookie-law-info-privacy_overview.php:13
+#: includes/class-cookie-law-info-cookieyes.php:90
+#: includes/class-cookie-law-info-cookieyes.php:941
+#: public/modules/script-blocker/script-blocker.php:532
+#: public/modules/script-blocker/script-blocker.php:551
+#: public/modules/script-blocker/script-blocker.php:590
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "Nincs elég engedélye a művelet végrehajtására"
+
+#: admin/class-cookie-law-info-admin.php:437
+#: admin/modules/settings-popup/settings-popup.php:142
+#: admin/partials/cookie-law-info-privacy_overview.php:30
+msgid "Settings Updated."
+msgstr "Beállítások frissítve."
+
+#: admin/class-cookie-law-info-admin.php:458
+msgid "ERROR MIGRATING SETTINGS (ERROR: 2)"
+msgstr "HIBA MIGRÁCIÓS BEÁLLÍTÁSOK (HIBA: 2)"
+
+#: admin/class-cookie-law-info-admin.php:496
+#: admin/class-cookie-law-info-admin.php:512
+msgid "Cookie ID"
+msgstr "Süti ID"
+
+#: admin/class-cookie-law-info-admin.php:497
+msgid "Cookie Type"
+msgstr "Cookie típusa"
+
+#: admin/class-cookie-law-info-admin.php:498
+msgid "Cookie Duration"
+msgstr "Cookie időtartama"
+
+#: admin/class-cookie-law-info-admin.php:499
+msgid "Cookie Sensitivity"
+msgstr "Cookie-érzékenység"
+
+#: admin/class-cookie-law-info-admin.php:501
+msgid "Head Scripts"
+msgstr "Fejszkriptek"
+
+#: admin/class-cookie-law-info-admin.php:502
+msgid "Body Scripts"
+msgstr "Body Scripts"
+
+#: admin/class-cookie-law-info-admin.php:524
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Cookie típusa: (állandó, munkamenet, harmadik fél)"
+
+#: admin/class-cookie-law-info-admin.php:535
+msgid "Cookie Duration:"
+msgstr "Cookie időtartama:"
+
+#: admin/class-cookie-law-info-admin.php:547
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Cookie-érzékenység: (szükséges, nem szükséges)"
+
+#: admin/class-cookie-law-info-admin.php:613
+#: admin/modules/cookie-scaner/views/scan-result.php:56
+msgid "Cookie Name"
+msgstr "Süti neve"
+
+#: admin/class-cookie-law-info-admin.php:614
+#: public/modules/shortcode/shortcode.php:414
+#: public/modules/shortcode/shortcode.php:526
+msgid "Type"
+msgstr "Típus"
+
+#: admin/class-cookie-law-info-admin.php:615
+#: admin/modules/cookie-scaner/views/scan-cookies.php:75
+#: admin/modules/cookie-scaner/views/scan-result.php:58
+#: public/modules/script-blocker/views/admin_script_blocker.php:153
+#: public/modules/script-blocker/views/admin_script_blocker.php:227
+msgid "Category"
+msgstr "Kategória"
+
+#: admin/class-cookie-law-info-admin.php:616
+#: admin/modules/cookie-scaner/views/scan-cookies.php:74
+#: admin/modules/cookie-scaner/views/scan-result.php:57
+#: public/modules/shortcode/shortcode.php:418
+#: public/modules/shortcode/shortcode.php:530
+msgid "Duration"
+msgstr "Időtartam"
+
+#: admin/class-cookie-law-info-admin.php:617
+msgid "Sensitivity"
+msgstr "Érzékenység"
+
+#: admin/class-cookie-law-info-admin.php:618
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-cookie-law-info-admin.php:619
+#: admin/modules/cli-policy-generator/views/policy-generator.php:57
+#: admin/modules/cookie-scaner/views/scan-cookies.php:76
+#: admin/modules/cookie-scaner/views/scan-result.php:59
+#: public/modules/script-blocker/views/admin_script_blocker.php:152
+#: public/modules/script-blocker/views/admin_script_blocker.php:226
+#: public/modules/shortcode/shortcode.php:422
+#: public/modules/shortcode/shortcode.php:534
+msgid "Description"
+msgstr "Leírás"
+
+#: admin/class-cookie-law-info-admin.php:682
+#: admin/class-cookie-law-info-admin.php:705
+msgid "Category default state"
+msgstr "Kategória alapértelmezett állapota"
+
+#: admin/class-cookie-law-info-admin.php:683
+#: admin/class-cookie-law-info-admin.php:707
+#: admin/modules/settings-popup/views/cookie_settings.php:5
+#: public/modules/script-blocker/views/admin_script_blocker.php:151
+#: public/modules/script-blocker/views/admin_script_blocker.php:180
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: admin/class-cookie-law-info-admin.php:684
+#: admin/class-cookie-law-info-admin.php:708
+#: admin/modules/settings-popup/views/cookie_settings.php:6
+#: public/modules/script-blocker/views/admin_script_blocker.php:182
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: admin/class-cookie-law-info-admin.php:685
+#: admin/class-cookie-law-info-admin.php:709
+msgid ""
+"If you enable this option, the category toggle button will be in the active "
+"state for cookie consent."
+msgstr ""
+"Ha engedélyezi ezt az opciót, a kategória váltógombja aktív állapotban lesz "
+"a sütik beleegyezéséhez."
+
+#: admin/class-cookie-law-info-admin.php:770
+#: admin/class-cookie-law-info-admin.php:788
+#: admin/class-cookie-law-info-admin.php:905
+msgid "Load on start"
+msgstr "Betöltés induláskor"
+
+#: admin/class-cookie-law-info-admin.php:772
+#: admin/class-cookie-law-info-admin.php:791
+msgid ""
+"If you enable this option, scripts under this category will be rendered "
+"without waiting for user consent on first page visit. Use this option "
+"discreetly, only if you are sure that no user sensitive data is being "
+"obtained via these scripts."
+msgstr ""
+"Ha engedélyezi ezt a beállítást, akkor az adott kategóriába tartozó "
+"szkriptek anélkül jelennek meg, hogy az első oldal látogatásakor várnánk a "
+"felhasználó hozzájárulását. Ezt a beállítást óvatosan használja, csak akkor, "
+"ha biztos abban, hogy ezekkel a szkriptekkel nem kerül sor érzékeny "
+"felhasználói adatok megszerzésére."
+
+#: admin/class-cookie-law-info-admin.php:845
+#: admin/class-cookie-law-info-admin.php:880
+#: admin/class-cookie-law-info-admin.php:904
+msgid "Priority"
+msgstr "Elsőbbség"
+
+#: admin/class-cookie-law-info-admin.php:847
+#: admin/class-cookie-law-info-admin.php:884
+msgid "Numeric - Higher the value, higher the priority"
+msgstr "Numerikus - Minél nagyobb az érték, annál nagyobb a prioritás"
+
+#: admin/class-cookie-law-info-admin.php:917
+#: admin/views/admin-settings-buttons.php:27
+#: admin/views/admin-settings-buttons.php:83
+#: admin/views/admin-settings-buttons.php:154
+#: admin/views/admin-settings-buttons.php:225
+#: admin/views/admin-settings-buttons.php:386
+#: admin/views/admin-settings-buttons.php:394
+#: admin/views/admin-settings-buttons.php:401
+#: admin/views/admin-settings-general.php:53
+#: admin/views/admin-settings-general.php:67
+#: admin/views/admin-settings-general.php:76
+#: admin/views/admin-settings-general.php:99
+#: admin/views/admin-settings-general.php:107
+#: admin/views/admin-settings-general.php:114
+#: admin/views/admin-settings-messagebar.php:83
+#: admin/views/admin-settings-messagebar.php:107
+msgid "Yes"
+msgstr "Igen"
+
+#: admin/class-cookie-law-info-admin.php:917
+#: admin/views/admin-settings-buttons.php:28
+#: admin/views/admin-settings-buttons.php:85
+#: admin/views/admin-settings-buttons.php:156
+#: admin/views/admin-settings-buttons.php:226
+#: admin/views/admin-settings-buttons.php:387
+#: admin/views/admin-settings-buttons.php:395
+#: admin/views/admin-settings-buttons.php:402
+#: admin/views/admin-settings-general.php:54
+#: admin/views/admin-settings-general.php:68
+#: admin/views/admin-settings-general.php:77
+#: admin/views/admin-settings-general.php:100
+#: admin/views/admin-settings-general.php:108
+#: admin/views/admin-settings-general.php:115
+#: admin/views/admin-settings-messagebar.php:84
+#: admin/views/admin-settings-messagebar.php:108
+#: public/modules/script-blocker/views/admin_script_blocker.php:149
+#: public/modules/script-blocker/views/admin_script_blocker.php:223
+msgid "No"
+msgstr "Nem"
+
+#: admin/class-cookie-law-info-admin.php:1051
+msgid "Close Header"
+msgstr "Zárja be a fejlécet"
+
+#: admin/class-cookie-law-info-admin.php:1055
+msgid "Open URL"
+msgstr "Nyílt URL"
+
+#: admin/class-cookie-law-info-admin.php:1068
+msgid "Extra Large"
+msgstr "Extra nagy"
+
+#: admin/class-cookie-law-info-admin.php:1072
+msgid "Large"
+msgstr "Nagy"
+
+#: admin/class-cookie-law-info-admin.php:1076
+msgid "Medium"
+msgstr "Közepes"
+
+#: admin/class-cookie-law-info-admin.php:1080
+msgid "Small"
+msgstr "Kicsi"
+
+#: admin/class-cookie-law-info-admin.php:1094
+msgid "Default theme font"
+msgstr "Alapértelmezett téma betűtípus"
+
+#: admin/class-cookie-law-info-admin.php:1098
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: admin/class-cookie-law-info-admin.php:1102
+msgid "Serif"
+msgstr "Serif"
+
+#: admin/class-cookie-law-info-admin.php:1106
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/class-cookie-law-info-admin.php:1110
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: admin/class-cookie-law-info-admin.php:1114
+msgid "Georgia, serif"
+msgstr "Georgia, serif"
+
+#: admin/class-cookie-law-info-admin.php:1118
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/class-cookie-law-info-admin.php:1122
+msgid "Lucida"
+msgstr "Lucida"
+
+#: admin/class-cookie-law-info-admin.php:1126
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: admin/class-cookie-law-info-admin.php:1130
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: admin/class-cookie-law-info-admin.php:1134
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: admin/class-cookie-law-info-admin.php:1138
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/class-cookie-law-info-admin.php:1153
+#: admin/class-cookie-law-info-admin.php:1197
+msgid "Make this as stricly necessary category"
+msgstr "Tegye ezt szigorúan szükséges kategóriának"
+
+#: admin/class-cookie-law-info-admin.php:1155
+#: admin/class-cookie-law-info-admin.php:1200
+msgid ""
+"The underlying scripts are assumed to be absolutely essential for the "
+"website to function properly. They will be rendered irrespective of user "
+"consent."
+msgstr ""
+"Feltételezzük, hogy az alapul szolgáló szkriptek elengedhetetlenek a "
+"weboldal megfelelő működéséhez. Ezeket a felhasználó beleegyezésétől "
+"függetlenül rendereljük."
+
+#: admin/modules/ccpa/ccpa.php:111
+msgid "Do you really wish to opt out?"
+msgstr "Tényleg szeretne lemondni?"
+
+#: admin/modules/ccpa/ccpa.php:112
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#: admin/modules/ccpa/ccpa.php:113
+#: admin/modules/cli-themes/views/theme_buttons.php:23
+#: admin/modules/cli-themes/views/themes_popup.php:103
+#: admin/modules/cookie-scaner/cookie-scaner.php:347
+msgid "Cancel"
+msgstr "Mégse"
+
+#: admin/modules/ccpa/ccpa.php:124 admin/modules/ccpa/ccpa.php:157
+msgid "Sells Personal Information"
+msgstr "Személyes információkat ad el"
+
+#: admin/modules/ccpa/ccpa.php:126 admin/modules/ccpa/ccpa.php:160
+msgid ""
+"If you enable this option, scripts under this category will be considered as "
+"personal data collecting scripts and will be blocked if opted out from CCPA"
+msgstr ""
+"Ha engedélyezi ezt a lehetőséget, az e kategóriába tartozó szkriptek "
+"személyes adatgyűjtő szkripteknek minősülnek, és blokkolásra kerülnek, ha "
+"kihagyják a CCPA-t."
+
+#: admin/modules/ccpa/ccpa.php:207
+msgid "Select the type of law"
+msgstr "Válassza ki a törvény típusát"
+
+#: admin/modules/ccpa/ccpa.php:211
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/modules/ccpa/ccpa.php:212 admin/modules/ccpa/ccpa.php:220
+msgid ""
+"Customize the buttons, notice, themes from the relevant tabs to setup your "
+"cookie notice accordingly."
+msgstr ""
+"Testreszabhatja a megfelelő lapok gombjait, az értesítéseket, a témákat, "
+"hogy ennek megfelelően beállítsa a süti-értesítést."
+
+#: admin/modules/ccpa/ccpa.php:215
+msgid "CCPA"
+msgstr "CCPA"
+
+#: admin/modules/ccpa/ccpa.php:216
+msgid ""
+"Most of the customizations from the tabs for buttons, notice or themes are "
+"not relevant especially if you choose to not show the notice, except the Do "
+"not sell within the buttons."
+msgstr ""
+"A gombok, hirdetések vagy témák lapjain alkalmazott legtöbb testreszabás nem "
+"releváns, különösen akkor, ha úgy dönt, hogy nem jeleníti meg az értesítést, "
+"kivéve a Ne eladja a gombokat."
+
+#: admin/modules/ccpa/ccpa.php:219
+msgid "CCPA & GDPR"
+msgstr "CCPA és GDPR"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid "CCPA Settings"
+msgstr "CCPA beállítások"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid ""
+"The right to opt out in the California Consumer Privacy Act gives consumers "
+"the ability to direct a business not to sell their personal information to a "
+"third party. If the user considers to not sell their personal information, "
+"all the scripts related to the categories which are configured to sell "
+"personal information will be blocked. The DO NOT SELL option is facilitated "
+"via a shortcode [wt_cli_ccpa_optout]."
+msgstr ""
+"A kaliforniai fogyasztói adatvédelmi törvényben való leiratkozási jog "
+"lehetővé teszi a fogyasztók számára, hogy egy vállalkozást irányítsanak "
+"arra, hogy ne adják el személyes adataikat harmadik fél számára. Ha a "
+"felhasználó úgy ítéli meg, hogy nem adja el személyes adatait, akkor a "
+"személyes adatok eladására konfigurált kategóriákhoz kapcsolódó összes "
+"szkript blokkolódik. A DO NOT SELL opciót rövid kóddal lehet megkönnyíteni "
+"[wt_cli_ccpa_optout]."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:10
+msgid "Enable CCPA ?"
+msgstr "Engedélyezi a CCPA-t?"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid "Restrict CCPA to only California"
+msgstr "A CCPA-t csak Kaliforniára korlátozza"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:18
+msgid ""
+"When enabled this regulation will be applicable only to visits from "
+"California; applicable to all visitors when disabled."
+msgstr ""
+"Ha engedélyezi, ez a rendelet csak a kaliforniai látogatásokra lesz "
+"alkalmazandó; érvényes minden látogatóra, ha mozgáskorlátozott."
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid "Enable CCPA notice"
+msgstr "A CCPA értesítés engedélyezése"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:26
+msgid ""
+"Enabling the notice will display the banner with the relevant text as per "
+"your configuration. Use this option particularly to record prior consent "
+"from the website visitors."
+msgstr ""
+"Az értesítés engedélyezésekor a szalaghirdetés a megfelelő szöveggel jelenik "
+"meg a konfigurációjának megfelelően. Ezt a lehetőséget különösen arra "
+"használja, hogy rögzítse a webhely látogatói előzetes hozzájárulását."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:26
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:32
+msgid "Unable to handle your request."
+msgstr "Nem sikerült kezelni a kérést."
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:95
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:133
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:139
+#: admin/modules/cli-themes/cli-themes.php:879
+#: admin/modules/cookie-scaner/cookie-scaner.php:335
+#: admin/modules/cookie-scaner/views/unable-to-start.php:9
+#: public/modules/visitor-report/visitor-report.php:133
+msgid "Error"
+msgstr "Hiba"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Süti szabályzat"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:86
+msgid "Auto reload preview"
+msgstr "Előnézet automatikus újratöltése"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:112
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:113
+msgid "Policy generator"
+msgstr "Szabályzat generátor"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:140
+#: admin/modules/cli-themes/cli-themes.php:880
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:99
+#: admin/modules/cookie-scaner/cookie-scaner.php:355
+msgid "Success"
+msgstr "Siker"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Cookie Policy generator"
+msgstr "Süti szabályzat generátor"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "Minta címsor"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "Minta tartalom"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:27
+#: public/modules/visitor-report/classes/class-visitor-history.php:101
+msgid "Delete"
+msgstr "Törlés"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:49
+msgid "Add new"
+msgstr "Új hozzáadása"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:53
+msgid "Heading"
+msgstr "Címsor"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:78
+msgid "Update existing Cookie Policy page"
+msgstr "A létező Süti szabályzat oldal frissítése"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:84
+msgid "Create Cookie Policy page"
+msgstr "Süti szabályzat oldal létrehozása"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:88
+#: admin/modules/cli-themes/views/themes_popup.php:99
+msgid "Live preview"
+msgstr "Élő előnézet"
+
+#: admin/modules/cli-themes/cli-themes.php:259
+msgid "Change GDPR cookie preview template"
+msgstr "A GDPR sütik előnézeti sablon megváltoztatása"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:8
+msgid "Save & Publish"
+msgstr "Mentés és közzététel"
+
+#: admin/modules/cli-themes/views/theme_buttons.php:18
+msgid "Change Template"
+msgstr "Sablon módosítása"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:8
+msgid "Properties"
+msgstr "Tulajdonságok"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:15
+#: admin/views/admin-settings-buttons.php:34
+#: admin/views/admin-settings-buttons.php:106
+#: admin/views/admin-settings-buttons.php:173
+#: admin/views/admin-settings-buttons.php:244
+#: admin/views/admin-settings-buttons.php:308
+msgid "Text"
+msgstr "Szöveg"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:21
+msgid "Text size"
+msgstr "Szöveg méret"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:26
+msgid "Text color"
+msgstr "Szöveg szín"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:30
+msgid "Font weight"
+msgstr "Betű vastagság"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:47
+msgid "Background"
+msgstr "Háttér"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:51
+msgid "Border width"
+msgstr "Szegély szélessége"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:55
+msgid "Border Color"
+msgstr "Szegély színe"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:59
+msgid "Corner radius"
+msgstr "Sarok sugara"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:63
+msgid "Text style"
+msgstr "Szöveg stílusa"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:66
+msgid "Italic"
+msgstr "Dőlt"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:68
+msgid "Underline"
+msgstr "Aláhúzott"
+
+#: admin/modules/cli-themes/views/theme_property_box.php:82
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: admin/modules/cli-themes/views/themes.php:31
+msgid "Cookie bar - Design editor"
+msgstr "Cookie-sáv - Design szerkesztő"
+
+#: admin/modules/cli-themes/views/themes.php:38
+msgid "Click on the elements to customize."
+msgstr "Kattintson az elemekre a testreszabáshoz."
+
+#: admin/modules/cli-themes/views/themes.php:42
+msgid "Cookie message - Text editor"
+msgstr "Cookie-üzenet - szövegszerkesztő"
+
+#: admin/modules/cli-themes/views/themes.php:47
+msgid ""
+"Text on the selected theme may be different. Please update the cookie "
+"message accordingly in the above text view."
+msgstr ""
+"A kiválasztott téma szövege eltérő lehet. Kérjük, frissítse a cookie-"
+"üzenetet ennek megfelelően a fenti szövegnézetben."
+
+#: admin/modules/cli-themes/views/themes_popup.php:12
+#: admin/modules/cli-themes/views/themes_popup.php:23
+#: admin/views/admin-settings-messagebar.php:65
+msgid "Banner"
+msgstr "Banner hirdetés"
+
+#: admin/modules/cli-themes/views/themes_popup.php:13
+#: admin/modules/cli-themes/views/themes_popup.php:24
+#: admin/views/admin-settings-buttons.php:289
+#: admin/views/admin-settings-buttons.php:292
+#: admin/views/admin-settings-messagebar.php:66
+msgid "Popup"
+msgstr "Felugró ablak"
+
+#: admin/modules/cli-themes/views/themes_popup.php:14
+#: admin/modules/cli-themes/views/themes_popup.php:25
+#: admin/views/admin-settings-messagebar.php:67
+msgid "Widget"
+msgstr "Widget"
+
+#: admin/modules/cli-themes/views/themes_popup.php:18
+msgid "Templates"
+msgstr "Sablonok"
+
+#: admin/modules/cli-themes/views/themes_popup.php:96
+msgid "Customize"
+msgstr "Testreszabás"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:87
+msgid "Sorry..."
+msgstr "Sajnálom..."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:90
+msgid ""
+"Cookie Scanner API is not available now. Please try again later. <br />Do "
+"you want to report this to developer and get notified?"
+msgstr ""
+"A süti-szkenner API jelenleg nem érhető el. Kérlek, próbáld újra később. "
+"<br /> Értesíteni akarja ezt a fejlesztőnek, és értesítést kap?"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:133
+msgid "Unable to handle your request"
+msgstr "Nem sikerült kezelni a kérését"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:137
+#: admin/modules/csv-export/csv-export.php:65
+#: admin/modules/csv-import/csv-import.php:118
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nincs megfelelő jogosultság az oldalhoz történő csatlakozáshoz."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:227
+msgid "cookies added."
+msgstr "sütik hozzáadásra kerültek."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:230
+msgid "cookies skipped."
+msgstr "a sütik kihagyásra kerültek."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:234
+msgid "cookies deleted."
+msgstr "sütik törölve."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:241
+msgid "No cookies found"
+msgstr "Nem találhatók sütik"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:549
+msgid "Could not initiate scan"
+msgstr "Nem sikerült elindítani a vizsgálatot"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:558
+msgid "Scanning initiated successfully"
+msgstr "A szkennelés sikeresen elindítva"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:559
+msgid ""
+"It might take a few minutes to a few hours to complete the scanning of your "
+"website. This depends on the number of pages to scan and the website speed. "
+"Once the scanning is complete, we will notify you by email."
+msgstr ""
+"Néhány perc vagy néhány óra eltarthat a webhely szkennelésének "
+"befejezéséhez. Ez a beolvasandó oldalak számától és a webhely sebességétől "
+"függ. A beolvasás befejezése után e-mailben értesítjük."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-scanner-ajax.php:612
+#: admin/modules/cookie-scaner/cookie-scaner.php:844
+msgid "Token mismatch"
+msgstr "Token nem egyezik"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:35
+msgid "Incomplete"
+msgstr "Befejezetlen"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:36
+msgid "Completed"
+msgstr "Teljesítve"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:37
+msgid "Stopped"
+msgstr "Leállítva"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:38
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:66
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:295
+#: admin/modules/cookie-scaner/cookie-scaner.php:296
+msgid "Cookie Scanner"
+msgstr "Süti-szkenner"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:329
+msgid "Scanned"
+msgstr "Beolvasott"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:330
+msgid "Scanning completed."
+msgstr "A szkennelés befejeződött."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:331
+msgid "Added to cookie list."
+msgstr "Hozzáadva a süti listához."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:332
+#, php-format
+msgid ""
+"Unable to connect. Try setting the URL per scan request to 1 or 2 under "
+"advanced settings tab <a href=\"%s\">click here.</a>"
+msgstr ""
+"Nem tud csatlakozni. Próbálkozzon az URL-lel a szkennelési kérelem alapján 1-"
+"re vagy 2-re a Speciális beállítások lapon <a href=\"%s\">kattintson ide.</a>"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Finding pages..."
+msgstr "Oldalak keresése ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:334
+msgid "Scanning pages..."
+msgstr "Oldalak szkennelése ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:336
+msgid "Stop"
+msgstr "Leállítás"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:337
+#: admin/modules/cookie-scaner/views/scan-result.php:18
+#: admin/modules/cookie-scaner/views/scan-result.php:128
+msgid "Scan again"
+msgstr "Új szekennelés"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:338
+#: admin/modules/cookie-scaner/views/scan-result.php:23
+#: admin/modules/cookie-scaner/views/scan-result.php:133
+msgid "Download cookies as CSV"
+msgstr "Cookie-k letöltése CSV formátumban"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:339
+#: admin/modules/cookie-scaner/views/scan-result.php:24
+#: admin/modules/cookie-scaner/views/scan-result.php:134
+msgid "Add to cookie list"
+msgstr "Hozzáadás a süti listához"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:340
+msgid "View scan result"
+msgstr "A szkennelési eredmény megtekintése"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:341
+msgid "Import options"
+msgstr "Importálás beállítása"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:342
+msgid "Replace old"
+msgstr "Cserélje ki a régi"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:343
+msgid "Merge"
+msgstr "Egyesít"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:344
+msgid "Recommended"
+msgstr "Ajánlott"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:345
+msgid "Append"
+msgstr "Hozzáfűzése"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:346
+msgid "Not recommended"
+msgstr "Nem ajánlott"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:348
+msgid "Start import"
+msgstr "Importálás elkezdése"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:349
+msgid "Importing...."
+msgstr "Importálás ...."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:350
+msgid "Refreshing...."
+msgstr "Frissítés…."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:351
+msgid "Error !!! Please reload the page to see cookie list."
+msgstr ""
+"Hiba !!! Kérjük, töltse újra az oldalt, hogy megjelenjen a sütik listája."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:352
+msgid "Stopping..."
+msgstr "Leállítás..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:353
+msgid "Scanning stopped."
+msgstr "A szkennelés leállt."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:354
+msgid "Are you sure?"
+msgstr "Biztos benne?"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:356
+msgid "Thank you"
+msgstr "Köszönjük"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:357
+msgid "Checking API"
+msgstr "API ellenőrzése"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:358
+msgid "Sending..."
+msgstr "Küldés..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:359
+msgid "Total URLs scanned"
+msgstr "Összes beolvasott URL"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:360
+msgid "Total Cookies found"
+msgstr "Összes található süti"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:402
+msgid "Unable to load cookie scanner."
+msgstr "Nem sikerült betölteni a süti szkennert."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:405
+msgid "Need `GDPR Cookie Consent` plugin version above 2.1.4"
+msgstr "A 2.1.4 feletti „GDPR Cookie Consent” plugin verzióra van szükség"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:409
+msgid "Scanning will not work on local server."
+msgstr "A szkennelés helyi szerveren nem működik."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:642
+msgid "Please activate your license in order to proceed with the scan."
+msgstr "A beolvasás folytatásához aktiválja a licencét."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:642
+#: admin/wf_api_manager/html/html-wf-activation-window.php:119
+msgid "Activate"
+msgstr "Aktiválás"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:676
+#, php-format
+msgid ""
+"GDPR Cookie Consent now uses <a href=\"%s\" target=\"_blank\">CookieYes</a> "
+"to bring you enhanced scanning for cookies on your website! To further avail "
+"quick and accurate scanning of your website, connect with CookieYes, in just "
+"a click! By continuing, you agree to CookieYes's <a href=\"%s\" target="
+"\"_blank\">Privacy Policy</a> & <a href=\"%s\" target=\"_blank\">Terms of "
+"service</a>."
+msgstr ""
+"A GDPR cookie-hozzájárulása mostantól a <a href=“%s” target=“_blank”> "
+"CookieYes </a> használatával tovább javítja a cookie-k keresését a "
+"webhelyén! Webhelyének gyors és pontos beolvasása érdekében egyetlen "
+"kattintással lépjen kapcsolatba a CookieYes-szel! A folytatással elfogadja a "
+"CookieYes <a href=“%s” target=“_blank”> adatvédelmi irányelveit </a> és <a "
+"href=“%s” target=“_blank”> Általános Szerződési Feltételeit </a>."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:678
+msgid "Scan your website for cookies automatically with CookieYes!"
+msgstr ""
+"Automatikusan ellenőrizze a webhelyen a sütiket a CookieYes segítségével!"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:679
+#, php-format
+msgid ""
+"Connect with <a href=\"%s\" target=\"_blank\">CookieYes</a>, our scanning "
+"solution to get fast and accurate cookie scanning. By continuing, you agree "
+"to CookieYes's <a href=\"%s\" target=\"_blank\">Privacy Policy</a> & <a href="
+"\"%s\" target=\"_blank\">Terms of service</a>."
+msgstr ""
+"Csatlakozzon <a href=“%s” target=“_blank”> CookieYes </a> szkennelési "
+"megoldásunkhoz a gyors és pontos cookie-beolvasás érdekében. A folytatással "
+"elfogadja a CookieYes <a href=“%s” target=“_blank”> adatvédelmi irányelveit "
+"</a> és <a href=“%s” target=“_blank”> Általános Szerződési Feltételeit </a>."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:680
+#: admin/modules/cookie-scaner/cookie-scaner.php:693
+msgid "Connect & scan"
+msgstr "Csatlakozás és szkennelés"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:689
+msgid "Start scan"
+msgstr "Indítsa el a vizsgálatot"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:715
+msgid "You haven't performed a site scan yet."
+msgstr "Még nem végzett helyszíni vizsgálatot."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:724
+msgid "Scan failed"
+msgstr "A beolvasás nem sikerült"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:725
+msgid "Last scan:"
+msgstr "Utolsó vizsgálat:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:737
+#, php-format
+msgid "Last scan: %s <a href=\"%s\">View result</a>"
+msgstr "Utolsó vizsgálat: %s <a href=\"%s\">Eredmény megtekintése</a>"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:739
+msgid "Scan complete"
+msgstr "A beolvasás befejeződött"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:759
+msgid "Scan initiated..."
+msgstr "Beolvasás elindítva ..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:767
+#: admin/modules/cookie-scaner/views/scan-result.php:38
+msgid "Scan started at"
+msgstr "A szkennelés kezdete"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:775
+#: admin/modules/cookie-scaner/views/scan-result.php:44
+msgid "Total URLs"
+msgstr "Összes URL"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:783
+msgid "Total estimated time (Approx)"
+msgstr "Becsült idő összesen (kb.)"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:791
+msgid ""
+"Your website is currently being scanned for cookies. This might take from a "
+"few minutes to a few hours, depending on your website speed and the number "
+"of pages to be scanned."
+msgstr ""
+"Webhelyén jelenleg sütik ellenőrzése zajlik. Ez eltarthat néhány perctől "
+"néhány óráig, a webhely sebességétől és a beolvasandó oldalak számától "
+"függően."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:793
+msgid "Once the scanning is complete, we will notify you by email."
+msgstr "A beolvasás befejezése után e-mailben értesítjük."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:846
+msgid "Successfully inserted"
+msgstr "Sikeresen beillesztve"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:849
+msgid "Failed to insert"
+msgstr "Nem sikerült beszúrni"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:871
+msgid "Invalid scan token"
+msgstr "Érvénytelen beolvasási token"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:65
+#: admin/modules/cookie-scaner/views/unable-to-start.php:7
+msgid "Scan cookies"
+msgstr "Sütik szkennelése"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:66
+msgid "Please do not leave this page until the progress bar reaches 100%"
+msgstr ""
+"Kérjük, ne hagyja el ezt az oldalt, amíg a folyamatjelző sáv el nem éri a "
+"100% -ot"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:73
+#: public/modules/script-blocker/views/admin_script_blocker.php:150
+#: public/modules/script-blocker/views/admin_script_blocker.php:224
+msgid "Name"
+msgstr "Név"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:81
+#: public/class-cookie-law-info-public.php:261
+msgid "Cookie List"
+msgstr "Süti lista"
+
+#: admin/modules/cookie-scaner/views/scan-cookies.php:122
+msgid "Your cookie list is empty"
+msgstr "A süti lista üres"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:15
+msgid "Scan result"
+msgstr "Szkennelés eredménye"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:35
+msgid "Summary"
+msgstr "Összegzés"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:41
+msgid "Scan status"
+msgstr "Szkennelés állapota"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:47
+msgid "Total cookies"
+msgstr "Összes süti"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:51
+msgid "Cookies"
+msgstr "Sütik (cookies)"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:82
+msgid "No cookies"
+msgstr "Nincs süti"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:90
+msgid "URLs"
+msgstr "URL-ek"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:95
+#: admin/views/admin-settings-buttons.php:73
+#: admin/views/admin-settings-buttons.php:144
+#: admin/views/admin-settings-buttons.php:215
+#: admin/views/admin-settings-buttons.php:340
+#: admin/views/admin-settings-buttons.php:347
+msgid "URL"
+msgstr "URL"
+
+#: admin/modules/cookie-scaner/views/scan-result.php:115
+msgid "No URLs"
+msgstr "Nincs URL"
+
+#: admin/modules/csv-export/csv-export.php:29
+msgid "Download as CSV"
+msgstr "Töltse le CSV formátumban"
+
+#: admin/modules/csv-import/csv-import.php:46
+msgid "Import from CSV"
+msgstr "Importálás CSV-ből"
+
+#: admin/modules/csv-import/csv-import.php:67
+#: admin/modules/csv-import/csv-import.php:68
+msgid "Import Cookie"
+msgstr "Süti importálás"
+
+#: admin/modules/csv-import/csv-import.php:304
+#, php-format
+msgid "BEGIN %s"
+msgstr "%s KEZDÉSE"
+
+#: admin/modules/csv-import/csv-import.php:309
+#, php-format
+msgid "[Line %1$s] %2$s"
+msgstr "[Sor %1$s] %2$s"
+
+#: admin/modules/csv-import/views/import_cookies.php:2
+msgid "Import from a CSV file"
+msgstr "Importálás CSV-fájlból"
+
+#: admin/modules/csv-import/views/import_cookies.php:12
+#, php-format
+msgid ""
+"Notice: please make the directory %s writable so that you can see the error "
+"log."
+msgstr "Figyelem: kérjük, írja a %s könyvtárat, hogy láthassa a hibanaplót."
+
+#: admin/modules/csv-import/views/import_cookies.php:25
+#, php-format
+msgid ", please <a href=\"%s\">check the error log</a>"
+msgstr ", <a href=\"%s\">ellenőrizze a hibanaplót</a>"
+
+#: admin/modules/csv-import/views/import_cookies.php:29
+msgid "Error during file upload."
+msgstr "Hiba a fájl feltöltése közben."
+
+#: admin/modules/csv-import/views/import_cookies.php:32
+msgid "Cannot extract data from uploaded file or no file was uploaded."
+msgstr ""
+"Nem lehet kinyerni az adatokat a feltöltött fájlból, vagy egyetlen fájl sem "
+"lett feltöltve."
+
+#: admin/modules/csv-import/views/import_cookies.php:35
+#, php-format
+msgid "No posts was successfully imported%s."
+msgstr "Egy bejegyzést sem sikerült importálni%s."
+
+#: admin/modules/csv-import/views/import_cookies.php:38
+#, php-format
+msgid "Some posts were successfully imported but some were not%s."
+msgstr "Néhány bejegyzés sikeresen importálásra került, de néhány nem%s."
+
+#: admin/modules/csv-import/views/import_cookies.php:41
+msgid "Post import was successful."
+msgstr "A bejegyzések importálása sikeres volt."
+
+#: admin/modules/csv-import/views/import_cookies.php:52
+msgid "CSV file"
+msgstr "CSV fájl"
+
+#: admin/modules/csv-import/views/import_cookies.php:55
+#, php-format
+msgid "You may want to see <a href=\"%s\">the example of the CSV file</a>."
+msgstr "Érdemes megnézni <a href=\"%s\">a CSV-fájl sablont</a> ."
+
+#: admin/modules/csv-import/views/import_cookies.php:60
+msgid "Import"
+msgstr "Importálás"
+
+#: admin/modules/settings-popup/settings-popup.php:104
+msgid "Save & Accept"
+msgstr "Mentés és elfogadás"
+
+#: admin/modules/settings-popup/settings-popup.php:108
+msgid "Accept all"
+msgstr "Mindent elfogad"
+
+#: admin/modules/settings-popup/settings-popup.php:119
+#: admin/modules/settings-popup/settings-popup.php:120
+#: admin/modules/settings-popup/views/settings.php:11
+#: admin/partials/cookie-law-info-privacy_overview.php:36
+#: admin/partials/cookie-law-info-privacy_overview.php:37
+#: admin/partials/cookie-law-info-privacy_overview.php:55
+msgid "Privacy Overview"
+msgstr "Adatvédelmi áttekintés"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:4
+msgid "Always Enabled"
+msgstr "Mindig engedélyezve"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show more"
+msgstr "Mutass többet"
+
+#: admin/modules/settings-popup/views/cookie_settings.php:7
+msgid "Show less"
+msgstr "Mutass kevesebbet"
+
+#: admin/modules/settings-popup/views/settings.php:18
+#: admin/partials/cookie-law-info-privacy_overview.php:68
+msgid "Privacy Overview Title"
+msgstr "Adatvédelmi áttekintés címe"
+
+#: admin/modules/settings-popup/views/settings.php:24
+#: admin/modules/settings-popup/views/settings.php:39
+#: admin/partials/cookie-law-info-privacy_overview.php:74
+#: admin/partials/cookie-law-info-privacy_overview.php:89
+msgid "This will be shown in the settings visible for user on consent screen."
+msgstr ""
+"Ez fog megjelenni a felhasználó számára a hozzájárulási képernyőn látható "
+"beállításokban."
+
+#: admin/modules/settings-popup/views/settings.php:48
+#: admin/partials/cookie-law-info-privacy_overview.php:98
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: admin/partials/cookie-law-info-admin_settings.php:24
+msgid "Settings updated."
+msgstr "Beállítások frissítve."
+
+#: admin/partials/cookie-law-info-admin_settings.php:25
+msgid "Unable to update Settings."
+msgstr "Nem sikerült frissíteni a beállításokat."
+
+#: admin/partials/cookie-law-info-admin_settings.php:26
+msgid "Settings reset to defaults."
+msgstr "A beállítások visszaállítása alaphelyzetbe."
+
+#: admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Unable to reset settings."
+msgstr "Nem sikerült visszaállítani a beállításokat."
+
+#: admin/partials/cookie-law-info-admin_settings.php:28
+msgid "Consent has renewed."
+msgstr "A hozzájárulás megújult."
+
+#: admin/partials/cookie-law-info-admin_settings.php:29
+msgid "Unable to renew consent."
+msgstr "Nem sikerült megújítani a hozzájárulást."
+
+#: admin/partials/cookie-law-info-admin_settings.php:40
+msgid "Cookie bar is currently active"
+msgstr "A cookie-sáv jelenleg aktív"
+
+#: admin/partials/cookie-law-info-admin_settings.php:48
+msgid "Cookie bar is currently inactive"
+msgstr "A cookie-sáv jelenleg inaktív"
+
+#: admin/partials/cookie-law-info-admin_settings.php:64
+#: admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "Általános"
+
+#: admin/partials/cookie-law-info-admin_settings.php:65
+msgid "Customise Cookie Bar"
+msgstr "Süti sáv testreszabása"
+
+#: admin/partials/cookie-law-info-admin_settings.php:66
+msgid "Customise Buttons"
+msgstr "Gombok testreszabása"
+
+#: admin/partials/cookie-law-info-admin_settings.php:67
+#: admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "Haladó"
+
+#: admin/partials/cookie-law-info-admin_settings.php:68
+msgid "Licence"
+msgstr "Licenc"
+
+#: admin/partials/cookie-law-info-admin_settings.php:69
+msgid "Help Guide"
+msgstr "Súgó"
+
+#: admin/partials/cookie-law-info-privacy_overview.php:62
+msgid "Privacy Overview Menu Title"
+msgstr "Adatvédelmi áttekintés menü címe"
+
+#: admin/views/admin-settings-advanced.php:9
+msgid ""
+"Sometimes themes apply settings that clash with plugins. If that happens, "
+"try adjusting these settings."
+msgstr ""
+"A sablonok néha olyan beállításokat alkalmaznak, amelyek ütköznek a "
+"bővítményekkel. Ha ez történik, próbálja meg módosítani ezeket a "
+"beállításokat."
+
+#: admin/views/admin-settings-advanced.php:13
+msgid "Renew user consent"
+msgstr "A felhasználó hozzájárulásának megújítása"
+
+#: admin/views/admin-settings-advanced.php:15
+msgid "Renew consent"
+msgstr "Hozzájárulás megújítása"
+
+#: admin/views/admin-settings-advanced.php:16
+msgid ""
+"Clicking this will renew the existing user consents on your website. The "
+"existing users will be prompted with the consent banner irrespective of "
+"their previous consent."
+msgstr ""
+"Ide kattintva meg tudja újítani a webhelyen aktív felhasználói "
+"hozzájárulásaokat. A meglévő felhasználóknak újra hozzájárulásokat kell majd "
+"adniuk, akkor is, ha ezt korábba már megtették."
+
+#: admin/views/admin-settings-advanced.php:20
+msgid "Reset all values"
+msgstr "Minden érték visszaállítása alaphelyzetbe"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Delete settings and reset"
+msgstr "Beállításokat törlése és visszaállítása"
+
+#: admin/views/admin-settings-advanced.php:22
+msgid "Are you sure you want to delete all your settings?"
+msgstr "Biztos benne, hogy törli az összes beállítást?"
+
+#: admin/views/admin-settings-advanced.php:23
+msgid "Warning: this will actually delete your current settings."
+msgstr "Vigyázat: ez törli a jelenlegi beállításokat."
+
+#: admin/views/admin-settings-buttons.php:10
+msgid "Accept Button"
+msgstr "Elfogadás gomb"
+
+#: admin/views/admin-settings-buttons.php:11
+msgid "Accept All Button"
+msgstr "Fogadja el az összes gombot"
+
+#: admin/views/admin-settings-buttons.php:12
+#: admin/views/admin-settings-buttons.php:170
+msgid "Reject Button"
+msgstr "Elutasító gomb"
+
+#: admin/views/admin-settings-buttons.php:13
+#: admin/views/admin-settings-buttons.php:241
+msgid "Settings Button"
+msgstr "Beállítások gomb"
+
+#: admin/views/admin-settings-buttons.php:14
+#: admin/views/admin-settings-buttons.php:304
+msgid "Read More Link"
+msgstr "Tovább link"
+
+#: admin/views/admin-settings-buttons.php:15
+#: admin/views/admin-settings-buttons.php:416
+msgid "Do not sell link"
+msgstr "Ne adjon el linket"
+
+#: admin/views/admin-settings-buttons.php:21
+#: admin/views/admin-settings-buttons.php:102
+msgid "Main Button"
+msgstr "Fő gomb"
+
+#: admin/views/admin-settings-buttons.php:22
+#: admin/views/admin-settings-buttons.php:103
+msgid ""
+"This button/link can be customised to either simply close the cookie bar, or "
+"follow a link. You can also customise the colours and styles, and show it as "
+"a link or a button."
+msgstr ""
+"Ez a gomb/link testreszabható: vagy egyszerűen bezárja a Süti információs "
+"sávot, vagy követi a linket. A színek és a stílusok is testreszabhatóak."
+
+#: admin/views/admin-settings-buttons.php:25
+msgid "Enable accept all feature?"
+msgstr "Engedélyezi az összes szolgáltatás elfogadását?"
+
+#: admin/views/admin-settings-buttons.php:29
+msgid ""
+"This will enable accept-all functionality for the plugin’s main accept "
+"button where all the categories will be enabled irrespective of it being "
+"enabled/disabled. Set it as NO to accept only the enabled categories "
+"(default behaviour of accept button)"
+msgstr ""
+"Ez engedélyezi az összes elfogadás funkciót a bővítmény fő elfogadó "
+"gombjánál, ahol az összes kategória engedélyezve lesz, függetlenül attól, "
+"hogy engedélyezve / tiltva van-e. Állítsa NEM-re, hogy csak az engedélyezett "
+"kategóriákat fogadja el (az elfogadás gomb alapértelmezett viselkedése)"
+
+#: admin/views/admin-settings-buttons.php:30
+msgid ""
+"Please note that you will not be able to extend the cookie consent bar with "
+"cookie settings once this option is enabled."
+msgstr ""
+"Figyelem: nem tudja kibővíteni a süti-engedélyezési sávot a süti-"
+"beállításokkal, ha ez az opció engedélyezve van."
+
+#: admin/views/admin-settings-buttons.php:40
+#: admin/views/admin-settings-buttons.php:112
+#: admin/views/admin-settings-buttons.php:179
+#: admin/views/admin-settings-buttons.php:250
+#: admin/views/admin-settings-buttons.php:314
+#: admin/views/admin-settings-buttons.php:436
+msgid "Text colour"
+msgstr "Szöveg színe"
+
+#: admin/views/admin-settings-buttons.php:48
+#: admin/views/admin-settings-buttons.php:120
+#: admin/views/admin-settings-buttons.php:187
+#: admin/views/admin-settings-buttons.php:258
+#: admin/views/admin-settings-buttons.php:322
+#: admin/views/admin-settings-buttons.php:425
+msgid "Show as"
+msgstr "Megjelenítés mint"
+
+#: admin/views/admin-settings-buttons.php:50
+#: admin/views/admin-settings-buttons.php:122
+#: admin/views/admin-settings-buttons.php:189
+#: admin/views/admin-settings-buttons.php:260
+#: admin/views/admin-settings-buttons.php:324
+msgid "Button"
+msgstr "Gomb"
+
+#: admin/views/admin-settings-buttons.php:52
+#: admin/views/admin-settings-buttons.php:124
+#: admin/views/admin-settings-buttons.php:191
+#: admin/views/admin-settings-buttons.php:262
+#: admin/views/admin-settings-buttons.php:326
+#: admin/views/admin-settings-buttons.php:427
+msgid "Link"
+msgstr "Link"
+
+#: admin/views/admin-settings-buttons.php:56
+#: admin/views/admin-settings-buttons.php:128
+#: admin/views/admin-settings-buttons.php:195
+#: admin/views/admin-settings-buttons.php:266
+#: admin/views/admin-settings-buttons.php:330
+msgid "Background colour"
+msgstr "Háttér színe"
+
+#: admin/views/admin-settings-buttons.php:65
+#: admin/views/admin-settings-buttons.php:136
+#: admin/views/admin-settings-buttons.php:203
+msgid "Action"
+msgstr "Művelet"
+
+#: admin/views/admin-settings-buttons.php:76
+#: admin/views/admin-settings-buttons.php:147
+#: admin/views/admin-settings-buttons.php:218
+msgid "Button will only link to URL if Action = Open URL"
+msgstr "A gomb csak akkor mutat az URL-re, ha a beállítás = URL megnyitása"
+
+#: admin/views/admin-settings-buttons.php:81
+#: admin/views/admin-settings-buttons.php:152
+#: admin/views/admin-settings-buttons.php:223
+msgid "Open URL in new window?"
+msgstr "Új ablakban nyíljon meg az URL?"
+
+#: admin/views/admin-settings-buttons.php:92
+#: admin/views/admin-settings-buttons.php:160
+#: admin/views/admin-settings-buttons.php:230
+#: admin/views/admin-settings-buttons.php:274
+#: admin/views/admin-settings-buttons.php:406
+msgid "Size"
+msgstr "Méret"
+
+#: admin/views/admin-settings-buttons.php:283
+msgid "Cookie Settings Layout"
+msgstr "Süti-beállítások elrendezése"
+
+#: admin/views/admin-settings-buttons.php:290
+#: admin/views/admin-settings-buttons.php:293
+msgid "Extended Banner / Widget"
+msgstr "Bővített szalag / widget"
+
+#: admin/views/admin-settings-buttons.php:297
+msgid ""
+"When the cookie settings layout configured as extended banner/widget, "
+"customization options for settings popup and widget will be disabled."
+msgstr ""
+"Amikor a kibővített szalaghirdetésként / widgetként konfigurált cookie-"
+"beállítások elrendezése le lesz tiltva, a beállítások felugró ablak és a "
+"widget testreszabási beállításai meg lesznek kapcsolva."
+
+#: admin/views/admin-settings-buttons.php:305
+msgid ""
+"This button/link can be used to provide a link out to your Privacy & Cookie "
+"Policy. You can customise it any way you like."
+msgstr ""
+"Ez a gomb/link használható az Adatvédelmi Irányelv és Süti szabályzat oldal "
+"linkelésére. Teljes mértékben testreszabható."
+
+#: admin/views/admin-settings-buttons.php:338
+msgid "URL or Page?"
+msgstr "URL vagy oldal?"
+
+#: admin/views/admin-settings-buttons.php:342
+#: admin/views/admin-settings-buttons.php:353
+msgid "Page"
+msgstr "Oldal"
+
+#: admin/views/admin-settings-buttons.php:356
+msgid "Select One"
+msgstr "Válasszon egyet"
+
+#: admin/views/admin-settings-buttons.php:376
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr ""
+"A jelenleg kiválasztott oldal nem létezik. Kérjük, válasszon egy új oldalt."
+
+#: admin/views/admin-settings-buttons.php:384
+msgid "No Follow"
+msgstr "Nincs követés"
+
+#: admin/views/admin-settings-buttons.php:388
+msgid "Tells search engine crawlers not to follow this link"
+msgstr "Azt mondja a keresőmotorok bejáróinak, hogy ne kövessék ezt a linket"
+
+#: admin/views/admin-settings-buttons.php:392
+msgid "Minimize Cookie Bar in this page/URL?"
+msgstr "A Süti sáv minimalizálása ezen az oldalon/címen?"
+
+#: admin/views/admin-settings-buttons.php:399
+msgid "Open in new window?"
+msgstr "Hivatkozás megnyitása új ablakban?"
+
+#: admin/views/admin-settings-buttons.php:419
+msgid "CCPA Text"
+msgstr "CCPA szöveg"
+
+#: admin/views/admin-settings-buttons.php:428
+msgid "Checkbox"
+msgstr "Jelölődoboz"
+
+#: admin/views/admin-settings-buttons.php:430
+msgid "The shortcode will be represented as a link whereever used."
+msgstr "A rövid kódot hivatkozásként ábrázolják, bárhol is használják."
+
+#: admin/views/admin-settings-buttons.php:431
+msgid ""
+"The shortcode will be represented as a checkbox with select option to record "
+"consent."
+msgstr ""
+"A rövid kódot jelölőnégyzetként jelölik meg, amelyben kiválasztási opcióval "
+"rögzítik a hozzájárulást."
+
+#: admin/views/admin-settings-general.php:10
+#: admin/views/admin-settings-general.php:88
+msgid "Other"
+msgstr "Egyéb"
+
+#: admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Engedélyezze a sütisávot"
+
+#: admin/views/admin-settings-general.php:19
+#: admin/views/admin-settings-general.php:33
+#: admin/views/admin-settings-general.php:93
+msgid "On"
+msgstr "Be van kapcsolva"
+
+#: admin/views/admin-settings-general.php:20
+#: admin/views/admin-settings-general.php:34
+#: admin/views/admin-settings-general.php:93
+msgid "Off"
+msgstr "Ki van kapcsolva"
+
+#: admin/views/admin-settings-general.php:28
+msgid "GDPR Settings"
+msgstr "GDPR beállítások"
+
+#: admin/views/admin-settings-general.php:28
+msgid ""
+"GDPR regulation lays down rules relating to the protection of natural "
+"persons with regard to the processing of personal data and rules relating to "
+"the free movement of personal data."
+msgstr ""
+"A GDPR-rendelet meghatározza a természetes személyek védelmére vonatkozó "
+"szabályokat a személyes adatok feldolgozása során, valamint a személyes "
+"adatok szabad mozgására vonatkozó szabályokat."
+
+#: admin/views/admin-settings-general.php:31
+msgid "Show only for EU Countries ( GeoIP )"
+msgstr "Csak az EU-országok számára jelenjen meg (GeoIP)"
+
+#: admin/views/admin-settings-general.php:45
+msgid "More"
+msgstr "Több"
+
+#: admin/views/admin-settings-general.php:51
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr "Süti sáv automatikus elrejtése (elfogadás) a késleltetés után?"
+
+#: admin/views/admin-settings-general.php:58
+msgid "Milliseconds until hidden"
+msgstr "Idő az elrejtésig (milliszekundum"
+
+#: admin/views/admin-settings-general.php:61
+msgid "Specify milliseconds (not seconds)"
+msgstr "Milliszekundumban adja meg (ne másodpercben)"
+
+#: admin/views/admin-settings-general.php:61
+msgid "seconds"
+msgstr "másodperc"
+
+#: admin/views/admin-settings-general.php:65
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr ""
+"A süti sáv automatikus elrejtése, ha a felhasználó görget (Elfogadás "
+"görgetéssel)?"
+
+#: admin/views/admin-settings-general.php:69
+msgid ""
+"As per latest GDPR policies it is required to take an explicit consent for "
+"the cookies. Use this option with discretion especially if you serve EU"
+msgstr ""
+"A legfrissebb GDPR szabályozás szerint a sütikhez kifejezett hozzájárulás "
+"szükséges. Használja ezt a lehetőséget óvatosan"
+
+#: admin/views/admin-settings-general.php:70
+msgid "This option will not work along with `Popup overlay`."
+msgstr "Ez az opció nem működik együtt a „Felugró ablak takarás” funkcióval."
+
+#: admin/views/admin-settings-general.php:74
+msgid "Auto-hide(Accept) cookie bar on-page navigation."
+msgstr ""
+"A cookie-sáv automatikus elrejtése (elfogadás) az oldalon történő navigáció."
+
+#: admin/views/admin-settings-general.php:78
+msgid "Auto accept the cookie consent if the user navigates to other pages"
+msgstr ""
+"Automatikusan fogadja el a cookie beleegyezését, ha a felhasználó más "
+"oldalakra navigál"
+
+#: admin/views/admin-settings-general.php:91
+msgid "Enable consent logging"
+msgstr "Engedélyezze a hozzájárulások naplózását"
+
+#: admin/views/admin-settings-general.php:97
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Újratölti a „görgetéssel elfogadás” esemény után?"
+
+#: admin/views/admin-settings-general.php:105
+msgid "Reload after Accept button click"
+msgstr "Újratöltés az Elfogadás gombra kattintás után"
+
+#: admin/views/admin-settings-general.php:112
+msgid "Reload after Reject button click"
+msgstr "Újratöltés az Elutasítás gombra kattintás után"
+
+#: admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "Rövidkódok"
+
+#: admin/views/admin-settings-help.php:10
+#: admin/views/admin-settings-help.php:100
+msgid "Help Links"
+msgstr "Súgó linkek"
+
+#: admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Süti sáv rövid kódok"
+
+#: admin/views/admin-settings-help.php:17
+msgid ""
+"You can enter the shortcodes in the \"message\" field of the Cookie Law Info "
+"bar. They add nicely formatted buttons and/or links into the cookie bar, "
+"without you having to add any HTML."
+msgstr ""
+"A rövidítéseket a Süti beállítások \"üzenet\" mezőjébe írhatja. Szépen "
+"formázott gombokat és / vagy linkeket adnak a süti-sávhoz, HTML kd "
+"használata nélkül."
+
+#: admin/views/admin-settings-help.php:18
+#: admin/views/admin-settings-help.php:50
+msgid ""
+"You can use `do_shortcode` function to add shortcodes inside the template "
+"file."
+msgstr ""
+"Használhatja a `do_shortcode` függvényt rövid kódok hozzáadásához a sablon "
+"fájlban."
+
+#: admin/views/admin-settings-help.php:23
+msgid ""
+"If you just want a standard green \"Accept\" button that closes the header "
+"and nothing more, use this shortcode. It is already styled, you don't need "
+"to customise it."
+msgstr ""
+"Ha csak egy szabványos zöld „Elfogadás” gombot akar, amely bezárja a "
+"fejlécet, és semmi többet, akkor használja ezt a rövid kódot. Ezt nem kell "
+"testreszabnia."
+
+#: admin/views/admin-settings-help.php:27
+msgid ""
+"Alternatively you can add a colour value. Choose from: red, blue, orange, "
+"yellow, green or pink."
+msgstr ""
+"Alternatív megoldásként hozzáadhat egy színértéket. Választhat a következők "
+"közül: piros, kék, narancs, sárga, zöld vagy rózsaszín."
+
+#: admin/views/admin-settings-help.php:27
+msgid "Careful to use the British spelling of \"colour\" for the attribute."
+msgstr "Használja brit helyesírást („color”)."
+
+#: admin/views/admin-settings-help.php:31
+msgid "This is the \"main button\" you can customise."
+msgstr "Ez a \"fő gomb\", amelyet testreszabhat."
+
+#: admin/views/admin-settings-help.php:36
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "Ez a sütibeállítás gomb, amely rövid kódot jelenít meg."
+
+#: admin/views/admin-settings-help.php:40
+msgid "This is the cookie reject button shortcode."
+msgstr "Ez a cookie visszautasító gomb rövid kódja."
+
+#: admin/views/admin-settings-help.php:44
+msgid "This is the \"read more\" link you can customise."
+msgstr "Ez a \"tovább olvas\" link, amelyet testreszabhat."
+
+#: admin/views/admin-settings-help.php:48
+msgid "Other shortcodes"
+msgstr "Egyéb rövid kódok"
+
+#: admin/views/admin-settings-help.php:49
+msgid ""
+"These shortcodes can be used in pages and posts on your website. It is not "
+"recommended to use these inside the cookie bar itself."
+msgstr ""
+"Ezek a rövid kódok felhasználhatók a webhely oldalain és bejegyzésében. Nem "
+"ajánlott őket a süti sávban használni."
+
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"This prints out a nice table of cookies, in line with the guidance given by "
+"the ICO."
+msgstr ""
+"Ez megjelenít egy szép süti-táblázatot, összhangban az ICO útmutatásaival."
+
+#: admin/views/admin-settings-help.php:56
+msgid ""
+"You need to enter the cookies your website uses via the Cookie Law Info menu "
+"in your WordPress dashboard."
+msgstr ""
+"Be kell írnia azokat a sütiket, amelyeket webhelye használ a WordPress "
+"irányítópultjának Süti beállíások menüjében."
+
+#: admin/views/admin-settings-help.php:68
+msgid "This prints out a nice table of cookies by category."
+msgstr "Ez megjelenít egy szép süti-táblázatot kategóriánként."
+
+#: admin/views/admin-settings-help.php:72
+msgid "This prints the settings popup of cookie category."
+msgstr "Ez megjeleníti a sütik kategóriájának beállítási felugró menüpontját."
+
+#: admin/views/admin-settings-help.php:76
+msgid ""
+"This shortcode will display a normal HTML link which when clicked, will "
+"delete the cookie set by Cookie Law Info (this cookie is used to remember "
+"that the cookie bar is closed)."
+msgstr ""
+"Ez a rövid kód egy normál HTML linket jelenít meg, amelyre kattintva törli a "
+"Süti beállítások által beállított sütiket (ez a süti emlékszik arra, hogy a "
+"süti sáv zárva van)."
+
+#: admin/views/admin-settings-help.php:80
+msgid "Add any text you like useful if you want to add another language"
+msgstr ""
+"Adjon hozzá bármilyen hasznos szöveget, ha másik nyelvet szeretne használni"
+
+#: admin/views/admin-settings-help.php:84
+msgid ""
+"Add content after accepting the cookie notice. Category wise checking allowed"
+msgstr ""
+"Adjon hozzá tartalmat a süti-értesítés elfogadása után. A kategóriák "
+"szerinti ellenőrzés megengedett"
+
+#: admin/views/admin-settings-help.php:87
+msgid ""
+"Add content only if the consent has been obtained for the specified category."
+msgstr ""
+"Csak akkor adjon hozzá tartalmat, ha a megadott kategóriához már megvan a "
+"hozzájárulás."
+
+#: admin/views/admin-settings-help.php:90
+msgid ""
+"Add content if consent has been obtained for all/or any of the specified "
+"categories."
+msgstr ""
+"Adjon hozzá tartalmat, ha a megadott kategóriák mindegyikére vagy "
+"bármelyikére megvan a hozzájárulás."
+
+#: admin/views/admin-settings-help.php:104
+#: admin/views/admin-settings-help.php:107
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: admin/views/admin-settings-help.php:105
+msgid "Refer to our documentation to set and get started"
+msgstr "A beállításhoz és az induláshoz olvassa el a dokumentációt"
+
+#: admin/views/admin-settings-help.php:112
+msgid "Help and Support"
+msgstr "Súgó és támogatás"
+
+#: admin/views/admin-settings-help.php:113
+msgid "We would love to help you on any queries or issues."
+msgstr "Szeretnénk segíteni minden kérdésben vagy probléma megoldásában."
+
+#: admin/views/admin-settings-help.php:115
+msgid "Contact Us"
+msgstr "Kapcsolat"
+
+#: admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Cookie-sáv"
+
+#: admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "Ismételje meg a hozzájárulását"
+
+#: admin/views/admin-settings-messagebar.php:15
+msgid "Cookie Bar"
+msgstr "Süti sáv"
+
+#: admin/views/admin-settings-messagebar.php:18
+msgid "Message Heading"
+msgstr "Üzenet fejléc"
+
+#: admin/views/admin-settings-messagebar.php:21
+msgid "Leave it blank, If you do not need a heading"
+msgstr "Hagyja üresen, ha nincs szükség a fejlécre"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid "Message"
+msgstr "Üzenet"
+
+#: admin/views/admin-settings-messagebar.php:26
+msgid ""
+"All the elements defined within the class `wt-cli-ccpa-element` will be "
+"removed if CCPA does not apply to the visitors country."
+msgstr ""
+"A \"wt-cli-ccpa-element\" osztályban definiált összes elem eltávolításra "
+"kerül, ha a CCPA nem vonatkozik a látogató országára."
+
+#: admin/views/admin-settings-messagebar.php:32
+msgid "Shortcodes allowed: see the Help guide"
+msgstr "Megengedett rövid kódok: lásd a Súgót"
+
+#: admin/views/admin-settings-messagebar.php:32
+msgid ""
+"Examples: \"We use cookies on this website [cookie_accept] to find out how "
+"to delete cookies [cookie_link].\""
+msgstr ""
+"Példák: \"Ezen a weboldalon sütiket használunk [cookie_accept], hogy "
+"megtudja, hogyan lehet törölni a sütiket [cookie_link].\""
+
+#: admin/views/admin-settings-messagebar.php:36
+msgid "Cookie Bar Colour"
+msgstr "Süti sáv színe"
+
+#: admin/views/admin-settings-messagebar.php:44
+msgid "Text Colour"
+msgstr "Szöveg színe"
+
+#: admin/views/admin-settings-messagebar.php:52
+msgid "Font"
+msgstr "Betűtípus"
+
+#: admin/views/admin-settings-messagebar.php:60
+msgid "Show cookie bar as"
+msgstr "A cookie-sáv megjelenítése mint"
+
+#: admin/views/admin-settings-messagebar.php:71
+msgid "Position"
+msgstr "Pozíció"
+
+#: admin/views/admin-settings-messagebar.php:75
+#: admin/views/admin-settings-messagebar.php:165
+#: admin/views/admin-settings-messagebar.php:168
+msgid "Left"
+msgstr "Bal"
+
+#: admin/views/admin-settings-messagebar.php:76
+#: admin/views/admin-settings-messagebar.php:164
+#: admin/views/admin-settings-messagebar.php:167
+msgid "Right"
+msgstr "Jobb"
+
+#: admin/views/admin-settings-messagebar.php:81
+msgid "Add overlay?"
+msgstr "Takarás hozzáadása?"
+
+#: admin/views/admin-settings-messagebar.php:85
+msgid ""
+"When the popup is active, an overlay will block the user from browsing the "
+"site."
+msgstr ""
+"Amikor a felugró ablak aktív, egy takarás blokkolja a felhasználót a webhely "
+"böngészésében."
+
+#: admin/views/admin-settings-messagebar.php:86
+msgid "`Accept on scroll` will not work along with this option."
+msgstr ""
+"A „görgetéssel történő elfogadás” nem működik együtt ezzel a lehetőséggel."
+
+#: admin/views/admin-settings-messagebar.php:90
+msgid "Position:"
+msgstr "Pozició:"
+
+#: admin/views/admin-settings-messagebar.php:95
+msgid "Header"
+msgstr "Fejléc"
+
+#: admin/views/admin-settings-messagebar.php:96
+msgid "Footer"
+msgstr "Lábléc"
+
+#: admin/views/admin-settings-messagebar.php:105
+msgid "Fix Cookie Bar to Header?"
+msgstr "Hozzárendeli a süti sávot a fejléchez?"
+
+#: admin/views/admin-settings-messagebar.php:109
+msgid ""
+"If you select \"Header\" then you can optionally stick the cookie bar to the "
+"header. Will not have any effect if you select \"Footer\"."
+msgstr ""
+"Ha a \"Fejléc\" lehetőséget választja, akkor a süti sávot a fejléchez is "
+"ragaszthatja. Nincs hatása, ha a „Lábléc” lehetőséget választja."
+
+#: admin/views/admin-settings-messagebar.php:117
+msgid "On load"
+msgstr "Betöltéskor"
+
+#: admin/views/admin-settings-messagebar.php:122
+#: admin/views/admin-settings-messagebar.php:132
+msgid "Animate"
+msgstr "Animáció"
+
+#: admin/views/admin-settings-messagebar.php:123
+#: admin/views/admin-settings-messagebar.php:133
+msgid "Sticky"
+msgstr "Ragadós"
+
+#: admin/views/admin-settings-messagebar.php:127
+msgid "On hide"
+msgstr "Elrejtéskor"
+
+#: admin/views/admin-settings-messagebar.php:141
+msgid "Revisit consent (Show again tab)"
+msgstr "Hozzájárulás újbóli megtekintése (Újra megjelenítés fül)"
+
+#: admin/views/admin-settings-messagebar.php:143
+msgid ""
+"Revisit consent will allow the visitors to view/edit/revoke their prior "
+"preferences. This can be done via a widget and/or a shortcode. A small "
+"privacy widget is automatically displayed at the footer of your website if "
+"the widget option is enabled. You can also manually insert a link to manage "
+"consent by adding the shortcode <b>[wt_cli_manage_consent]</b> to your "
+"website."
+msgstr ""
+"Az újbóli beleegyezés lehetővé teszi a látogatók számára, hogy "
+"megtekinthessék / szerkeszthessék vagy visszavonhassák korábbi "
+"preferenciáikat. Ez megtehető egy widgeten és / vagy egy rövid kódon "
+"keresztül. Egy kis adatvédelmi eszköz automatikusan megjelenik a webhely "
+"láblécében, ha a widget opció engedélyezve van. A beleegyezés kezeléséhez "
+"manuálisan is beilleszthet egy linket, ha hozzáadja a "
+"<b>[wt_cli_manage_consent]</b> rövid <b>kódot</b> a webhelyéhez."
+
+#: admin/views/admin-settings-messagebar.php:148
+msgid "Enable revisit consent widget"
+msgstr "Engedélyezze az újbóli hozzájárulási modult"
+
+#: admin/views/admin-settings-messagebar.php:148
+msgid ""
+"By enabling this option a small privacy widget is automatically displayed at "
+"the footer of your website."
+msgstr ""
+"Ennek az opciónak az engedélyezésével egy kis adatvédelmi eszköz "
+"automatikusan megjelenik a webhely láblécében."
+
+#: admin/views/admin-settings-messagebar.php:159
+msgid "Widget Position"
+msgstr "Widget pozíció"
+
+#: admin/views/admin-settings-messagebar.php:176
+msgid "Tab Position"
+msgstr "Fül helyzete"
+
+#: admin/views/admin-settings-messagebar.php:183
+msgid "Bottom Right"
+msgstr "Jobb alsó"
+
+#: admin/views/admin-settings-messagebar.php:186
+msgid "Bottom Left"
+msgstr "Bal alsó"
+
+#: admin/views/admin-settings-messagebar.php:189
+msgid "Top Right"
+msgstr "Jobb felső"
+
+#: admin/views/admin-settings-messagebar.php:192
+msgid "Top Left"
+msgstr "Bal felső"
+
+#: admin/views/admin-settings-messagebar.php:198
+msgid "From Right Margin"
+msgstr "Jobb margótól"
+
+#: admin/views/admin-settings-messagebar.php:198
+msgid "From Left Margin"
+msgstr "Bal oldali margó"
+
+#: admin/views/admin-settings-messagebar.php:201
+msgid "Specify"
+msgstr "Pontosítás"
+
+#: admin/views/admin-settings-messagebar.php:208
+msgid "Title"
+msgstr "Cím"
+
+#: admin/views/admin-settings-save-button.php:12
+msgid "Update Settings"
+msgstr "Beállítások frissítése"
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s licenc kulcsa lejárt. A kulcsot újra aktiválhatja vagy "
+"megvásárolhatja a fiókja <a href=\"%s\" target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s előfizetése folyamatban van. Az előfizetést újraaktiválhatja a "
+"fiókja <a href=\"%s\" target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"A (z) %s előfizetése megszakítva. Az előfizetést megújíthatja a fiókja <a "
+"href=\"%s\" target=\"_blank\">főoldalán</a> . A megrendelés befejezése után "
+"új licenckulcsot küldünk Önnek e-mailben."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s előfizetése lejárt. Az előfizetést újraaktiválhatja a fiókja <a "
+"href=\"%s\" target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"A (z) %s előfizetése felfüggesztésre került. Az előfizetést újraaktiválhatja "
+"a fiókja <a href=\"%s\" target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"A (z) %s előfizetése még függőben van. Az előfizetés állapotát a fiókja <a "
+"href=\"%s\" target=\"_blank\">főoldalán ellenőrizheti</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s előfizetése a kukába került, és hamarosan törlődik. Új előfizetést "
+"vásárolhat a fiókja <a href=\"%s\" target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s előfizetés nem található. Előfizetést vásárolhat a fiókja <a href=\"%s\" "
+"target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"%s licenckulcs nem található. Lehet, hogy elfelejtette megadni a "
+"licenckulcsot a %s beállításakor, vagy a kulcsot deaktiválta a fiókjában. A "
+"licenckulcsot újra aktiválhatja a bővítmény <a href=\"%s\" target=\"_blank"
+"\">beállításai között</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s letöltési engedélye visszavonásra került, valószínűleg azért, mert "
+"a licenckulcs vagy az előfizetés lejárt. A kulcsot újra aktiválhatja vagy "
+"megvásárolhatja a fiókja <a href=\"%s\" target=\"_blank\">főoldalán</a> ."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s nincs aktiválva. Nyissa meg a bővítmény <a href=\"%s\" target=\"_blank"
+"\">beállításait,</a> és adja meg a licenckulcsot és a licenc e-mailt a %s "
+"aktiválásához."
+
+#: admin/wf_api_manager/class-wc-am-plugin-update.php:505
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Megváltoztatta az %s előfizetését, ezért be kell írnia az új API "
+"licenckulcsot a beállítások oldalon. A licenckulcsnak meg kellett volna "
+"érkeznie az e-mail postafiókjába, ha ez nem történt meg, akkor a fiók <a "
+"href=\"%s\" target=\"_blank\">főoldalára</a> bejelentkezve szerezheti be azt."
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:106
+msgid "Licence Activation"
+msgstr "Licenc aktiválás"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:110
+msgid "API Licence Key:"
+msgstr "API licenc kulcs:"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:111
+msgid "Licence Key"
+msgstr "Licenc kulcs"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:115
+msgid "Licence Email"
+msgstr "Licenc e-mail"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:122
+msgid "Check"
+msgstr "Ellenőrzés"
+
+#: admin/wf_api_manager/html/html-wf-activation-window.php:132
+msgid "Deactive"
+msgstr "Inaktív"
+
+#: cookie-law-info.php:71
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete GDPR Cookie Consent "
+"(BASIC) and then try again"
+msgstr ""
+"Hiba! Megpróbálta telepíteni a prémium verziót anélkül, hogy deaktiválta és "
+"törölte volna az ingyenes verziót. Kérjük, deaktiválja és törölje a GDPR "
+"Cookie hozzájárulását (BASIC) bővítményt, majd próbálja újra"
+
+#: cookie-law-info.php:93
+msgid ""
+"The pre-defined script blocker services are enabled by default. Hence "
+"activating the plugin blocks these services which may affect the web layout. "
+"For e.g, if you have embedded any youtube or Vimeo services the plugin will "
+"block these by default since they collect user information. Hence the videos "
+"will not render wherever it is placed. Therefore you may want to review the "
+"website w.r.t the blocked scripts. <a href=\"edit.php?post_type="
+msgstr ""
+"Az előre meghatározott szkript-blokkoló szolgáltatások alapértelmezés "
+"szerint engedélyezve vannak. Ezért a bővítmény aktiválása blokkolja ezeket a "
+"szolgáltatásokat, amelyek befolyásolhatják a weboldalak megjelenését. "
+"Például, ha beágyazott bármilyen youtube vagy Vimeo szolgáltatást, akkor a "
+"bővítmény alapértelmezés szerint blokkolja ezeket, mivel felhasználói "
+"információkat gyűjtnek. Ezért a videók nem jelennek meg, bárhová is "
+"kerülnek. Ezért érdemes átnéznie a w.r.t weboldalt a blokkolt "
+"parancsfájlokat. <a href = \"edit.php? post_type ="
+
+#: includes/class-cookie-law-info-cookieyes.php:118
+#: includes/class-cookie-law-info-cookieyes.php:241
+#: public/modules/script-blocker/script-blocker.php:652
+msgid "Invalid request"
+msgstr "Érvénytelen kérés"
+
+#: includes/class-cookie-law-info-cookieyes.php:130
+msgid "Connected to Cookieyes"
+msgstr "Csatlakozik a Cookieyes-hez"
+
+#: includes/class-cookie-law-info-cookieyes.php:132
+msgid "Disconnect"
+msgstr "Szétkapcsolás"
+
+#: includes/class-cookie-law-info-cookieyes.php:140
+msgid "Disconnected from Cookieyes"
+msgstr "Leválasztva a Cookieyes-ről"
+
+#: includes/class-cookie-law-info-cookieyes.php:205
+#, php-format
+msgid ""
+"Looks like you already have an account with CookieYes for email id %s, "
+"please login to continue."
+msgstr ""
+"Úgy tűnik, hogy már rendelkezik a CookieYes fiókkal a (z) %s e-mail "
+"azonosítóhoz. A folytatáshoz jelentkezzen be."
+
+#: includes/class-cookie-law-info-cookieyes.php:211
+msgid "Forgot password"
+msgstr "Elfelejtett jelszó"
+
+#: includes/class-cookie-law-info-cookieyes.php:214
+msgid "Login"
+msgstr "Belépés"
+
+#: includes/class-cookie-law-info-cookieyes.php:222
+msgid "Reset Password"
+msgstr "Jelszó visszaállítása"
+
+#: includes/class-cookie-law-info-cookieyes.php:228
+msgid "Send password reset email"
+msgstr "Jelszó-visszaállítási e-mail küldése"
+
+#: includes/class-cookie-law-info-cookieyes.php:369
+msgid "Could not establish connection with scanner! please try again later"
+msgstr ""
+"Nem sikerült kapcsolatot létesíteni a szkennerrel! kérlek, próbáld újra "
+"később"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:373
+msgid "Invalid credentials"
+msgstr "Érvénytelen hitelesítő adatok"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:377
+msgid "You already have an account with CookieYes."
+msgstr "Már van fiókja a CookieYes-nél."
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:381
+msgid "License is not activated, please activate your license and try again"
+msgstr ""
+"A licenc nincs aktiválva, kérjük, aktiválja a licencet, és próbálja újra"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:385
+msgid "Disconnected with cookieyes, please connect and scan again"
+msgstr ""
+"Nincs kapcsolat a cookie-kkal, kérjük, csatlakozzon és ellenőrizze újra"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:389
+msgid "Your monthly scan limit is reached please try again later"
+msgstr "Elérte a havi ellenőrzési korlátot, próbálja újra később"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:393
+msgid "A scanning is already in progress please try again after some time"
+msgstr ""
+"A beolvasás már folyamatban van. Kérjük, próbálja meg egy idő után újra"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:397
+msgid "Successfully connected with CookieYes"
+msgstr "Sikeres kapcsolódás a Cookie-hoz: Igen"
+
+#. translators: %s: coupon code
+#: includes/class-cookie-law-info-cookieyes.php:401
+msgid ""
+"A password reset message has been sent to your email address. Click the link "
+"in the email to reset your password"
+msgstr ""
+"Jelszó-visszaállító üzenetet küldött az Ön e-mail címére. A jelszó "
+"visszaállításához kattintson az e-mailben található linkre"
+
+#: includes/class-cookie-law-info-cookieyes.php:497
+msgid "Invalid json token"
+msgstr "Érvénytelen json token"
+
+#: includes/class-cookie-law-info-cookieyes.php:500
+msgid "Invalid token format"
+msgstr "Érvénytelen token formátum"
+
+#: includes/class-cookie-law-info-cookieyes.php:843
+msgid "Successfully disconnected with Cookieyes"
+msgstr "Sikeres kapcsolat bontása a Cookieyes-szel"
+
+#: includes/class-cookie-law-info-cookieyes.php:846
+msgid "Could not identify the action"
+msgstr "Nem sikerült azonosítani a műveletet"
+
+#: includes/class-cookie-law-info-cookieyes.php:851
+msgid "Successfully connected with Cookieyes"
+msgstr "Sikeres kapcsolat a Cookieyes-szel"
+
+#: includes/class-cookie-law-info-cookieyes.php:927
+msgid "Disable Cookieyes branding"
+msgstr "Tiltsa le a Cookieyes márkajelzést"
+
+#: includes/class-cookie-law-info-cookieyes.php:927
+msgid ""
+"By enabling this option, a small link is automatically displayed at the "
+"bottom left of the cookie settings pop-up"
+msgstr ""
+"Ennek az opciónak az engedélyezésével egy kis link jelenik meg automatikusan "
+"a cookie-beállítások előugró ablak bal alsó sarkában"
+
+#: includes/class-cookie-law-info.php:1224
+msgid "Page number"
+msgstr "Oldalszám"
+
+#. Plugin Name of the plugin/theme
+#: public/class-cookie-law-info-public.php:260
+msgid "GDPR Cookie Consent"
+msgstr "GDPR süti hozzájárulás"
+
+#: public/class-cookie-law-info-public.php:262
+#: public/modules/shortcode/shortcode.php:410
+#: public/modules/shortcode/shortcode.php:522
+msgid "Cookie"
+msgstr "Süti"
+
+#: public/class-cookie-law-info-public.php:263
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: public/class-cookie-law-info-public.php:264
+msgid "Add New Cookie Type"
+msgstr "Új süti típus hozzáadása"
+
+#: public/class-cookie-law-info-public.php:265
+msgid "Edit Cookie Type"
+msgstr "A sütik típusának szerkesztése"
+
+#: public/class-cookie-law-info-public.php:266
+msgid "New Cookie Type"
+msgstr "Új süti típus"
+
+#: public/class-cookie-law-info-public.php:267
+msgid "View Cookie Type"
+msgstr "Cookie-típus megtekintése"
+
+#: public/class-cookie-law-info-public.php:268
+msgid "Search Cookies"
+msgstr "Keresési sütik"
+
+#: public/class-cookie-law-info-public.php:269
+msgid "Nothing found"
+msgstr "Nincs találat"
+
+#: public/class-cookie-law-info-public.php:270
+msgid "Nothing found in Trash"
+msgstr "Semmi sem található a Lomtárban"
+
+#: public/class-cookie-law-info-public.php:312
+#: public/modules/script-blocker/script-blocker.php:460
+msgid "Cookie Category"
+msgstr "Süti kategória"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:179
+msgid "Accept consent to view this"
+msgstr "Fogadja el a hozzájárulást ennek megtekintéséhez"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:204
+#, php-format
+msgid ""
+"Accept <a class='cli_manage_current_consent'>%s</a> cookies to view the "
+"content."
+msgstr ""
+"A tartalom megtekintéséhez fogadja el a <a "
+"class='cli_manage_current_consent'> %s</a> sütiket."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:518
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:533
+msgid "Facebook Pixel Code"
+msgstr "Facebook Pixel Code"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:547
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:555
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:562
+msgid "Google Publisher Tag"
+msgstr "Google Publisher Tag"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:575
+msgid "Youtube embed"
+msgstr "Youtube beágyazás"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:594
+msgid "Vimeo embed"
+msgstr "Vimeo beágyazás"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:604
+msgid "Libsyn"
+msgstr "Libsyn"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:614
+msgid "Google maps"
+msgstr "Google térkép"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:627
+msgid "Addthis widget"
+msgstr "Addthis widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:634
+msgid "Sharethis widget"
+msgstr "Sharethis widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:641
+msgid "Twitter widget"
+msgstr "Twitter widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:649
+msgid "Soundcloud embed"
+msgstr "Soundcloud beágyazás"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:662
+msgid "Slideshare embed"
+msgstr "Diavetítés beágyazás"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:673
+msgid "Linkedin widget/Analytics"
+msgstr "Linkedin widget / Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:684
+msgid "Instagram embed"
+msgstr "Instagram beágyazás"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:695
+msgid "Pinterest widget"
+msgstr "Pinterest widget"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:701
+msgid "Google Adsense"
+msgstr "Google Adsense"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:707
+msgid "Hubspot Analytics"
+msgstr "Hubspot Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:714
+msgid "Matomo Analytics"
+msgstr "Matomo Analytics"
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:726
+#, php-format
+msgid ""
+"Invalid index found in the thirdparties array. Index should be of type "
+"'string'. Index found: %d."
+msgstr ""
+"Érvénytelen index található a harmadik felek tömbben. Az indexnek „string” "
+"típusúnak kell lennie. Talált index:% d."
+
+#: public/modules/script-blocker/classes/class-script-blocker.php:1055
+msgid "Action is unknown."
+msgstr "Ismeretlen művelet."
+
+#: public/modules/script-blocker/integrations/facebook-feed.php:10
+msgid "Smash Balloon Custom Facebook Feed"
+msgstr "Smash Balloon Custom Facebook Feed"
+
+#: public/modules/script-blocker/integrations/facebook-for-woocommerce.php:9
+msgid "Facebook for Woocommerce"
+msgstr "Facebook a Woocommerce számára"
+
+#: public/modules/script-blocker/integrations/facebook-for-wordpress.php:9
+msgid "Facebook for Wordpress"
+msgstr "Facebook a Wordpress számára"
+
+#: public/modules/script-blocker/integrations/instagram-feed.php:10
+msgid "Smash Balloon Instagram Feed"
+msgstr "Smash Balloon Instagram Feed"
+
+#: public/modules/script-blocker/integrations/twitter-feed.php:10
+msgid "Custom Twitter Feeds"
+msgstr "Egyéni Twitter-hírcsatornák"
+
+#: public/modules/script-blocker/integrations/youtube-feed.php:10
+msgid "Feeds for YouTube"
+msgstr "Hírcsatornák a YouTube-hoz"
+
+#: public/modules/script-blocker/script-blocker.php:185
+msgid "Output buffer type"
+msgstr "Kimeneti puffer típusa"
+
+#: public/modules/script-blocker/script-blocker.php:187
+msgid "Multi"
+msgstr "Több"
+
+#: public/modules/script-blocker/script-blocker.php:188
+msgid "Single"
+msgstr "Egyedüli"
+
+#: public/modules/script-blocker/script-blocker.php:189
+msgid "Caution: This may break the site."
+msgstr "Vigyázat: Ez tönkreteheti az oldalt."
+
+#: public/modules/script-blocker/script-blocker.php:530
+#: public/modules/script-blocker/script-blocker.php:549
+msgid "Invalid script id"
+msgstr "Érvénytelen szkriptazonosító"
+
+#: public/modules/script-blocker/script-blocker.php:576
+#: public/modules/script-blocker/script-blocker.php:577
+msgid "Script Blocker"
+msgstr "Szkript blokkoló"
+
+#: public/modules/script-blocker/script-blocker.php:651
+msgid "Status updated"
+msgstr "Állapot frissítve"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:8
+msgid "disable"
+msgstr "tiltva"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:8
+msgid "enable"
+msgstr "engedélyezve"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:10
+#, php-format
+msgid "Script blocker is currently %s"
+msgstr "A szkript blokkoló jelenleg %s"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:11
+#, php-format
+msgid "<a href=\"javascript: submitform()\">click here</a> to %s "
+msgstr "<a href=\"javascript: submitform()\">ide</a> kattintva %s "
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:121
+msgid "Manage Script Blocking"
+msgstr "Szkriptek blokkolásának kezelése"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:127
+msgid ""
+"Enabled services/plugins will be blocked by default in the front-end of your "
+"website and will be rendered respectively only based on user consent."
+msgstr ""
+"Az engedélyezett szolgáltatásokat / bővítményeket alapértelmezés szerint "
+"blokkoljuk a webhely kezelőfelületén, és csak a felhasználói beleegyezés "
+"alapján jelenítjük meg őket."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:129
+#, php-format
+msgid ""
+"Apart from the below-listed pre-defined scripts you can also block your "
+"custom scripts by using plugin filters hooks. Please refer the <a target="
+"\"_blank\" href=\"%s\">article</a> for more."
+msgstr ""
+"Az alább felsorolt, előre definiált szkriptek mellett blokkolhatja egyéni "
+"szkriptjeit is plugin szűrő kampók használatával. Kérjük, olvassa el a <a "
+"target=\"_blank\" href=\"%s\">cikket</a> ."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:141
+msgid "Scripts"
+msgstr "Parancsfájlok"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:142
+msgid "Plugins"
+msgstr "Bővítmények"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:154
+#: public/modules/script-blocker/views/admin_script_blocker.php:228
+msgid "Key"
+msgstr "Kulcs"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:165
+msgid "via code filter"
+msgstr "kódszűrőn keresztül"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:206
+msgid "Uncategorized"
+msgstr "Nem kategorizált"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid ""
+"Enabled: Plugins will be blocked by default prior to obtaining user consent."
+msgstr ""
+"Engedélyezve: A beépülő modulokat alapértelmezés szerint blokkoljuk, mielőtt "
+"megszereznénk a felhasználói hozzájárulást."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:225
+msgid "Disabled: Plugins will be rendered prior to obtaining consent."
+msgstr "Letiltva: A bővítményeket a beleegyezés megszerzése előtt rendereljük."
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:239
+msgid "Inactive"
+msgstr "Inaktív"
+
+#: public/modules/script-blocker/views/admin_script_blocker.php:249
+msgid ""
+"Plugins marked inactive are either not installed or activated on your website"
+msgstr ""
+"Az inaktívként megjelölt beépülő modulok nincsenek telepítve vagy aktiválva "
+"az Ön weboldalán"
+
+#: public/modules/shortcode/shortcode.php:164
+msgid "Your current state:"
+msgstr "Az Ön jelenlegi állapota:"
+
+#: public/modules/shortcode/shortcode.php:194
+msgid "Not allowed cookies "
+msgstr "Nem engedélyezett sütik "
+
+#: public/modules/shortcode/shortcode.php:198
+msgid "Allowed cookies "
+msgstr "Engedélyezett sütik "
+
+#: public/modules/shortcode/shortcode.php:198
+msgid "Allow all cookies "
+msgstr "Minden süti engedélyezése "
+
+#: public/modules/shortcode/shortcode.php:201
+msgid "Consent Accepted. "
+msgstr "Hozzájárulás elfogadva. "
+
+#: public/modules/shortcode/shortcode.php:204
+msgid "Consent rejected."
+msgstr "Hozzájárulás elutasítva."
+
+#: public/modules/shortcode/shortcode.php:208
+msgid "No consent given."
+msgstr "Nincs hozzájárulás."
+
+#: public/modules/shortcode/shortcode.php:210
+msgid "Manage your consent."
+msgstr "Hozzájárulás kezelése."
+
+#: public/modules/shortcode/shortcode.php:293
+msgid "Delete Cookies"
+msgstr "Sütik törlése"
+
+#: public/modules/shortcode/shortcode.php:759
+msgid "Close and Accept"
+msgstr "Bezárás és elfogadás"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:26
+msgid "No Consent History"
+msgstr "Nincsenek hozzájárulás előzmények"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:75
+msgid "IP Address"
+msgstr "IP cím"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:76
+msgid "Visited Date"
+msgstr "Látogatás dátuma"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:77
+msgid "Cookie Details"
+msgstr "Süti részletei"
+
+#: public/modules/visitor-report/classes/class-visitor-history.php:78
+msgid "User ID"
+msgstr "Felhasználói azonosító"
+
+#: public/modules/visitor-report/views/visitor_report.php:9
+msgid "GDPR Consent History"
+msgstr "GDPR hozzájárulási előzmények"
+
+#: public/modules/visitor-report/views/visitor_report.php:11
+msgid "Export Report"
+msgstr "Jelentés exportálása"
+
+#: public/modules/visitor-report/visitor-report.php:130
+msgid "Event Logged Successfully"
+msgstr "Az esemény sikeresen naplózásra került"
+
+#: public/modules/visitor-report/visitor-report.php:139
+msgid "Logging is not enabled"
+msgstr "A naplózás nincs bekapcsolva"
+
+#: public/modules/visitor-report/visitor-report.php:153
+#: public/modules/visitor-report/visitor-report.php:154
+msgid "Consent Report"
+msgstr "Jóváhagyás jelentés"
+
+#: public/views/cookie-law-info_bar.php:16
+#: public/views/cookie-law-info_bar.php:18
+msgid "Close"
+msgstr "Bezár"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+msgstr "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple way to show your website complies with the EU Cookie Law / GDPR."
+msgstr ""
+"Egy egyszerű módja, hogy megmutassa: webhelye megfelel az EU sütikről szóló "
+"törvényének (GDPR)."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "http://cookielawinfo.com/"
+msgstr "http://cookielawinfo.com/"
+
+#~ msgid "Cookie scanner URL per request"
+#~ msgstr "Süti-szkenner URL kérésre"
+
+#~ msgid ""
+#~ "Reduce/control the number of URLs scanned per request depending on the "
+#~ "server limitation. E.g if you see an error \"Unable to connect..retrying "
+#~ "\" during a scan try reducing this number to '2'."
+#~ msgstr ""
+#~ "Csökkentse / ellenőrizze a kérésenként beolvasott URL-ek számát, a "
+#~ "kiszolgáló korlátozásától függően. Például, ha szkennelés közben a \"Nem "
+#~ "sikerült csatlakozni. Újrapróbálkozni\" hibát észleli, csökkentse ezt a "
+#~ "számot \"2\" -re."
+
+#~ msgid "First found URL"
+#~ msgstr "Az első talált URL"
+
+#~ msgid "Your last scan at"
+#~ msgstr "Az utolsó beolvasás"
+
+#~ msgid "View result"
+#~ msgstr "Eredmény megtekintése"
+
+#~ msgid "Scan Now"
+#~ msgstr "Szkennelés most"
+
+#~ msgid "Cookie Law Settings"
+#~ msgstr "Cookie (Süti) beállítások"
+
+#~ msgid ""
+#~ "This will enable all cookie categories on clicking the accept button, no "
+#~ "matter whether they are in the enabled or disabled state."
+#~ msgstr ""
+#~ "Ez lehetővé teszi az összes sütikategória számára az elfogadás gombra "
+#~ "kattintást, függetlenül attól, hogy engedélyezett vagy letiltott "
+#~ "állapotban vannak-e."
+
+#~ msgid "Unable to connect. Retrying..."
+#~ msgstr "Csatlakozási hiba. Újabb kísérlet ..."
+
+#~ msgid "Your Cookie Law Info bar is switched on"
+#~ msgstr "A Süti információs sáv be van kapcsolva"
+
+#~ msgid "Your Cookie Law Info bar is switched off"
+#~ msgstr "A Süti információs sáv ki van kapcsolva"
+
+#~ msgid "Show Border?"
+#~ msgstr "Legyen keret?"
+
+#~ msgid "Border Colour"
+#~ msgstr "Keret színe"
+
+#~ msgid "Show Again Tab"
+#~ msgstr "Megjelenítés újra fül"
+
+#~ msgid "Use Show Again Tab?"
+#~ msgstr "Mutassuk a Megjelenítés újra fület?"
+
+#~ msgid "Show More Text"
+#~ msgstr "Tovább szöveg"
+
+#~ msgid "No."
+#~ msgstr "Nem."
+
+#~ msgid "Cookie Bar will be shown in:"
+#~ msgstr "A Cookie sáv megjelenítése:"
+
+#~ msgid "Disappear"
+#~ msgstr "Eltűnik"

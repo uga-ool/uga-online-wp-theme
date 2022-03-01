@@ -1,0 +1,2 @@
+post_title,post_content,post_status,_cli_cookie_headscript_meta,_cli_cookie_bodyscript_meta,_cli_cookie_slugid,_cli_cookie_type,_cli_cookie_sensitivity,_cli_cookie_duration,tax:cookielawinfo-category
+Advertisement,This is sample advertisement cookie description,publish,<script>alert(“hello”); </script>,<script>alert(“here”); </script>,_ga,persistent,non-necessary,1 year,statistics
